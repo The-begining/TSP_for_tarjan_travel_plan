@@ -1,0 +1,937 @@
+2024-11-23 01:46:44,449 - INFO - Starting TarjanPlanner...
+2024-11-23 01:46:47,952 - INFO - Optimization criteria selected: time
+2024-11-23 01:46:47,960 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_2', 'Relative_1']
+2024-11-23 01:46:47,960 - INFO - Total Time Length: 20.92
+2024-11-23 01:46:58,337 - INFO - Relative_1 \u2192 Relative_3: Mode = Bicycle, Time = 8.58 minutes, Cost = 0.00 units
+2024-11-23 01:46:58,337 - INFO - Relative_3 \u2192 Relative_2: Mode = Bus, Time = 5.66 minutes, Cost = 7.55 units
+2024-11-23 01:46:58,337 - INFO - Relative_2 \u2192 Relative_1: Mode = Bicycle, Time = 6.68 minutes, Cost = 0.00 units
+2024-11-23 01:46:58,339 - INFO - Total Time: 20.92 minutes
+2024-11-23 01:46:58,339 - INFO - Total Cost: 7.55 currency units
+2024-11-23 01:47:48,990 - INFO - Starting TarjanPlanner...
+2024-11-23 01:47:53,640 - INFO - Optimization criteria selected: time
+2024-11-23 01:47:53,658 - INFO - Optimal Path: ['Relative_1', 'Relative_2', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_7', 'Relative_6', 'Relative_9', 'Relative_10', 'Relative_1']
+2024-11-23 01:47:53,658 - INFO - Total Time Length: 70.17
+2024-11-23 01:47:58,413 - INFO - Relative_1 \u2192 Relative_2: Mode = Bicycle, Time = 6.68 minutes, Cost = 0.00 units
+2024-11-23 01:47:58,413 - INFO - Relative_2 \u2192 Relative_3: Mode = Bus, Time = 5.66 minutes, Cost = 7.55 units
+2024-11-23 01:47:58,413 - INFO - Relative_3 \u2192 Relative_4: Mode = Bicycle, Time = 4.89 minutes, Cost = 0.00 units
+2024-11-23 01:47:58,413 - INFO - Relative_4 \u2192 Relative_5: Mode = Bus, Time = 5.49 minutes, Cost = 7.32 units
+2024-11-23 01:47:58,413 - INFO - Relative_5 \u2192 Relative_8: Mode = Bus, Time = 8.03 minutes, Cost = 10.71 units
+2024-11-23 01:47:58,413 - INFO - Relative_8 \u2192 Relative_7: Mode = Bus, Time = 12.72 minutes, Cost = 16.96 units
+2024-11-23 01:47:58,413 - INFO - Relative_7 \u2192 Relative_6: Mode = Bus, Time = 5.02 minutes, Cost = 6.69 units
+2024-11-23 01:47:58,413 - INFO - Relative_6 \u2192 Relative_9: Mode = Bus, Time = 5.56 minutes, Cost = 7.41 units
+2024-11-23 01:47:58,413 - INFO - Relative_9 \u2192 Relative_10: Mode = Bus, Time = 5.82 minutes, Cost = 7.76 units
+2024-11-23 01:47:58,413 - INFO - Relative_10 \u2192 Relative_1: Mode = Bus, Time = 10.30 minutes, Cost = 13.73 units
+2024-11-23 01:47:58,413 - INFO - Total Time: 70.17 minutes
+2024-11-23 01:47:58,413 - INFO - Total Cost: 78.14 currency units
+2024-11-23 01:49:43,113 - INFO - Starting TarjanPlanner...
+2024-11-23 01:49:52,880 - INFO - Optimization criteria selected: time
+2024-11-23 01:49:52,898 - INFO - Optimal Path: ['Relative_1', 'Relative_2', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_7', 'Relative_6', 'Relative_9', 'Relative_10', 'Relative_1']
+2024-11-23 01:49:52,899 - INFO - Total Time Length: 70.17
+2024-11-23 01:49:52,900 - INFO - Path Breakdown (Both Time and Cost):
+2024-11-23 01:49:52,965 - INFO - Total Time: 70.17 minutes
+2024-11-23 01:49:52,965 - INFO - Total Cost: 78.14 currency units
+2024-11-23 01:52:26,324 - INFO - Starting TarjanPlanner...
+2024-11-23 01:52:29,091 - INFO - Optimization criteria selected: time
+2024-11-23 01:52:29,110 - INFO - Optimal Path: ['Relative_1', 'Relative_2', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_7', 'Relative_6', 'Relative_9', 'Relative_10', 'Relative_1']
+2024-11-23 01:52:29,111 - INFO - Total Time Length: 70.17
+2024-11-23 01:55:03,080 - INFO - Starting TarjanPlanner...
+2024-11-23 01:55:05,663 - INFO - Optimization criteria selected: cost
+2024-11-23 01:55:05,685 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_5', 'Relative_3', 'Relative_9', 'Relative_10', 'Relative_9', 'Relative_3', 'Relative_5', 'Relative_3', 'Relative_4', 'Relative_6', 'Relative_4', 'Relative_3', 'Relative_7', 'Relative_1', 'Relative_2', 'Relative_1']
+2024-11-23 01:55:05,686 - INFO - Total Cost Length: 36.93
+2024-11-23 01:55:13,067 - INFO - Total Time: 172.00 minutes
+2024-11-23 01:55:13,067 - INFO - Total Cost: 36.93 currency units
+2024-11-23 02:03:51,760 - INFO - Starting TarjanPlanner...
+2024-11-23 02:03:55,502 - INFO - Optimization criteria selected: time
+2024-11-23 02:03:55,521 - INFO - Optimal Path: ['Relative_1', 'Relative_2', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_7', 'Relative_6', 'Relative_9', 'Relative_10', 'Relative_1']
+2024-11-23 02:03:55,522 - INFO - Total Time Length: 70.17
+2024-11-23 02:06:31,485 - INFO - Total Time: 70.17 minutes
+2024-11-23 02:06:31,485 - INFO - Total Cost: 78.14 currency units
+2024-11-23 02:06:35,301 - INFO - Starting TarjanPlanner...
+2024-11-23 02:06:49,632 - INFO - Selected mode of transport: Train
+2024-11-23 02:06:49,651 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_4', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 02:06:49,651 - INFO - Total Travel Time (Single Mode - Train): 26.82 minutes
+2024-11-23 02:10:29,488 - INFO - Starting TarjanPlanner...
+2024-11-23 02:10:36,977 - INFO - Selected mode of transport: Bus
+2024-11-23 02:10:36,996 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_4', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 02:10:36,996 - INFO - Total Travel Time (Single Mode - Bus): 53.65 minutes
+2024-11-23 02:10:49,612 - INFO - Total Time: 53.65 minutes
+2024-11-23 02:10:49,612 - INFO - Total Cost: 71.53 currency units
+2024-11-23 02:10:57,093 - INFO - Starting TarjanPlanner...
+2024-11-23 02:11:07,312 - INFO - Selected mode of transport: Walking
+2024-11-23 02:11:07,330 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_4', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 02:11:07,330 - INFO - Total Travel Time (Single Mode - Walking): 429.19 minutes
+2024-11-23 02:11:17,734 - INFO - Total Time: 429.19 minutes
+2024-11-23 02:11:17,734 - INFO - Total Cost: 0.00 currency units
+2024-11-23 02:11:33,329 - INFO - Starting TarjanPlanner...
+2024-11-23 02:11:41,079 - ERROR - Invalid transport mode: Cycle
+2024-11-23 02:11:45,781 - INFO - Starting TarjanPlanner...
+2024-11-23 02:11:53,605 - INFO - Selected mode of transport: Bicycle
+2024-11-23 02:11:53,624 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_4', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 02:11:53,624 - INFO - Total Travel Time (Single Mode - Bicycle): 143.06 minutes
+2024-11-23 02:12:10,436 - INFO - Total Time: 143.06 minutes
+2024-11-23 02:12:10,437 - INFO - Total Cost: 0.00 currency units
+2024-11-23 02:13:57,962 - INFO - Starting TarjanPlanner...
+2024-11-23 02:14:14,394 - INFO - Selected mode of transport: Bus | Optimization: time
+2024-11-23 02:14:14,413 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_4', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 02:14:14,414 - INFO - Total Travel (Time - Single Mode): 53.65
+2024-11-23 02:17:21,931 - INFO - Starting TarjanPlanner...
+2024-11-23 02:29:58,105 - INFO - Optimal transport mode based on cost: Bicycle
+2024-11-23 02:29:58,123 - INFO - Optimal Path: ['Relative_1', 'Relative_10', 'Relative_6', 'Relative_5', 'Relative_7', 'Relative_4', 'Relative_8', 'Relative_3', 'Relative_9', 'Relative_2', 'Relative_1']
+2024-11-23 02:29:58,124 - INFO - Total Cost Length (Single Mode - Bicycle): 0.00
+2024-11-23 02:30:11,845 - INFO - Starting TarjanPlanner...
+2024-11-23 02:30:31,003 - INFO - Selected single transport mode: Bus
+2024-11-23 02:30:31,021 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_4', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 02:30:31,022 - INFO - Total Travel Length: 71.53
+2024-11-23 02:30:44,293 - INFO - Starting TarjanPlanner...
+2024-11-23 02:30:52,435 - INFO - Optimal Path: ['Relative_1', 'Relative_2', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_7', 'Relative_6', 'Relative_9', 'Relative_10', 'Relative_1']
+2024-11-23 02:30:52,436 - INFO - Total Travel Length: 70.17
+2024-11-23 02:31:15,238 - INFO - Starting TarjanPlanner...
+2024-11-23 02:31:21,254 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_5', 'Relative_3', 'Relative_9', 'Relative_10', 'Relative_9', 'Relative_3', 'Relative_5', 'Relative_3', 'Relative_4', 'Relative_6', 'Relative_4', 'Relative_3', 'Relative_7', 'Relative_1', 'Relative_2', 'Relative_1']
+2024-11-23 02:31:21,254 - INFO - Total Travel Length: 36.93
+2024-11-23 02:31:51,696 - INFO - Starting TarjanPlanner...
+2024-11-23 02:32:05,007 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 02:32:05,008 - INFO - Total Travel Length: 3.12
+2024-11-23 02:32:42,631 - INFO - Starting TarjanPlanner...
+2024-11-23 02:32:44,715 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 02:32:44,716 - INFO - Total Travel Length: 3.12
+2024-11-23 02:43:14,954 - INFO - Starting TarjanPlanner...
+2024-11-23 02:43:23,306 - INFO - Selected single transport mode: Bus
+2024-11-23 02:43:23,323 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_4', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 02:43:23,324 - INFO - Path Breakdown (Time and Cost):
+2024-11-23 02:43:23,400 - INFO - Total Time: 53.65 minutes
+2024-11-23 02:43:23,400 - INFO - Total Cost: 71.53 currency units
+2024-11-23 02:43:23,400 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_4', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 02:43:23,401 - INFO - Total Travel Length: 71.53
+2024-11-23 02:43:43,413 - INFO - Starting TarjanPlanner...
+2024-11-23 02:43:50,928 - INFO - Selected single transport mode: Train
+2024-11-23 02:43:50,946 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_4', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 02:43:50,947 - INFO - Path Breakdown (Time and Cost):
+2024-11-23 02:43:50,980 - INFO - Total Time: 26.82 minutes
+2024-11-23 02:43:50,980 - INFO - Total Cost: 178.83 currency units
+2024-11-23 02:43:50,980 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_4', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 02:43:50,980 - INFO - Total Travel Length: 178.83
+2024-11-23 02:45:26,131 - INFO - Starting TarjanPlanner...
+2024-11-23 02:45:30,664 - ERROR - Invalid optimization type: mixed time
+2024-11-23 02:45:36,534 - INFO - Starting TarjanPlanner...
+2024-11-23 02:45:42,145 - INFO - Optimal Path: ['Relative_1', 'Relative_2', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_7', 'Relative_6', 'Relative_9', 'Relative_10', 'Relative_1']
+2024-11-23 02:45:42,147 - INFO - Path Breakdown (Time and Cost):
+2024-11-23 02:45:42,180 - INFO - Total Time: 70.17 minutes
+2024-11-23 02:45:42,180 - INFO - Total Cost: 78.14 currency units
+2024-11-23 02:45:42,180 - INFO - Optimal Path: ['Relative_1', 'Relative_2', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_7', 'Relative_6', 'Relative_9', 'Relative_10', 'Relative_1']
+2024-11-23 02:45:42,180 - INFO - Total Travel Length: 70.17
+2024-11-23 02:50:15,603 - INFO - Starting TarjanPlanner...
+2024-11-23 02:50:20,957 - INFO - Optimal Path: ['Relative_1', 'Relative_2', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_7', 'Relative_6', 'Relative_9', 'Relative_10', 'Relative_1']
+2024-11-23 02:50:20,958 - INFO - Path Breakdown (Time and Cost):
+2024-11-23 02:50:20,959 - INFO - Relative_1 -> Relative_2: Mode = Bicycle, Time = 6.68 minutes, Cost = 0.00 currency units
+2024-11-23 02:50:20,960 - INFO - Relative_2 -> Relative_3: Mode = Bus, Time = 5.66 minutes, Cost = 7.55 currency units
+2024-11-23 02:50:20,961 - INFO - Relative_3 -> Relative_4: Mode = Bicycle, Time = 4.89 minutes, Cost = 0.00 currency units
+2024-11-23 02:50:20,961 - INFO - Relative_4 -> Relative_5: Mode = Bus, Time = 5.49 minutes, Cost = 7.32 currency units
+2024-11-23 02:50:20,962 - INFO - Relative_5 -> Relative_8: Mode = Bus, Time = 8.03 minutes, Cost = 10.71 currency units
+2024-11-23 02:50:20,963 - INFO - Relative_8 -> Relative_7: Mode = Bus, Time = 12.72 minutes, Cost = 16.96 currency units
+2024-11-23 02:50:20,963 - INFO - Relative_7 -> Relative_6: Mode = Bus, Time = 5.02 minutes, Cost = 6.69 currency units
+2024-11-23 02:50:20,964 - INFO - Relative_6 -> Relative_9: Mode = Bus, Time = 5.56 minutes, Cost = 7.41 currency units
+2024-11-23 02:50:20,964 - INFO - Relative_9 -> Relative_10: Mode = Bus, Time = 5.82 minutes, Cost = 7.76 currency units
+2024-11-23 02:50:20,965 - INFO - Relative_10 -> Relative_1: Mode = Bus, Time = 10.30 minutes, Cost = 13.73 currency units
+2024-11-23 02:50:20,966 - INFO - Total Time: 70.17 minutes
+2024-11-23 02:50:20,966 - INFO - Total Cost: 78.14 currency units
+2024-11-23 02:50:20,966 - INFO - Optimal Path: ['Relative_1', 'Relative_2', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_7', 'Relative_6', 'Relative_9', 'Relative_10', 'Relative_1']
+2024-11-23 02:50:20,966 - INFO - Total Travel Length: 70.17
+2024-11-23 02:52:25,861 - INFO - Starting TarjanPlanner...
+2024-11-23 02:52:32,034 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_5', 'Relative_3', 'Relative_9', 'Relative_10', 'Relative_9', 'Relative_3', 'Relative_5', 'Relative_3', 'Relative_4', 'Relative_6', 'Relative_4', 'Relative_3', 'Relative_7', 'Relative_1', 'Relative_2', 'Relative_1']
+2024-11-23 02:52:32,036 - INFO - Path Breakdown (Time and Cost):
+2024-11-23 02:52:32,036 - INFO - Relative_1 -> Relative_3: Mode = Bicycle, Time = 8.58 minutes, Cost = 0.00 currency units
+2024-11-23 02:52:32,036 - INFO - Relative_3 -> Relative_5: Mode = Bicycle, Time = 11.84 minutes, Cost = 0.00 currency units
+2024-11-23 02:52:32,037 - INFO - Relative_5 -> Relative_8: Mode = Bus, Time = 8.03 minutes, Cost = 10.71 currency units
+2024-11-23 02:52:32,037 - INFO - Relative_8 -> Relative_5: Mode = Bus, Time = 8.03 minutes, Cost = 10.71 currency units
+2024-11-23 02:52:32,037 - INFO - Relative_5 -> Relative_3: Mode = Bicycle, Time = 11.84 minutes, Cost = 0.00 currency units
+2024-11-23 02:52:32,037 - INFO - Relative_3 -> Relative_9: Mode = Bicycle, Time = 11.10 minutes, Cost = 0.00 currency units
+2024-11-23 02:52:32,038 - INFO - Relative_9 -> Relative_10: Mode = Bus, Time = 5.82 minutes, Cost = 7.76 currency units
+2024-11-23 02:52:32,039 - INFO - Relative_10 -> Relative_9: Mode = Bus, Time = 5.82 minutes, Cost = 7.76 currency units
+2024-11-23 02:52:32,039 - INFO - Relative_9 -> Relative_3: Mode = Bicycle, Time = 11.10 minutes, Cost = 0.00 currency units
+2024-11-23 02:52:32,040 - INFO - Relative_3 -> Relative_5: Mode = Bicycle, Time = 11.84 minutes, Cost = 0.00 currency units
+2024-11-23 02:52:32,040 - INFO - Relative_5 -> Relative_3: Mode = Bicycle, Time = 11.84 minutes, Cost = 0.00 currency units
+2024-11-23 02:52:32,041 - INFO - Relative_3 -> Relative_4: Mode = Bicycle, Time = 4.89 minutes, Cost = 0.00 currency units
+2024-11-23 02:52:32,041 - INFO - Relative_4 -> Relative_6: Mode = Bicycle, Time = 11.20 minutes, Cost = 0.00 currency units
+2024-11-23 02:52:32,042 - INFO - Relative_6 -> Relative_4: Mode = Bicycle, Time = 11.20 minutes, Cost = 0.00 currency units
+2024-11-23 02:52:32,042 - INFO - Relative_4 -> Relative_3: Mode = Bicycle, Time = 4.89 minutes, Cost = 0.00 currency units
+2024-11-23 02:52:32,043 - INFO - Relative_3 -> Relative_7: Mode = Walking, Time = 11.14 minutes, Cost = 0.00 currency units
+2024-11-23 02:52:32,043 - INFO - Relative_7 -> Relative_1: Mode = Bicycle, Time = 9.48 minutes, Cost = 0.00 currency units
+2024-11-23 02:52:32,044 - INFO - Relative_1 -> Relative_2: Mode = Bicycle, Time = 6.68 minutes, Cost = 0.00 currency units
+2024-11-23 02:52:32,045 - INFO - Relative_2 -> Relative_1: Mode = Bicycle, Time = 6.68 minutes, Cost = 0.00 currency units
+2024-11-23 02:52:32,046 - INFO - Total Time: 172.00 minutes
+2024-11-23 02:52:32,046 - INFO - Total Cost: 36.93 currency units
+2024-11-23 02:52:32,046 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_5', 'Relative_3', 'Relative_9', 'Relative_10', 'Relative_9', 'Relative_3', 'Relative_5', 'Relative_3', 'Relative_4', 'Relative_6', 'Relative_4', 'Relative_3', 'Relative_7', 'Relative_1', 'Relative_2', 'Relative_1']
+2024-11-23 02:52:32,046 - INFO - Total Travel Length: 36.93
+2024-11-23 02:52:58,480 - INFO - Starting TarjanPlanner...
+2024-11-23 02:53:03,012 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 02:53:03,014 - INFO - Path Breakdown (Time and Cost):
+2024-11-23 02:53:03,014 - INFO - Relative_1 -> Relative_3: Mode = Bicycle, Time = 8.58 minutes, Cost = 0.00 currency units
+2024-11-23 02:53:03,015 - INFO - Relative_3 -> Relative_4: Mode = Bicycle, Time = 4.89 minutes, Cost = 0.00 currency units
+2024-11-23 02:53:03,015 - INFO - Relative_4 -> Relative_5: Mode = Bus, Time = 5.49 minutes, Cost = 7.32 currency units
+2024-11-23 02:53:03,016 - INFO - Relative_5 -> Relative_8: Mode = Bus, Time = 8.03 minutes, Cost = 10.71 currency units
+2024-11-23 02:53:03,016 - INFO - Relative_8 -> Relative_6: Mode = Bus, Time = 11.16 minutes, Cost = 14.88 currency units
+2024-11-23 02:53:03,017 - INFO - Relative_6 -> Relative_7: Mode = Bus, Time = 5.02 minutes, Cost = 6.69 currency units
+2024-11-23 02:53:03,017 - INFO - Relative_7 -> Relative_9: Mode = Bicycle, Time = 7.56 minutes, Cost = 0.00 currency units
+2024-11-23 02:53:03,017 - INFO - Relative_9 -> Relative_10: Mode = Bus, Time = 5.82 minutes, Cost = 7.76 currency units
+2024-11-23 02:53:03,018 - INFO - Relative_10 -> Relative_2: Mode = Bus, Time = 10.61 minutes, Cost = 14.15 currency units
+2024-11-23 02:53:03,018 - INFO - Relative_2 -> Relative_1: Mode = Bicycle, Time = 6.68 minutes, Cost = 0.00 currency units
+2024-11-23 02:53:03,019 - INFO - Total Time: 73.84 minutes
+2024-11-23 02:53:03,020 - INFO - Total Cost: 61.51 currency units
+2024-11-23 02:53:03,020 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 02:53:03,020 - INFO - Total Travel Length: 3.12
+2024-11-23 02:53:36,098 - INFO - Starting TarjanPlanner...
+2024-11-23 02:53:45,105 - INFO - Selected single transport mode: Bus
+2024-11-23 02:53:45,123 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_4', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 02:53:45,124 - INFO - Path Breakdown (Time and Cost):
+2024-11-23 02:53:45,125 - INFO - Relative_1 -> Relative_3: Mode = Bus, Time = 3.22 minutes, Cost = 4.29 currency units
+2024-11-23 02:53:45,125 - INFO - Relative_3 -> Relative_5: Mode = Bus, Time = 4.44 minutes, Cost = 5.92 currency units
+2024-11-23 02:53:45,126 - INFO - Relative_5 -> Relative_8: Mode = Bus, Time = 8.03 minutes, Cost = 10.71 currency units
+2024-11-23 02:53:45,126 - INFO - Relative_8 -> Relative_6: Mode = Bus, Time = 11.16 minutes, Cost = 14.88 currency units
+2024-11-23 02:53:45,127 - INFO - Relative_6 -> Relative_4: Mode = Bus, Time = 4.20 minutes, Cost = 5.60 currency units
+2024-11-23 02:53:45,128 - INFO - Relative_4 -> Relative_7: Mode = Bus, Time = 0.83 minutes, Cost = 1.10 currency units
+2024-11-23 02:53:45,128 - INFO - Relative_7 -> Relative_9: Mode = Bus, Time = 2.83 minutes, Cost = 3.78 currency units
+2024-11-23 02:53:45,129 - INFO - Relative_9 -> Relative_10: Mode = Bus, Time = 5.82 minutes, Cost = 7.76 currency units
+2024-11-23 02:53:45,129 - INFO - Relative_10 -> Relative_2: Mode = Bus, Time = 10.61 minutes, Cost = 14.15 currency units
+2024-11-23 02:53:45,129 - INFO - Relative_2 -> Relative_1: Mode = Bus, Time = 2.51 minutes, Cost = 3.34 currency units
+2024-11-23 02:53:45,130 - INFO - Total Time: 53.65 minutes
+2024-11-23 02:53:45,130 - INFO - Total Cost: 71.53 currency units
+2024-11-23 02:53:45,130 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_4', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 02:53:45,131 - INFO - Total Travel Length: 71.53
+2024-11-23 02:54:17,223 - INFO - Starting TarjanPlanner...
+2024-11-23 02:54:25,943 - INFO - Selected single transport mode: Train
+2024-11-23 02:54:25,961 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_4', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 02:54:25,962 - INFO - Path Breakdown (Time and Cost):
+2024-11-23 02:54:25,963 - INFO - Relative_1 -> Relative_3: Mode = Train, Time = 1.61 minutes, Cost = 10.72 currency units
+2024-11-23 02:54:25,964 - INFO - Relative_3 -> Relative_5: Mode = Train, Time = 2.22 minutes, Cost = 14.80 currency units
+2024-11-23 02:54:25,964 - INFO - Relative_5 -> Relative_8: Mode = Train, Time = 4.01 minutes, Cost = 26.76 currency units
+2024-11-23 02:54:25,964 - INFO - Relative_8 -> Relative_6: Mode = Train, Time = 5.58 minutes, Cost = 37.21 currency units
+2024-11-23 02:54:25,965 - INFO - Relative_6 -> Relative_4: Mode = Train, Time = 2.10 minutes, Cost = 14.01 currency units
+2024-11-23 02:54:25,965 - INFO - Relative_4 -> Relative_7: Mode = Train, Time = 0.41 minutes, Cost = 2.75 currency units
+2024-11-23 02:54:25,965 - INFO - Relative_7 -> Relative_9: Mode = Train, Time = 1.42 minutes, Cost = 9.45 currency units
+2024-11-23 02:54:25,966 - INFO - Relative_9 -> Relative_10: Mode = Train, Time = 2.91 minutes, Cost = 19.40 currency units
+2024-11-23 02:54:25,966 - INFO - Relative_10 -> Relative_2: Mode = Train, Time = 5.31 minutes, Cost = 35.38 currency units
+2024-11-23 02:54:25,967 - INFO - Relative_2 -> Relative_1: Mode = Train, Time = 1.25 minutes, Cost = 8.35 currency units
+2024-11-23 02:54:25,968 - INFO - Total Time: 26.82 minutes
+2024-11-23 02:54:25,968 - INFO - Total Cost: 178.83 currency units
+2024-11-23 02:54:25,969 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_4', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 02:54:25,969 - INFO - Total Travel Length: 178.83
+2024-11-23 02:54:50,615 - INFO - Starting TarjanPlanner...
+2024-11-23 02:55:04,538 - INFO - Selected single transport mode: Bicycle
+2024-11-23 02:55:04,555 - INFO - Optimal Path: ['Relative_1', 'Relative_10', 'Relative_6', 'Relative_5', 'Relative_7', 'Relative_4', 'Relative_8', 'Relative_3', 'Relative_9', 'Relative_2', 'Relative_1']
+2024-11-23 02:55:04,556 - INFO - Path Breakdown (Time and Cost):
+2024-11-23 02:55:04,557 - INFO - Relative_1 -> Relative_10: Mode = Bicycle, Time = 27.46 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:04,558 - INFO - Relative_10 -> Relative_6: Mode = Bicycle, Time = 21.60 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:04,558 - INFO - Relative_6 -> Relative_5: Mode = Bicycle, Time = 19.32 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:04,559 - INFO - Relative_5 -> Relative_7: Mode = Bicycle, Time = 14.91 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:04,559 - INFO - Relative_7 -> Relative_4: Mode = Bicycle, Time = 2.20 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:04,560 - INFO - Relative_4 -> Relative_8: Mode = Bicycle, Time = 32.66 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:04,560 - INFO - Relative_8 -> Relative_3: Mode = Bicycle, Time = 31.96 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:04,561 - INFO - Relative_3 -> Relative_9: Mode = Bicycle, Time = 11.10 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:04,561 - INFO - Relative_9 -> Relative_2: Mode = Bicycle, Time = 15.53 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:04,562 - INFO - Relative_2 -> Relative_1: Mode = Bicycle, Time = 6.68 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:04,562 - INFO - Total Time: 183.43 minutes
+2024-11-23 02:55:04,563 - INFO - Total Cost: 0.00 currency units
+2024-11-23 02:55:04,563 - INFO - Optimal Path: ['Relative_1', 'Relative_10', 'Relative_6', 'Relative_5', 'Relative_7', 'Relative_4', 'Relative_8', 'Relative_3', 'Relative_9', 'Relative_2', 'Relative_1']
+2024-11-23 02:55:04,563 - INFO - Total Travel Length: 0.00
+2024-11-23 02:55:29,168 - INFO - Starting TarjanPlanner...
+2024-11-23 02:55:45,422 - INFO - Selected single transport mode: Walking
+2024-11-23 02:55:45,441 - INFO - Optimal Path: ['Relative_1', 'Relative_10', 'Relative_6', 'Relative_5', 'Relative_7', 'Relative_4', 'Relative_8', 'Relative_3', 'Relative_9', 'Relative_2', 'Relative_1']
+2024-11-23 02:55:45,442 - INFO - Path Breakdown (Time and Cost):
+2024-11-23 02:55:45,443 - INFO - Relative_1 -> Relative_10: Mode = Walking, Time = 82.38 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:45,443 - INFO - Relative_10 -> Relative_6: Mode = Walking, Time = 64.81 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:45,444 - INFO - Relative_6 -> Relative_5: Mode = Walking, Time = 57.96 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:45,444 - INFO - Relative_5 -> Relative_7: Mode = Walking, Time = 44.72 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:45,444 - INFO - Relative_7 -> Relative_4: Mode = Walking, Time = 6.61 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:45,445 - INFO - Relative_4 -> Relative_8: Mode = Walking, Time = 97.99 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:45,445 - INFO - Relative_8 -> Relative_3: Mode = Walking, Time = 95.88 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:45,446 - INFO - Relative_3 -> Relative_9: Mode = Walking, Time = 33.29 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:45,446 - INFO - Relative_9 -> Relative_2: Mode = Walking, Time = 46.58 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:45,447 - INFO - Relative_2 -> Relative_1: Mode = Walking, Time = 20.05 minutes, Cost = 0.00 currency units
+2024-11-23 02:55:45,447 - INFO - Total Time: 550.28 minutes
+2024-11-23 02:55:45,448 - INFO - Total Cost: 0.00 currency units
+2024-11-23 02:55:45,448 - INFO - Optimal Path: ['Relative_1', 'Relative_10', 'Relative_6', 'Relative_5', 'Relative_7', 'Relative_4', 'Relative_8', 'Relative_3', 'Relative_9', 'Relative_2', 'Relative_1']
+2024-11-23 02:55:45,448 - INFO - Total Travel Length: 0.00
+2024-11-23 03:02:21,932 - INFO - Starting TarjanPlanner...
+2024-11-23 03:02:28,627 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 03:02:28,627 - INFO - Path Breakdown (Time and Cost):
+2024-11-23 03:02:28,662 - INFO - Total Time: 107.84 minutes
+2024-11-23 03:02:28,663 - INFO - Total Cost: 61.51 currency units
+2024-11-23 03:03:41,964 - INFO - Starting TarjanPlanner...
+2024-11-23 03:03:48,885 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 03:03:48,886 - INFO - Path Breakdown (Time and Cost):
+2024-11-23 03:03:48,887 - INFO - Relative_1 -> Relative_3: Mode = Bicycle, Time = 9.58 minutes, Cost = 0.00 currency units
+2024-11-23 03:03:48,887 - INFO - Relative_3 -> Relative_4: Mode = Bicycle, Time = 5.89 minutes, Cost = 0.00 currency units
+2024-11-23 03:03:48,888 - INFO - Relative_4 -> Relative_5: Mode = Bus, Time = 10.49 minutes, Cost = 7.32 currency units
+2024-11-23 03:03:48,889 - INFO - Relative_5 -> Relative_8: Mode = Bus, Time = 13.03 minutes, Cost = 10.71 currency units
+2024-11-23 03:03:48,890 - INFO - Relative_8 -> Relative_6: Mode = Bus, Time = 16.16 minutes, Cost = 14.88 currency units
+2024-11-23 03:03:48,890 - INFO - Relative_6 -> Relative_7: Mode = Bus, Time = 10.02 minutes, Cost = 6.69 currency units
+2024-11-23 03:03:48,891 - INFO - Relative_7 -> Relative_9: Mode = Bicycle, Time = 8.56 minutes, Cost = 0.00 currency units
+2024-11-23 03:03:48,892 - INFO - Relative_9 -> Relative_10: Mode = Bus, Time = 10.82 minutes, Cost = 7.76 currency units
+2024-11-23 03:03:48,893 - INFO - Relative_10 -> Relative_2: Mode = Bus, Time = 15.61 minutes, Cost = 14.15 currency units
+2024-11-23 03:03:48,893 - INFO - Relative_2 -> Relative_1: Mode = Bicycle, Time = 7.68 minutes, Cost = 0.00 currency units
+2024-11-23 03:03:48,894 - INFO - Total Time: 107.84 minutes
+2024-11-23 03:03:48,894 - INFO - Total Cost: 61.51 currency units
+2024-11-23 03:05:11,016 - INFO - Starting TarjanPlanner...
+2024-11-23 03:05:17,768 - INFO - Optimal Path: ['Relative_1', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 03:05:17,770 - INFO - Path Breakdown (Time and Cost):
+2024-11-23 03:05:17,771 - INFO - Relative_1 -> Relative_3: Mode = Bicycle, Time = 9.58 minutes, Cost = 0.00 currency units
+2024-11-23 03:05:17,771 - INFO - Relative_3 -> Relative_4: Mode = Bicycle, Time = 5.89 minutes, Cost = 0.00 currency units
+2024-11-23 03:05:17,772 - INFO - Relative_4 -> Relative_5: Mode = Bus, Time = 10.49 minutes, Cost = 7.32 currency units
+2024-11-23 03:05:17,773 - INFO - Relative_5 -> Relative_8: Mode = Bus, Time = 13.03 minutes, Cost = 10.71 currency units
+2024-11-23 03:05:17,773 - INFO - Relative_8 -> Relative_6: Mode = Bus, Time = 16.16 minutes, Cost = 14.88 currency units
+2024-11-23 03:05:17,773 - INFO - Relative_6 -> Relative_7: Mode = Bus, Time = 10.02 minutes, Cost = 6.69 currency units
+2024-11-23 03:05:17,774 - INFO - Relative_7 -> Relative_9: Mode = Bicycle, Time = 8.56 minutes, Cost = 0.00 currency units
+2024-11-23 03:05:17,775 - INFO - Relative_9 -> Relative_10: Mode = Bus, Time = 10.82 minutes, Cost = 7.76 currency units
+2024-11-23 03:05:17,775 - INFO - Relative_10 -> Relative_2: Mode = Bus, Time = 15.61 minutes, Cost = 14.15 currency units
+2024-11-23 03:05:17,776 - INFO - Relative_2 -> Relative_1: Mode = Bicycle, Time = 7.68 minutes, Cost = 0.00 currency units
+2024-11-23 03:05:17,776 - INFO - Total Time: 107.84 minutes
+2024-11-23 03:05:17,777 - INFO - Total Cost: 61.51 currency units
+2024-11-23 03:36:34,285 - INFO - Starting TarjanPlanner...
+2024-11-23 03:36:42,820 - INFO - Executing __init__ with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x0000029D00B59A90>,) and {}
+2024-11-23 03:36:42,820 - ERROR - An unexpected error occurred: GraphBuilder.__init__() missing 2 required positional arguments: 'relatives' and 'transport_modes'
+2024-11-23 03:38:42,235 - INFO - Starting TarjanPlanner...
+2024-11-23 03:38:48,330 - INFO - Executing __init__ with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000002E141BBDBE0>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-11-23 03:38:48,331 - INFO - __init__ executed in 0.00 seconds
+2024-11-23 03:38:48,331 - INFO - Building graph...
+2024-11-23 03:38:48,332 - INFO - Executing build_graph with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000002E141BBDBE0>,) and {}
+2024-11-23 03:38:48,346 - INFO - build_graph executed in 0.01 seconds
+2024-11-23 03:38:48,347 - INFO - Graph built successfully!
+2024-11-23 03:38:48,347 - INFO - Executing apply_criteria_with_thresholds with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000002E141BBDBE0>,) and {}
+2024-11-23 03:38:48,348 - INFO - apply_criteria_with_thresholds executed in 0.00 seconds
+2024-11-23 03:38:48,348 - INFO - Optimization type applied: mixed-time
+2024-11-23 03:38:48,348 - INFO - Solving TSP...
+2024-11-23 03:38:48,349 - INFO - Executing solve_tsp with arguments (<tarjanplanner.tsp_solver.TSPSolver object at 0x000002E141BBDE80>, <networkx.classes.graph.Graph object at 0x000002E141BBDD30>) and {}
+2024-11-23 03:38:48,349 - ERROR - An unexpected error occurred: 'TSPSolver' object has no attribute 'is_directed'
+2024-11-23 03:41:18,110 - INFO - Starting TarjanPlanner...
+2024-11-23 03:41:25,326 - INFO - Executing __init__ with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x0000010D53BFDA90>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-11-23 03:41:25,327 - INFO - __init__ executed in 0.00 seconds
+2024-11-23 03:41:25,327 - INFO - Building graph...
+2024-11-23 03:41:25,328 - INFO - Executing build_graph with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x0000010D53BFDA90>,) and {}
+2024-11-23 03:41:25,342 - INFO - build_graph executed in 0.01 seconds
+2024-11-23 03:41:25,343 - INFO - Graph built successfully!
+2024-11-23 03:41:25,343 - INFO - Executing apply_criteria_with_thresholds with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x0000010D53BFDA90>,) and {}
+2024-11-23 03:41:25,344 - INFO - apply_criteria_with_thresholds executed in 0.00 seconds
+2024-11-23 03:41:25,345 - INFO - Optimization type applied: mixed-time
+2024-11-23 03:41:25,345 - INFO - Solving TSP...
+2024-11-23 03:41:25,346 - INFO - Executing solve_tsp with arguments (<tarjanplanner.tsp_solver.TSPSolver object at 0x0000010D53BFDD30>, <networkx.classes.graph.Graph object at 0x0000010D53BFDBE0>) and {}
+2024-11-23 03:41:25,349 - INFO - solve_tsp executed in 0.00 seconds
+2024-11-23 03:41:25,350 - INFO - TSP Path: ['Relative_1', 'Relative_2', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_7', 'Relative_6', 'Relative_9', 'Relative_10', 'Relative_1']
+2024-11-23 03:41:25,351 - INFO - Total Length: 70.17
+2024-11-23 04:00:29,063 - INFO - Starting TarjanPlanner...
+2024-11-23 04:00:35,649 - INFO - Executing __init__ with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x00000243FCCCDA90>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-11-23 04:00:35,650 - INFO - __init__ executed in 0.00 seconds
+2024-11-23 04:00:35,651 - INFO - Building graph...
+2024-11-23 04:00:35,651 - INFO - Executing build_graph with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x00000243FCCCDA90>,) and {}
+2024-11-23 04:00:35,667 - INFO - build_graph executed in 0.02 seconds
+2024-11-23 04:00:35,667 - INFO - Graph built successfully!
+2024-11-23 04:00:35,668 - INFO - Executing apply_criteria_with_thresholds with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x00000243FCCCDA90>,) and {}
+2024-11-23 04:00:35,669 - ERROR - An unexpected error occurred: name 'logging' is not defined
+2024-11-23 04:01:34,380 - INFO - Starting TarjanPlanner...
+2024-11-23 04:01:40,312 - INFO - Executing __init__ with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000001F503B45A90>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-11-23 04:01:40,313 - INFO - __init__ executed in 0.00 seconds
+2024-11-23 04:01:40,314 - INFO - Building graph...
+2024-11-23 04:01:40,314 - INFO - Executing build_graph with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000001F503B45A90>,) and {}
+2024-11-23 04:01:40,330 - INFO - build_graph executed in 0.02 seconds
+2024-11-23 04:01:40,331 - INFO - Graph built successfully!
+2024-11-23 04:01:40,331 - INFO - Executing apply_criteria_with_thresholds with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000001F503B45A90>,) and {}
+2024-11-23 04:01:40,502 - INFO - apply_criteria_with_thresholds executed in 0.17 seconds
+2024-11-23 04:01:40,502 - INFO - Optimization type applied: mixed-time
+2024-11-23 04:01:40,502 - INFO - Solving TSP...
+2024-11-23 04:01:40,502 - INFO - Executing solve_tsp with arguments (<tarjanplanner.tsp_solver.TSPSolver object at 0x000001F503B45D30>, <networkx.classes.graph.Graph object at 0x000001F503B45BE0>) and {}
+2024-11-23 04:01:40,506 - INFO - solve_tsp executed in 0.00 seconds
+2024-11-23 04:01:40,506 - INFO - TSP Path: ['Relative_1', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 04:01:40,507 - INFO - Total Length: 107.84
+2024-11-23 04:16:36,963 - INFO - Starting TarjanPlanner...
+2024-11-23 04:16:44,972 - INFO - Executing __init__ with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000001EFC7A85A90>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-11-23 04:16:44,973 - INFO - __init__ executed in 0.00 seconds
+2024-11-23 04:16:44,974 - INFO - Building graph...
+2024-11-23 04:16:44,974 - INFO - Executing build_graph with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000001EFC7A85A90>,) and {}
+2024-11-23 04:16:44,989 - INFO - build_graph executed in 0.01 seconds
+2024-11-23 04:16:44,990 - INFO - Graph built successfully!
+2024-11-23 04:16:44,990 - INFO - Executing apply_criteria_with_thresholds with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000001EFC7A85A90>,) and {'optimize_by': 'cost'}
+2024-11-23 04:16:45,135 - INFO - apply_criteria_with_thresholds executed in 0.14 seconds
+2024-11-23 04:16:45,135 - INFO - Optimization type applied: mixed-cost
+2024-11-23 04:16:45,136 - INFO - Solving TSP...
+2024-11-23 04:16:45,136 - INFO - Executing solve_tsp with arguments (<tarjanplanner.tsp_solver.TSPSolver object at 0x000001EFC7A85D30>, <networkx.classes.graph.Graph object at 0x000001EFC7A85BE0>) and {}
+2024-11-23 04:16:45,140 - INFO - solve_tsp executed in 0.00 seconds
+2024-11-23 04:16:45,140 - INFO - TSP Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_5', 'Relative_3', 'Relative_9', 'Relative_10', 'Relative_9', 'Relative_3', 'Relative_5', 'Relative_3', 'Relative_4', 'Relative_6', 'Relative_4', 'Relative_3', 'Relative_7', 'Relative_1', 'Relative_2', 'Relative_1']
+2024-11-23 04:16:45,141 - INFO - Total Travel Length: 36.93
+2024-11-23 04:19:25,897 - INFO - Starting TarjanPlanner...
+2024-11-23 04:19:31,700 - INFO - Executing __init__ with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000002D9F3995A90>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-11-23 04:19:31,700 - INFO - __init__ executed in 0.00 seconds
+2024-11-23 04:19:31,701 - INFO - Building graph...
+2024-11-23 04:19:31,701 - INFO - Executing build_graph with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000002D9F3995A90>,) and {}
+2024-11-23 04:19:31,718 - INFO - build_graph executed in 0.02 seconds
+2024-11-23 04:19:31,719 - INFO - Graph built successfully!
+2024-11-23 04:19:31,719 - INFO - Executing apply_criteria_with_thresholds with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000002D9F3995A90>,) and {'optimize_by': 'cost'}
+2024-11-23 04:19:31,864 - INFO - apply_criteria_with_thresholds executed in 0.14 seconds
+2024-11-23 04:19:31,864 - INFO - Optimization type applied: mixed-cost
+2024-11-23 04:19:31,864 - INFO - Solving TSP...
+2024-11-23 04:19:31,864 - INFO - Executing solve_tsp with arguments (<tarjanplanner.tsp_solver.TSPSolver object at 0x000002D9F3995D30>, <networkx.classes.graph.Graph object at 0x000002D9F3995BE0>) and {}
+2024-11-23 04:19:31,869 - INFO - solve_tsp executed in 0.00 seconds
+2024-11-23 04:19:31,870 - INFO - TSP Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_5', 'Relative_3', 'Relative_9', 'Relative_10', 'Relative_9', 'Relative_3', 'Relative_5', 'Relative_3', 'Relative_4', 'Relative_6', 'Relative_4', 'Relative_3', 'Relative_7', 'Relative_1', 'Relative_2', 'Relative_1']
+2024-11-23 04:19:31,870 - INFO - Total Travel Length: 36.93
+2024-11-23 04:22:17,283 - INFO - Starting TarjanPlanner...
+2024-11-23 04:22:25,055 - INFO - Executing __init__ with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000002752F661A90>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-11-23 04:22:25,056 - INFO - __init__ executed in 0.00 seconds
+2024-11-23 04:22:25,056 - INFO - Building graph...
+2024-11-23 04:22:25,056 - INFO - Executing build_graph with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000002752F661A90>,) and {}
+2024-11-23 04:22:25,071 - INFO - build_graph executed in 0.01 seconds
+2024-11-23 04:22:25,071 - INFO - Graph built successfully!
+2024-11-23 04:22:25,071 - INFO - Executing apply_criteria_with_thresholds with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000002752F661A90>,) and {'optimize_by': 'cost'}
+2024-11-23 04:22:25,072 - INFO - Relative_1 -> Relative_2: Distance = 1.67 km, Mode = Bicycle, Time = 7.68 minutes, Cost = 0.00 units
+2024-11-23 04:22:25,072 - INFO - Relative_1 -> Relative_3: Distance = 2.14 km, Mode = Bicycle, Time = 9.58 minutes, Cost = 0.00 units
+2024-11-23 04:22:25,072 - INFO - Relative_1 -> Relative_4: Distance = 2.92 km, Mode = Bicycle, Time = 12.68 minutes, Cost = 0.00 units
+2024-11-23 04:22:25,073 - INFO - Relative_1 -> Relative_5: Distance = 4.58 km, Mode = Bus, Time = 11.86 minutes, Cost = 9.15 units
+2024-11-23 04:22:25,073 - INFO - Relative_1 -> Relative_6: Distance = 5.72 km, Mode = Bus, Time = 13.58 minutes, Cost = 11.44 units
+2024-11-23 04:22:25,073 - INFO - Relative_1 -> Relative_7: Distance = 2.37 km, Mode = Bicycle, Time = 10.48 minutes, Cost = 0.00 units
+2024-11-23 04:22:25,074 - INFO - Relative_1 -> Relative_8: Distance = 9.88 km, Mode = Bus, Time = 19.82 minutes, Cost = 19.76 units
+2024-11-23 04:22:25,074 - INFO - Relative_1 -> Relative_9: Distance = 3.13 km, Mode = Bus, Time = 9.70 minutes, Cost = 6.27 units
+2024-11-23 04:22:25,074 - INFO - Relative_1 -> Relative_10: Distance = 6.87 km, Mode = Bus, Time = 15.30 minutes, Cost = 13.73 units
+2024-11-23 04:22:25,075 - INFO - Relative_2 -> Relative_3: Distance = 3.78 km, Mode = Bus, Time = 10.66 minutes, Cost = 7.55 units
+2024-11-23 04:22:25,075 - INFO - Relative_2 -> Relative_4: Distance = 4.36 km, Mode = Bus, Time = 11.53 minutes, Cost = 8.71 units
+2024-11-23 04:22:25,075 - INFO - Relative_2 -> Relative_5: Distance = 6.21 km, Mode = Bus, Time = 14.31 minutes, Cost = 12.41 units
+2024-11-23 04:22:25,076 - INFO - Relative_2 -> Relative_6: Distance = 7.08 km, Mode = Bus, Time = 15.62 minutes, Cost = 14.16 units
+2024-11-23 04:22:25,076 - INFO - Relative_2 -> Relative_7: Distance = 3.81 km, Mode = Bus, Time = 10.72 minutes, Cost = 7.62 units
+2024-11-23 04:22:25,076 - INFO - Relative_2 -> Relative_8: Distance = 11.53 km, Mode = Bus, Time = 22.30 minutes, Cost = 23.07 units
+2024-11-23 04:22:25,077 - INFO - Relative_2 -> Relative_9: Distance = 3.88 km, Mode = Bus, Time = 10.82 minutes, Cost = 7.76 units
+2024-11-23 04:22:25,077 - INFO - Relative_2 -> Relative_10: Distance = 7.08 km, Mode = Bus, Time = 15.61 minutes, Cost = 14.15 units
+2024-11-23 04:22:25,077 - INFO - Relative_3 -> Relative_4: Distance = 1.22 km, Mode = Bicycle, Time = 5.89 minutes, Cost = 0.00 units
+2024-11-23 04:22:25,078 - INFO - Relative_3 -> Relative_5: Distance = 2.96 km, Mode = Bicycle, Time = 12.84 minutes, Cost = 0.00 units
+2024-11-23 04:22:25,078 - INFO - Relative_3 -> Relative_6: Distance = 3.85 km, Mode = Bus, Time = 10.77 minutes, Cost = 7.69 units
+2024-11-23 04:22:25,079 - INFO - Relative_3 -> Relative_7: Distance = 0.93 km, Mode = Walking, Time = 11.14 minutes, Cost = 0.00 units
+2024-11-23 04:22:25,079 - INFO - Relative_3 -> Relative_8: Distance = 7.99 km, Mode = Bus, Time = 16.98 minutes, Cost = 15.98 units
+2024-11-23 04:22:25,079 - INFO - Relative_3 -> Relative_9: Distance = 2.77 km, Mode = Bicycle, Time = 12.10 minutes, Cost = 0.00 units
+2024-11-23 04:22:25,080 - INFO - Relative_3 -> Relative_10: Distance = 6.57 km, Mode = Bus, Time = 14.86 minutes, Cost = 13.15 units
+2024-11-23 04:22:25,080 - INFO - Relative_4 -> Relative_5: Distance = 3.66 km, Mode = Bus, Time = 10.49 minutes, Cost = 7.32 units
+2024-11-23 04:22:25,080 - INFO - Relative_4 -> Relative_6: Distance = 2.80 km, Mode = Bicycle, Time = 12.20 minutes, Cost = 0.00 units
+2024-11-23 04:22:25,080 - INFO - Relative_4 -> Relative_7: Distance = 0.55 km, Mode = Walking, Time = 6.61 minutes, Cost = 0.00 units
+2024-11-23 04:22:25,080 - INFO - Relative_4 -> Relative_8: Distance = 8.17 km, Mode = Bus, Time = 17.25 minutes, Cost = 16.33 units
+2024-11-23 04:22:25,080 - INFO - Relative_4 -> Relative_9: Distance = 1.99 km, Mode = Bicycle, Time = 8.97 minutes, Cost = 0.00 units
+2024-11-23 04:22:25,080 - INFO - Relative_4 -> Relative_10: Distance = 5.54 km, Mode = Bus, Time = 13.31 minutes, Cost = 11.07 units
+2024-11-23 04:22:25,081 - INFO - Relative_5 -> Relative_6: Distance = 4.83 km, Mode = Bus, Time = 12.25 minutes, Cost = 9.66 units
+2024-11-23 04:22:25,081 - INFO - Relative_5 -> Relative_7: Distance = 3.73 km, Mode = Bus, Time = 10.59 minutes, Cost = 7.45 units
+2024-11-23 04:22:25,081 - INFO - Relative_5 -> Relative_8: Distance = 5.35 km, Mode = Bus, Time = 13.03 minutes, Cost = 10.71 units
+2024-11-23 04:22:25,081 - INFO - Relative_5 -> Relative_9: Distance = 5.60 km, Mode = Bus, Time = 13.40 minutes, Cost = 11.20 units
+2024-11-23 04:22:25,081 - INFO - Relative_5 -> Relative_10: Distance = 9.15 km, Mode = Bus, Time = 18.73 minutes, Cost = 18.30 units
+2024-11-23 04:22:25,082 - INFO - Relative_6 -> Relative_7: Distance = 3.35 km, Mode = Bus, Time = 10.02 minutes, Cost = 6.69 units
+2024-11-23 04:22:25,082 - INFO - Relative_6 -> Relative_8: Distance = 7.44 km, Mode = Bus, Time = 16.16 minutes, Cost = 14.88 units
+2024-11-23 04:22:25,083 - INFO - Relative_6 -> Relative_9: Distance = 3.71 km, Mode = Bus, Time = 10.56 minutes, Cost = 7.41 units
+2024-11-23 04:22:25,083 - INFO - Relative_6 -> Relative_10: Distance = 5.40 km, Mode = Bus, Time = 13.10 minutes, Cost = 10.80 units
+2024-11-23 04:22:25,083 - INFO - Relative_7 -> Relative_8: Distance = 8.48 km, Mode = Bus, Time = 17.72 minutes, Cost = 16.96 units
+2024-11-23 04:22:25,083 - INFO - Relative_7 -> Relative_9: Distance = 1.89 km, Mode = Bicycle, Time = 8.56 minutes, Cost = 0.00 units
+2024-11-23 04:22:25,083 - INFO - Relative_7 -> Relative_10: Distance = 5.65 km, Mode = Bus, Time = 13.47 minutes, Cost = 11.30 units
+2024-11-23 04:22:25,084 - INFO - Relative_8 -> Relative_9: Distance = 10.10 km, Mode = Bus, Time = 20.16 minutes, Cost = 20.21 units
+2024-11-23 04:22:25,084 - INFO - Relative_8 -> Relative_10: Distance = 12.82 km, Mode = Bus, Time = 24.23 minutes, Cost = 25.63 units
+2024-11-23 04:22:25,084 - INFO - Relative_9 -> Relative_10: Distance = 3.88 km, Mode = Bus, Time = 10.82 minutes, Cost = 7.76 units
+2024-11-23 04:22:25,084 - INFO - apply_criteria_with_thresholds executed in 0.01 seconds
+2024-11-23 04:22:25,084 - INFO - Optimization type applied: mixed-cost
+2024-11-23 04:22:25,084 - INFO - Solving TSP...
+2024-11-23 04:22:25,084 - INFO - Executing solve_tsp with arguments (<tarjanplanner.tsp_solver.TSPSolver object at 0x000002752F661D30>, <networkx.classes.graph.Graph object at 0x000002752F661BE0>) and {}
+2024-11-23 04:22:25,089 - INFO - solve_tsp executed in 0.00 seconds
+2024-11-23 04:22:25,089 - INFO - TSP Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_5', 'Relative_3', 'Relative_9', 'Relative_10', 'Relative_9', 'Relative_3', 'Relative_5', 'Relative_3', 'Relative_4', 'Relative_6', 'Relative_4', 'Relative_3', 'Relative_7', 'Relative_1', 'Relative_2', 'Relative_1']
+2024-11-23 04:22:25,090 - INFO - Total Travel Length: 36.93
+2024-11-23 04:25:42,907 - INFO - Starting TarjanPlanner...
+2024-11-23 04:25:49,661 - INFO - Executing __init__ with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000002493B925940>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-11-23 04:25:49,662 - INFO - __init__ executed in 0.00 seconds
+2024-11-23 04:25:49,662 - INFO - Building graph...
+2024-11-23 04:25:49,663 - INFO - Executing build_graph with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000002493B925940>,) and {}
+2024-11-23 04:25:49,677 - INFO - build_graph executed in 0.01 seconds
+2024-11-23 04:25:49,677 - INFO - Graph built successfully!
+2024-11-23 04:25:49,678 - INFO - Executing apply_criteria_with_thresholds with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000002493B925940>,) and {'optimize_by': 'cost'}
+2024-11-23 04:25:49,678 - INFO - Relative_1 -> Relative_2: Distance = 1.67 km, Mode = Bicycle, Time = 7.68 minutes, Cost = 0.00 units
+2024-11-23 04:25:49,678 - INFO - Relative_1 -> Relative_3: Distance = 2.14 km, Mode = Bicycle, Time = 9.58 minutes, Cost = 0.00 units
+2024-11-23 04:25:49,679 - INFO - Relative_1 -> Relative_4: Distance = 2.92 km, Mode = Bicycle, Time = 12.68 minutes, Cost = 0.00 units
+2024-11-23 04:25:49,679 - INFO - Relative_1 -> Relative_5: Distance = 4.58 km, Mode = Bus, Time = 11.86 minutes, Cost = 9.15 units
+2024-11-23 04:25:49,679 - INFO - Relative_1 -> Relative_6: Distance = 5.72 km, Mode = Bus, Time = 13.58 minutes, Cost = 11.44 units
+2024-11-23 04:25:49,680 - INFO - Relative_1 -> Relative_7: Distance = 2.37 km, Mode = Bicycle, Time = 10.48 minutes, Cost = 0.00 units
+2024-11-23 04:25:49,680 - INFO - Relative_1 -> Relative_8: Distance = 9.88 km, Mode = Bus, Time = 19.82 minutes, Cost = 19.76 units
+2024-11-23 04:25:49,680 - INFO - Relative_1 -> Relative_9: Distance = 3.13 km, Mode = Bus, Time = 9.70 minutes, Cost = 6.27 units
+2024-11-23 04:25:49,681 - INFO - Relative_1 -> Relative_10: Distance = 6.87 km, Mode = Bus, Time = 15.30 minutes, Cost = 13.73 units
+2024-11-23 04:25:49,681 - INFO - Relative_2 -> Relative_3: Distance = 3.78 km, Mode = Bus, Time = 10.66 minutes, Cost = 7.55 units
+2024-11-23 04:25:49,682 - INFO - Relative_2 -> Relative_4: Distance = 4.36 km, Mode = Bus, Time = 11.53 minutes, Cost = 8.71 units
+2024-11-23 04:25:49,682 - INFO - Relative_2 -> Relative_5: Distance = 6.21 km, Mode = Bus, Time = 14.31 minutes, Cost = 12.41 units
+2024-11-23 04:25:49,682 - INFO - Relative_2 -> Relative_6: Distance = 7.08 km, Mode = Bus, Time = 15.62 minutes, Cost = 14.16 units
+2024-11-23 04:25:49,682 - INFO - Relative_2 -> Relative_7: Distance = 3.81 km, Mode = Bus, Time = 10.72 minutes, Cost = 7.62 units
+2024-11-23 04:25:49,683 - INFO - Relative_2 -> Relative_8: Distance = 11.53 km, Mode = Bus, Time = 22.30 minutes, Cost = 23.07 units
+2024-11-23 04:25:49,683 - INFO - Relative_2 -> Relative_9: Distance = 3.88 km, Mode = Bus, Time = 10.82 minutes, Cost = 7.76 units
+2024-11-23 04:25:49,683 - INFO - Relative_2 -> Relative_10: Distance = 7.08 km, Mode = Bus, Time = 15.61 minutes, Cost = 14.15 units
+2024-11-23 04:25:49,683 - INFO - Relative_3 -> Relative_4: Distance = 1.22 km, Mode = Bicycle, Time = 5.89 minutes, Cost = 0.00 units
+2024-11-23 04:25:49,683 - INFO - Relative_3 -> Relative_5: Distance = 2.96 km, Mode = Bicycle, Time = 12.84 minutes, Cost = 0.00 units
+2024-11-23 04:25:49,683 - INFO - Relative_3 -> Relative_6: Distance = 3.85 km, Mode = Bus, Time = 10.77 minutes, Cost = 7.69 units
+2024-11-23 04:25:49,684 - INFO - Relative_3 -> Relative_7: Distance = 0.93 km, Mode = Walking, Time = 11.14 minutes, Cost = 0.00 units
+2024-11-23 04:25:49,684 - INFO - Relative_3 -> Relative_8: Distance = 7.99 km, Mode = Bus, Time = 16.98 minutes, Cost = 15.98 units
+2024-11-23 04:25:49,685 - INFO - Relative_3 -> Relative_9: Distance = 2.77 km, Mode = Bicycle, Time = 12.10 minutes, Cost = 0.00 units
+2024-11-23 04:25:49,685 - INFO - Relative_3 -> Relative_10: Distance = 6.57 km, Mode = Bus, Time = 14.86 minutes, Cost = 13.15 units
+2024-11-23 04:25:49,685 - INFO - Relative_4 -> Relative_5: Distance = 3.66 km, Mode = Bus, Time = 10.49 minutes, Cost = 7.32 units
+2024-11-23 04:25:49,686 - INFO - Relative_4 -> Relative_6: Distance = 2.80 km, Mode = Bicycle, Time = 12.20 minutes, Cost = 0.00 units
+2024-11-23 04:25:49,686 - INFO - Relative_4 -> Relative_7: Distance = 0.55 km, Mode = Walking, Time = 6.61 minutes, Cost = 0.00 units
+2024-11-23 04:25:49,686 - INFO - Relative_4 -> Relative_8: Distance = 8.17 km, Mode = Bus, Time = 17.25 minutes, Cost = 16.33 units
+2024-11-23 04:25:49,687 - INFO - Relative_4 -> Relative_9: Distance = 1.99 km, Mode = Bicycle, Time = 8.97 minutes, Cost = 0.00 units
+2024-11-23 04:25:49,687 - INFO - Relative_4 -> Relative_10: Distance = 5.54 km, Mode = Bus, Time = 13.31 minutes, Cost = 11.07 units
+2024-11-23 04:25:49,687 - INFO - Relative_5 -> Relative_6: Distance = 4.83 km, Mode = Bus, Time = 12.25 minutes, Cost = 9.66 units
+2024-11-23 04:25:49,687 - INFO - Relative_5 -> Relative_7: Distance = 3.73 km, Mode = Bus, Time = 10.59 minutes, Cost = 7.45 units
+2024-11-23 04:25:49,688 - INFO - Relative_5 -> Relative_8: Distance = 5.35 km, Mode = Bus, Time = 13.03 minutes, Cost = 10.71 units
+2024-11-23 04:25:49,688 - INFO - Relative_5 -> Relative_9: Distance = 5.60 km, Mode = Bus, Time = 13.40 minutes, Cost = 11.20 units
+2024-11-23 04:25:49,688 - INFO - Relative_5 -> Relative_10: Distance = 9.15 km, Mode = Bus, Time = 18.73 minutes, Cost = 18.30 units
+2024-11-23 04:25:49,688 - INFO - Relative_6 -> Relative_7: Distance = 3.35 km, Mode = Bus, Time = 10.02 minutes, Cost = 6.69 units
+2024-11-23 04:25:49,688 - INFO - Relative_6 -> Relative_8: Distance = 7.44 km, Mode = Bus, Time = 16.16 minutes, Cost = 14.88 units
+2024-11-23 04:25:49,688 - INFO - Relative_6 -> Relative_9: Distance = 3.71 km, Mode = Bus, Time = 10.56 minutes, Cost = 7.41 units
+2024-11-23 04:25:49,689 - INFO - Relative_6 -> Relative_10: Distance = 5.40 km, Mode = Bus, Time = 13.10 minutes, Cost = 10.80 units
+2024-11-23 04:25:49,689 - INFO - Relative_7 -> Relative_8: Distance = 8.48 km, Mode = Bus, Time = 17.72 minutes, Cost = 16.96 units
+2024-11-23 04:25:49,689 - INFO - Relative_7 -> Relative_9: Distance = 1.89 km, Mode = Bicycle, Time = 8.56 minutes, Cost = 0.00 units
+2024-11-23 04:25:49,689 - INFO - Relative_7 -> Relative_10: Distance = 5.65 km, Mode = Bus, Time = 13.47 minutes, Cost = 11.30 units
+2024-11-23 04:25:49,689 - INFO - Relative_8 -> Relative_9: Distance = 10.10 km, Mode = Bus, Time = 20.16 minutes, Cost = 20.21 units
+2024-11-23 04:25:49,690 - INFO - Relative_8 -> Relative_10: Distance = 12.82 km, Mode = Bus, Time = 24.23 minutes, Cost = 25.63 units
+2024-11-23 04:25:49,690 - INFO - Relative_9 -> Relative_10: Distance = 3.88 km, Mode = Bus, Time = 10.82 minutes, Cost = 7.76 units
+2024-11-23 04:25:49,690 - INFO - apply_criteria_with_thresholds executed in 0.01 seconds
+2024-11-23 04:25:49,691 - INFO - Optimization type applied: mixed-cost
+2024-11-23 04:25:49,691 - INFO - Solving TSP...
+2024-11-23 04:25:49,692 - INFO - Executing solve_tsp with arguments (<tarjanplanner.tsp_solver.TSPSolver object at 0x000002493B925BE0>, <networkx.classes.graph.Graph object at 0x000002493B925A90>) and {}
+2024-11-23 04:25:49,697 - INFO - solve_tsp executed in 0.00 seconds
+2024-11-23 04:25:49,697 - INFO - TSP Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_5', 'Relative_3', 'Relative_9', 'Relative_10', 'Relative_9', 'Relative_3', 'Relative_5', 'Relative_3', 'Relative_4', 'Relative_6', 'Relative_4', 'Relative_3', 'Relative_7', 'Relative_1', 'Relative_2', 'Relative_1']
+2024-11-23 04:25:49,698 - INFO - Total Travel Length: 36.93
+2024-11-23 04:25:49,699 - INFO - Total Travel Time: 206.00 minutes
+2024-11-23 04:25:49,699 - INFO - Total Travel Cost: 36.93 currency units
+2024-11-23 04:26:14,290 - INFO - Starting TarjanPlanner...
+2024-11-23 04:26:23,699 - INFO - Executing __init__ with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x0000027E8DE35940>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-11-23 04:26:23,700 - INFO - __init__ executed in 0.00 seconds
+2024-11-23 04:26:23,700 - INFO - Building graph...
+2024-11-23 04:26:23,700 - INFO - Executing build_graph with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x0000027E8DE35940>,) and {}
+2024-11-23 04:26:23,714 - INFO - build_graph executed in 0.01 seconds
+2024-11-23 04:26:23,715 - INFO - Graph built successfully!
+2024-11-23 04:26:23,715 - INFO - Executing apply_criteria_with_thresholds with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x0000027E8DE35940>,) and {'optimize_by': 'time'}
+2024-11-23 04:26:23,715 - INFO - Relative_1 -> Relative_2: Distance = 1.67 km, Mode = Bicycle, Time = 7.68 minutes, Cost = 0.00 units
+2024-11-23 04:26:23,716 - INFO - Relative_1 -> Relative_3: Distance = 2.14 km, Mode = Bicycle, Time = 9.58 minutes, Cost = 0.00 units
+2024-11-23 04:26:23,716 - INFO - Relative_1 -> Relative_4: Distance = 2.92 km, Mode = Bicycle, Time = 12.68 minutes, Cost = 0.00 units
+2024-11-23 04:26:23,716 - INFO - Relative_1 -> Relative_5: Distance = 4.58 km, Mode = Bus, Time = 11.86 minutes, Cost = 9.15 units
+2024-11-23 04:26:23,717 - INFO - Relative_1 -> Relative_6: Distance = 5.72 km, Mode = Bus, Time = 13.58 minutes, Cost = 11.44 units
+2024-11-23 04:26:23,717 - INFO - Relative_1 -> Relative_7: Distance = 2.37 km, Mode = Bicycle, Time = 10.48 minutes, Cost = 0.00 units
+2024-11-23 04:26:23,718 - INFO - Relative_1 -> Relative_8: Distance = 9.88 km, Mode = Bus, Time = 19.82 minutes, Cost = 19.76 units
+2024-11-23 04:26:23,718 - INFO - Relative_1 -> Relative_9: Distance = 3.13 km, Mode = Bus, Time = 9.70 minutes, Cost = 6.27 units
+2024-11-23 04:26:23,719 - INFO - Relative_1 -> Relative_10: Distance = 6.87 km, Mode = Bus, Time = 15.30 minutes, Cost = 13.73 units
+2024-11-23 04:26:23,719 - INFO - Relative_2 -> Relative_3: Distance = 3.78 km, Mode = Bus, Time = 10.66 minutes, Cost = 7.55 units
+2024-11-23 04:26:23,719 - INFO - Relative_2 -> Relative_4: Distance = 4.36 km, Mode = Bus, Time = 11.53 minutes, Cost = 8.71 units
+2024-11-23 04:26:23,720 - INFO - Relative_2 -> Relative_5: Distance = 6.21 km, Mode = Bus, Time = 14.31 minutes, Cost = 12.41 units
+2024-11-23 04:26:23,720 - INFO - Relative_2 -> Relative_6: Distance = 7.08 km, Mode = Bus, Time = 15.62 minutes, Cost = 14.16 units
+2024-11-23 04:26:23,720 - INFO - Relative_2 -> Relative_7: Distance = 3.81 km, Mode = Bus, Time = 10.72 minutes, Cost = 7.62 units
+2024-11-23 04:26:23,720 - INFO - Relative_2 -> Relative_8: Distance = 11.53 km, Mode = Bus, Time = 22.30 minutes, Cost = 23.07 units
+2024-11-23 04:26:23,721 - INFO - Relative_2 -> Relative_9: Distance = 3.88 km, Mode = Bus, Time = 10.82 minutes, Cost = 7.76 units
+2024-11-23 04:26:23,721 - INFO - Relative_2 -> Relative_10: Distance = 7.08 km, Mode = Bus, Time = 15.61 minutes, Cost = 14.15 units
+2024-11-23 04:26:23,722 - INFO - Relative_3 -> Relative_4: Distance = 1.22 km, Mode = Bicycle, Time = 5.89 minutes, Cost = 0.00 units
+2024-11-23 04:26:23,722 - INFO - Relative_3 -> Relative_5: Distance = 2.96 km, Mode = Bicycle, Time = 12.84 minutes, Cost = 0.00 units
+2024-11-23 04:26:23,723 - INFO - Relative_3 -> Relative_6: Distance = 3.85 km, Mode = Bus, Time = 10.77 minutes, Cost = 7.69 units
+2024-11-23 04:26:23,723 - INFO - Relative_3 -> Relative_7: Distance = 0.93 km, Mode = Walking, Time = 11.14 minutes, Cost = 0.00 units
+2024-11-23 04:26:23,723 - INFO - Relative_3 -> Relative_8: Distance = 7.99 km, Mode = Bus, Time = 16.98 minutes, Cost = 15.98 units
+2024-11-23 04:26:23,723 - INFO - Relative_3 -> Relative_9: Distance = 2.77 km, Mode = Bicycle, Time = 12.10 minutes, Cost = 0.00 units
+2024-11-23 04:26:23,724 - INFO - Relative_3 -> Relative_10: Distance = 6.57 km, Mode = Bus, Time = 14.86 minutes, Cost = 13.15 units
+2024-11-23 04:26:23,724 - INFO - Relative_4 -> Relative_5: Distance = 3.66 km, Mode = Bus, Time = 10.49 minutes, Cost = 7.32 units
+2024-11-23 04:26:23,724 - INFO - Relative_4 -> Relative_6: Distance = 2.80 km, Mode = Bicycle, Time = 12.20 minutes, Cost = 0.00 units
+2024-11-23 04:26:23,725 - INFO - Relative_4 -> Relative_7: Distance = 0.55 km, Mode = Walking, Time = 6.61 minutes, Cost = 0.00 units
+2024-11-23 04:26:23,725 - INFO - Relative_4 -> Relative_8: Distance = 8.17 km, Mode = Bus, Time = 17.25 minutes, Cost = 16.33 units
+2024-11-23 04:26:23,725 - INFO - Relative_4 -> Relative_9: Distance = 1.99 km, Mode = Bicycle, Time = 8.97 minutes, Cost = 0.00 units
+2024-11-23 04:26:23,725 - INFO - Relative_4 -> Relative_10: Distance = 5.54 km, Mode = Bus, Time = 13.31 minutes, Cost = 11.07 units
+2024-11-23 04:26:23,725 - INFO - Relative_5 -> Relative_6: Distance = 4.83 km, Mode = Bus, Time = 12.25 minutes, Cost = 9.66 units
+2024-11-23 04:26:23,725 - INFO - Relative_5 -> Relative_7: Distance = 3.73 km, Mode = Bus, Time = 10.59 minutes, Cost = 7.45 units
+2024-11-23 04:26:23,726 - INFO - Relative_5 -> Relative_8: Distance = 5.35 km, Mode = Bus, Time = 13.03 minutes, Cost = 10.71 units
+2024-11-23 04:26:23,726 - INFO - Relative_5 -> Relative_9: Distance = 5.60 km, Mode = Bus, Time = 13.40 minutes, Cost = 11.20 units
+2024-11-23 04:26:23,726 - INFO - Relative_5 -> Relative_10: Distance = 9.15 km, Mode = Bus, Time = 18.73 minutes, Cost = 18.30 units
+2024-11-23 04:26:23,726 - INFO - Relative_6 -> Relative_7: Distance = 3.35 km, Mode = Bus, Time = 10.02 minutes, Cost = 6.69 units
+2024-11-23 04:26:23,727 - INFO - Relative_6 -> Relative_8: Distance = 7.44 km, Mode = Bus, Time = 16.16 minutes, Cost = 14.88 units
+2024-11-23 04:26:23,727 - INFO - Relative_6 -> Relative_9: Distance = 3.71 km, Mode = Bus, Time = 10.56 minutes, Cost = 7.41 units
+2024-11-23 04:26:23,727 - INFO - Relative_6 -> Relative_10: Distance = 5.40 km, Mode = Bus, Time = 13.10 minutes, Cost = 10.80 units
+2024-11-23 04:26:23,727 - INFO - Relative_7 -> Relative_8: Distance = 8.48 km, Mode = Bus, Time = 17.72 minutes, Cost = 16.96 units
+2024-11-23 04:26:23,728 - INFO - Relative_7 -> Relative_9: Distance = 1.89 km, Mode = Bicycle, Time = 8.56 minutes, Cost = 0.00 units
+2024-11-23 04:26:23,728 - INFO - Relative_7 -> Relative_10: Distance = 5.65 km, Mode = Bus, Time = 13.47 minutes, Cost = 11.30 units
+2024-11-23 04:26:23,728 - INFO - Relative_8 -> Relative_9: Distance = 10.10 km, Mode = Bus, Time = 20.16 minutes, Cost = 20.21 units
+2024-11-23 04:26:23,728 - INFO - Relative_8 -> Relative_10: Distance = 12.82 km, Mode = Bus, Time = 24.23 minutes, Cost = 25.63 units
+2024-11-23 04:26:23,728 - INFO - Relative_9 -> Relative_10: Distance = 3.88 km, Mode = Bus, Time = 10.82 minutes, Cost = 7.76 units
+2024-11-23 04:26:23,729 - INFO - apply_criteria_with_thresholds executed in 0.01 seconds
+2024-11-23 04:26:23,729 - INFO - Optimization type applied: mixed-time
+2024-11-23 04:26:23,729 - INFO - Solving TSP...
+2024-11-23 04:26:23,729 - INFO - Executing solve_tsp with arguments (<tarjanplanner.tsp_solver.TSPSolver object at 0x0000027E8DE35BE0>, <networkx.classes.graph.Graph object at 0x0000027E8DE35A90>) and {}
+2024-11-23 04:26:23,733 - INFO - solve_tsp executed in 0.00 seconds
+2024-11-23 04:26:23,733 - INFO - TSP Path: ['Relative_1', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 04:26:23,734 - INFO - Total Travel Length: 107.84
+2024-11-23 04:26:23,735 - INFO - Total Travel Time: 107.84 minutes
+2024-11-23 04:26:23,735 - INFO - Total Travel Cost: 61.51 currency units
+2024-11-23 04:26:38,848 - INFO - Starting TarjanPlanner...
+2024-11-23 04:26:45,992 - INFO - Executing __init__ with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x00000225EF005940>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-11-23 04:26:45,993 - INFO - __init__ executed in 0.00 seconds
+2024-11-23 04:26:45,994 - INFO - Building graph...
+2024-11-23 04:26:45,994 - INFO - Executing build_graph with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x00000225EF005940>,) and {}
+2024-11-23 04:26:46,008 - INFO - build_graph executed in 0.01 seconds
+2024-11-23 04:26:46,009 - INFO - Graph built successfully!
+2024-11-23 04:26:46,010 - ERROR - An unexpected error occurred: 'GraphBuilder' object has no attribute 'apply_criteria'
+2024-11-23 04:29:17,632 - INFO - Starting TarjanPlanner...
+2024-11-23 04:29:22,476 - INFO - Executing __init__ with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000001970F259940>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-11-23 04:29:22,477 - INFO - __init__ executed in 0.00 seconds
+2024-11-23 04:29:22,477 - INFO - Building graph...
+2024-11-23 04:29:22,478 - INFO - Executing build_graph with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000001970F259940>,) and {}
+2024-11-23 04:29:22,492 - INFO - build_graph executed in 0.01 seconds
+2024-11-23 04:29:22,492 - INFO - Graph built successfully!
+2024-11-23 04:29:22,493 - INFO - Executing apply_criteria with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000001970F259940>, 'mixed') and {}
+2024-11-23 04:29:22,493 - INFO - Relative_1 -> Relative_2: Distance = 1.67 km, Mode = Bicycle, Time = 7.68 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,493 - INFO - Relative_1 -> Relative_3: Distance = 2.14 km, Mode = Bicycle, Time = 9.58 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,494 - INFO - Relative_1 -> Relative_4: Distance = 2.92 km, Mode = Bicycle, Time = 12.68 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,494 - INFO - Relative_1 -> Relative_5: Distance = 4.58 km, Mode = Bicycle, Time = 19.30 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,494 - INFO - Relative_1 -> Relative_6: Distance = 5.72 km, Mode = Bicycle, Time = 23.87 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,494 - INFO - Relative_1 -> Relative_7: Distance = 2.37 km, Mode = Bicycle, Time = 10.48 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,495 - INFO - Relative_1 -> Relative_8: Distance = 9.88 km, Mode = Bus, Time = 19.82 minutes, Cost = 19.76 units
+2024-11-23 04:29:22,495 - INFO - Relative_1 -> Relative_9: Distance = 3.13 km, Mode = Bicycle, Time = 13.54 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,495 - INFO - Relative_1 -> Relative_10: Distance = 6.87 km, Mode = Bicycle, Time = 28.46 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,496 - INFO - Relative_2 -> Relative_3: Distance = 3.78 km, Mode = Bicycle, Time = 16.10 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,496 - INFO - Relative_2 -> Relative_4: Distance = 4.36 km, Mode = Bicycle, Time = 18.42 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,496 - INFO - Relative_2 -> Relative_5: Distance = 6.21 km, Mode = Bicycle, Time = 25.82 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,496 - INFO - Relative_2 -> Relative_6: Distance = 7.08 km, Mode = Bicycle, Time = 29.33 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,497 - INFO - Relative_2 -> Relative_7: Distance = 3.81 km, Mode = Bicycle, Time = 16.25 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,497 - INFO - Relative_2 -> Relative_8: Distance = 11.53 km, Mode = Bus, Time = 22.30 minutes, Cost = 23.07 units
+2024-11-23 04:29:22,497 - INFO - Relative_2 -> Relative_9: Distance = 3.88 km, Mode = Bicycle, Time = 16.53 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,498 - INFO - Relative_2 -> Relative_10: Distance = 7.08 km, Mode = Bicycle, Time = 29.30 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,498 - INFO - Relative_3 -> Relative_4: Distance = 1.22 km, Mode = Bicycle, Time = 5.89 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,498 - INFO - Relative_3 -> Relative_5: Distance = 2.96 km, Mode = Bicycle, Time = 12.84 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,498 - INFO - Relative_3 -> Relative_6: Distance = 3.85 km, Mode = Bicycle, Time = 16.38 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,499 - INFO - Relative_3 -> Relative_7: Distance = 0.93 km, Mode = Bicycle, Time = 4.71 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,499 - INFO - Relative_3 -> Relative_8: Distance = 7.99 km, Mode = Bicycle, Time = 32.96 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,499 - INFO - Relative_3 -> Relative_9: Distance = 2.77 km, Mode = Bicycle, Time = 12.10 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,499 - INFO - Relative_3 -> Relative_10: Distance = 6.57 km, Mode = Bicycle, Time = 27.30 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,499 - INFO - Relative_4 -> Relative_5: Distance = 3.66 km, Mode = Bicycle, Time = 15.63 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,500 - INFO - Relative_4 -> Relative_6: Distance = 2.80 km, Mode = Bicycle, Time = 12.20 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,500 - INFO - Relative_4 -> Relative_7: Distance = 0.55 km, Mode = Bicycle, Time = 3.20 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,500 - INFO - Relative_4 -> Relative_8: Distance = 8.17 km, Mode = Bus, Time = 17.25 minutes, Cost = 16.33 units
+2024-11-23 04:29:22,500 - INFO - Relative_4 -> Relative_9: Distance = 1.99 km, Mode = Bicycle, Time = 8.97 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,501 - INFO - Relative_4 -> Relative_10: Distance = 5.54 km, Mode = Bicycle, Time = 23.15 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,501 - INFO - Relative_5 -> Relative_6: Distance = 4.83 km, Mode = Bicycle, Time = 20.32 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,501 - INFO - Relative_5 -> Relative_7: Distance = 3.73 km, Mode = Bicycle, Time = 15.91 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,502 - INFO - Relative_5 -> Relative_8: Distance = 5.35 km, Mode = Bicycle, Time = 22.41 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,502 - INFO - Relative_5 -> Relative_9: Distance = 5.60 km, Mode = Bicycle, Time = 23.40 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,502 - INFO - Relative_5 -> Relative_10: Distance = 9.15 km, Mode = Bus, Time = 18.73 minutes, Cost = 18.30 units
+2024-11-23 04:29:22,502 - INFO - Relative_6 -> Relative_7: Distance = 3.35 km, Mode = Bicycle, Time = 14.39 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,503 - INFO - Relative_6 -> Relative_8: Distance = 7.44 km, Mode = Bicycle, Time = 30.77 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,503 - INFO - Relative_6 -> Relative_9: Distance = 3.71 km, Mode = Bicycle, Time = 15.83 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,503 - INFO - Relative_6 -> Relative_10: Distance = 5.40 km, Mode = Bicycle, Time = 22.60 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,503 - INFO - Relative_7 -> Relative_8: Distance = 8.48 km, Mode = Bus, Time = 17.72 minutes, Cost = 16.96 units
+2024-11-23 04:29:22,503 - INFO - Relative_7 -> Relative_9: Distance = 1.89 km, Mode = Bicycle, Time = 8.56 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,503 - INFO - Relative_7 -> Relative_10: Distance = 5.65 km, Mode = Bicycle, Time = 23.59 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,503 - INFO - Relative_8 -> Relative_9: Distance = 10.10 km, Mode = Bus, Time = 20.16 minutes, Cost = 20.21 units
+2024-11-23 04:29:22,504 - INFO - Relative_8 -> Relative_10: Distance = 12.82 km, Mode = Bus, Time = 24.23 minutes, Cost = 25.63 units
+2024-11-23 04:29:22,504 - INFO - Relative_9 -> Relative_10: Distance = 3.88 km, Mode = Bicycle, Time = 16.52 minutes, Cost = 0.00 units
+2024-11-23 04:29:22,504 - INFO - apply_criteria executed in 0.01 seconds
+2024-11-23 04:29:22,505 - INFO - Optimization type applied: balanced
+2024-11-23 04:29:22,505 - INFO - Solving TSP...
+2024-11-23 04:29:22,505 - INFO - Executing solve_tsp with arguments (<tarjanplanner.tsp_solver.TSPSolver object at 0x000001970F259BE0>, <networkx.classes.graph.Graph object at 0x000001970F259A90>) and {}
+2024-11-23 04:29:22,509 - INFO - solve_tsp executed in 0.00 seconds
+2024-11-23 04:29:22,510 - INFO - TSP Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_4', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 04:29:22,510 - INFO - Total Travel Length: 153.06
+2024-11-23 04:29:22,511 - INFO - Total Travel Time: 153.06 minutes
+2024-11-23 04:29:22,512 - INFO - Total Travel Cost: 0.00 currency units
+2024-11-23 04:29:39,674 - INFO - Starting TarjanPlanner...
+2024-11-23 04:29:46,180 - INFO - Executing __init__ with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x00000262CB6F9940>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-11-23 04:29:46,181 - INFO - __init__ executed in 0.00 seconds
+2024-11-23 04:29:46,182 - INFO - Building graph...
+2024-11-23 04:29:46,182 - INFO - Executing build_graph with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x00000262CB6F9940>,) and {}
+2024-11-23 04:29:46,198 - INFO - build_graph executed in 0.02 seconds
+2024-11-23 04:29:46,198 - INFO - Graph built successfully!
+2024-11-23 04:29:46,199 - INFO - Executing apply_criteria_with_thresholds with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x00000262CB6F9940>,) and {'optimize_by': 'time'}
+2024-11-23 04:29:46,199 - INFO - Relative_1 -> Relative_2: Distance = 1.67 km, Mode = Bicycle, Time = 7.68 minutes, Cost = 0.00 units
+2024-11-23 04:29:46,200 - INFO - Relative_1 -> Relative_3: Distance = 2.14 km, Mode = Bicycle, Time = 9.58 minutes, Cost = 0.00 units
+2024-11-23 04:29:46,200 - INFO - Relative_1 -> Relative_4: Distance = 2.92 km, Mode = Bicycle, Time = 12.68 minutes, Cost = 0.00 units
+2024-11-23 04:29:46,201 - INFO - Relative_1 -> Relative_5: Distance = 4.58 km, Mode = Bus, Time = 11.86 minutes, Cost = 9.15 units
+2024-11-23 04:29:46,201 - INFO - Relative_1 -> Relative_6: Distance = 5.72 km, Mode = Bus, Time = 13.58 minutes, Cost = 11.44 units
+2024-11-23 04:29:46,201 - INFO - Relative_1 -> Relative_7: Distance = 2.37 km, Mode = Bicycle, Time = 10.48 minutes, Cost = 0.00 units
+2024-11-23 04:29:46,201 - INFO - Relative_1 -> Relative_8: Distance = 9.88 km, Mode = Bus, Time = 19.82 minutes, Cost = 19.76 units
+2024-11-23 04:29:46,202 - INFO - Relative_1 -> Relative_9: Distance = 3.13 km, Mode = Bus, Time = 9.70 minutes, Cost = 6.27 units
+2024-11-23 04:29:46,202 - INFO - Relative_1 -> Relative_10: Distance = 6.87 km, Mode = Bus, Time = 15.30 minutes, Cost = 13.73 units
+2024-11-23 04:29:46,202 - INFO - Relative_2 -> Relative_3: Distance = 3.78 km, Mode = Bus, Time = 10.66 minutes, Cost = 7.55 units
+2024-11-23 04:29:46,202 - INFO - Relative_2 -> Relative_4: Distance = 4.36 km, Mode = Bus, Time = 11.53 minutes, Cost = 8.71 units
+2024-11-23 04:29:46,202 - INFO - Relative_2 -> Relative_5: Distance = 6.21 km, Mode = Bus, Time = 14.31 minutes, Cost = 12.41 units
+2024-11-23 04:29:46,203 - INFO - Relative_2 -> Relative_6: Distance = 7.08 km, Mode = Bus, Time = 15.62 minutes, Cost = 14.16 units
+2024-11-23 04:29:46,203 - INFO - Relative_2 -> Relative_7: Distance = 3.81 km, Mode = Bus, Time = 10.72 minutes, Cost = 7.62 units
+2024-11-23 04:29:46,203 - INFO - Relative_2 -> Relative_8: Distance = 11.53 km, Mode = Bus, Time = 22.30 minutes, Cost = 23.07 units
+2024-11-23 04:29:46,203 - INFO - Relative_2 -> Relative_9: Distance = 3.88 km, Mode = Bus, Time = 10.82 minutes, Cost = 7.76 units
+2024-11-23 04:29:46,203 - INFO - Relative_2 -> Relative_10: Distance = 7.08 km, Mode = Bus, Time = 15.61 minutes, Cost = 14.15 units
+2024-11-23 04:29:46,204 - INFO - Relative_3 -> Relative_4: Distance = 1.22 km, Mode = Bicycle, Time = 5.89 minutes, Cost = 0.00 units
+2024-11-23 04:29:46,204 - INFO - Relative_3 -> Relative_5: Distance = 2.96 km, Mode = Bicycle, Time = 12.84 minutes, Cost = 0.00 units
+2024-11-23 04:29:46,204 - INFO - Relative_3 -> Relative_6: Distance = 3.85 km, Mode = Bus, Time = 10.77 minutes, Cost = 7.69 units
+2024-11-23 04:29:46,204 - INFO - Relative_3 -> Relative_7: Distance = 0.93 km, Mode = Walking, Time = 11.14 minutes, Cost = 0.00 units
+2024-11-23 04:29:46,205 - INFO - Relative_3 -> Relative_8: Distance = 7.99 km, Mode = Bus, Time = 16.98 minutes, Cost = 15.98 units
+2024-11-23 04:29:46,205 - INFO - Relative_3 -> Relative_9: Distance = 2.77 km, Mode = Bicycle, Time = 12.10 minutes, Cost = 0.00 units
+2024-11-23 04:29:46,206 - INFO - Relative_3 -> Relative_10: Distance = 6.57 km, Mode = Bus, Time = 14.86 minutes, Cost = 13.15 units
+2024-11-23 04:29:46,206 - INFO - Relative_4 -> Relative_5: Distance = 3.66 km, Mode = Bus, Time = 10.49 minutes, Cost = 7.32 units
+2024-11-23 04:29:46,207 - INFO - Relative_4 -> Relative_6: Distance = 2.80 km, Mode = Bicycle, Time = 12.20 minutes, Cost = 0.00 units
+2024-11-23 04:29:46,207 - INFO - Relative_4 -> Relative_7: Distance = 0.55 km, Mode = Walking, Time = 6.61 minutes, Cost = 0.00 units
+2024-11-23 04:29:46,207 - INFO - Relative_4 -> Relative_8: Distance = 8.17 km, Mode = Bus, Time = 17.25 minutes, Cost = 16.33 units
+2024-11-23 04:29:46,207 - INFO - Relative_4 -> Relative_9: Distance = 1.99 km, Mode = Bicycle, Time = 8.97 minutes, Cost = 0.00 units
+2024-11-23 04:29:46,208 - INFO - Relative_4 -> Relative_10: Distance = 5.54 km, Mode = Bus, Time = 13.31 minutes, Cost = 11.07 units
+2024-11-23 04:29:46,208 - INFO - Relative_5 -> Relative_6: Distance = 4.83 km, Mode = Bus, Time = 12.25 minutes, Cost = 9.66 units
+2024-11-23 04:29:46,208 - INFO - Relative_5 -> Relative_7: Distance = 3.73 km, Mode = Bus, Time = 10.59 minutes, Cost = 7.45 units
+2024-11-23 04:29:46,208 - INFO - Relative_5 -> Relative_8: Distance = 5.35 km, Mode = Bus, Time = 13.03 minutes, Cost = 10.71 units
+2024-11-23 04:29:46,208 - INFO - Relative_5 -> Relative_9: Distance = 5.60 km, Mode = Bus, Time = 13.40 minutes, Cost = 11.20 units
+2024-11-23 04:29:46,209 - INFO - Relative_5 -> Relative_10: Distance = 9.15 km, Mode = Bus, Time = 18.73 minutes, Cost = 18.30 units
+2024-11-23 04:29:46,209 - INFO - Relative_6 -> Relative_7: Distance = 3.35 km, Mode = Bus, Time = 10.02 minutes, Cost = 6.69 units
+2024-11-23 04:29:46,209 - INFO - Relative_6 -> Relative_8: Distance = 7.44 km, Mode = Bus, Time = 16.16 minutes, Cost = 14.88 units
+2024-11-23 04:29:46,209 - INFO - Relative_6 -> Relative_9: Distance = 3.71 km, Mode = Bus, Time = 10.56 minutes, Cost = 7.41 units
+2024-11-23 04:29:46,209 - INFO - Relative_6 -> Relative_10: Distance = 5.40 km, Mode = Bus, Time = 13.10 minutes, Cost = 10.80 units
+2024-11-23 04:29:46,210 - INFO - Relative_7 -> Relative_8: Distance = 8.48 km, Mode = Bus, Time = 17.72 minutes, Cost = 16.96 units
+2024-11-23 04:29:46,210 - INFO - Relative_7 -> Relative_9: Distance = 1.89 km, Mode = Bicycle, Time = 8.56 minutes, Cost = 0.00 units
+2024-11-23 04:29:46,210 - INFO - Relative_7 -> Relative_10: Distance = 5.65 km, Mode = Bus, Time = 13.47 minutes, Cost = 11.30 units
+2024-11-23 04:29:46,210 - INFO - Relative_8 -> Relative_9: Distance = 10.10 km, Mode = Bus, Time = 20.16 minutes, Cost = 20.21 units
+2024-11-23 04:29:46,211 - INFO - Relative_8 -> Relative_10: Distance = 12.82 km, Mode = Bus, Time = 24.23 minutes, Cost = 25.63 units
+2024-11-23 04:29:46,211 - INFO - Relative_9 -> Relative_10: Distance = 3.88 km, Mode = Bus, Time = 10.82 minutes, Cost = 7.76 units
+2024-11-23 04:29:46,211 - INFO - apply_criteria_with_thresholds executed in 0.01 seconds
+2024-11-23 04:29:46,211 - INFO - Optimization type applied: mixed-time
+2024-11-23 04:29:46,212 - INFO - Solving TSP...
+2024-11-23 04:29:46,212 - INFO - Executing solve_tsp with arguments (<tarjanplanner.tsp_solver.TSPSolver object at 0x00000262CB6F9BE0>, <networkx.classes.graph.Graph object at 0x00000262CB6F9A90>) and {}
+2024-11-23 04:29:46,216 - INFO - solve_tsp executed in 0.00 seconds
+2024-11-23 04:29:46,216 - INFO - TSP Path: ['Relative_1', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 04:29:46,216 - INFO - Total Travel Length: 107.84
+2024-11-23 04:29:46,218 - INFO - Total Travel Time: 107.84 minutes
+2024-11-23 04:29:46,218 - INFO - Total Travel Cost: 61.51 currency units
+2024-11-23 04:30:32,883 - INFO - Starting TarjanPlanner...
+2024-11-23 04:30:39,268 - INFO - Executing __init__ with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x0000012DDDF69940>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-11-23 04:30:39,270 - INFO - __init__ executed in 0.00 seconds
+2024-11-23 04:30:39,270 - INFO - Building graph...
+2024-11-23 04:30:39,270 - INFO - Executing build_graph with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x0000012DDDF69940>,) and {}
+2024-11-23 04:30:39,285 - INFO - build_graph executed in 0.01 seconds
+2024-11-23 04:30:39,285 - INFO - Graph built successfully!
+2024-11-23 04:30:39,286 - INFO - Executing apply_criteria_with_thresholds with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x0000012DDDF69940>,) and {'optimize_by': 'cost'}
+2024-11-23 04:30:39,287 - INFO - Relative_1 -> Relative_2: Distance = 1.67 km, Mode = Bicycle, Time = 7.68 minutes, Cost = 0.00 units
+2024-11-23 04:30:39,287 - INFO - Relative_1 -> Relative_3: Distance = 2.14 km, Mode = Bicycle, Time = 9.58 minutes, Cost = 0.00 units
+2024-11-23 04:30:39,287 - INFO - Relative_1 -> Relative_4: Distance = 2.92 km, Mode = Bicycle, Time = 12.68 minutes, Cost = 0.00 units
+2024-11-23 04:30:39,288 - INFO - Relative_1 -> Relative_5: Distance = 4.58 km, Mode = Bus, Time = 11.86 minutes, Cost = 9.15 units
+2024-11-23 04:30:39,288 - INFO - Relative_1 -> Relative_6: Distance = 5.72 km, Mode = Bus, Time = 13.58 minutes, Cost = 11.44 units
+2024-11-23 04:30:39,288 - INFO - Relative_1 -> Relative_7: Distance = 2.37 km, Mode = Bicycle, Time = 10.48 minutes, Cost = 0.00 units
+2024-11-23 04:30:39,289 - INFO - Relative_1 -> Relative_8: Distance = 9.88 km, Mode = Bus, Time = 19.82 minutes, Cost = 19.76 units
+2024-11-23 04:30:39,289 - INFO - Relative_1 -> Relative_9: Distance = 3.13 km, Mode = Bus, Time = 9.70 minutes, Cost = 6.27 units
+2024-11-23 04:30:39,289 - INFO - Relative_1 -> Relative_10: Distance = 6.87 km, Mode = Bus, Time = 15.30 minutes, Cost = 13.73 units
+2024-11-23 04:30:39,290 - INFO - Relative_2 -> Relative_3: Distance = 3.78 km, Mode = Bus, Time = 10.66 minutes, Cost = 7.55 units
+2024-11-23 04:30:39,290 - INFO - Relative_2 -> Relative_4: Distance = 4.36 km, Mode = Bus, Time = 11.53 minutes, Cost = 8.71 units
+2024-11-23 04:30:39,290 - INFO - Relative_2 -> Relative_5: Distance = 6.21 km, Mode = Bus, Time = 14.31 minutes, Cost = 12.41 units
+2024-11-23 04:30:39,291 - INFO - Relative_2 -> Relative_6: Distance = 7.08 km, Mode = Bus, Time = 15.62 minutes, Cost = 14.16 units
+2024-11-23 04:30:39,291 - INFO - Relative_2 -> Relative_7: Distance = 3.81 km, Mode = Bus, Time = 10.72 minutes, Cost = 7.62 units
+2024-11-23 04:30:39,291 - INFO - Relative_2 -> Relative_8: Distance = 11.53 km, Mode = Bus, Time = 22.30 minutes, Cost = 23.07 units
+2024-11-23 04:30:39,292 - INFO - Relative_2 -> Relative_9: Distance = 3.88 km, Mode = Bus, Time = 10.82 minutes, Cost = 7.76 units
+2024-11-23 04:30:39,292 - INFO - Relative_2 -> Relative_10: Distance = 7.08 km, Mode = Bus, Time = 15.61 minutes, Cost = 14.15 units
+2024-11-23 04:30:39,292 - INFO - Relative_3 -> Relative_4: Distance = 1.22 km, Mode = Bicycle, Time = 5.89 minutes, Cost = 0.00 units
+2024-11-23 04:30:39,292 - INFO - Relative_3 -> Relative_5: Distance = 2.96 km, Mode = Bicycle, Time = 12.84 minutes, Cost = 0.00 units
+2024-11-23 04:30:39,293 - INFO - Relative_3 -> Relative_6: Distance = 3.85 km, Mode = Bus, Time = 10.77 minutes, Cost = 7.69 units
+2024-11-23 04:30:39,293 - INFO - Relative_3 -> Relative_7: Distance = 0.93 km, Mode = Walking, Time = 11.14 minutes, Cost = 0.00 units
+2024-11-23 04:30:39,293 - INFO - Relative_3 -> Relative_8: Distance = 7.99 km, Mode = Bus, Time = 16.98 minutes, Cost = 15.98 units
+2024-11-23 04:30:39,293 - INFO - Relative_3 -> Relative_9: Distance = 2.77 km, Mode = Bicycle, Time = 12.10 minutes, Cost = 0.00 units
+2024-11-23 04:30:39,294 - INFO - Relative_3 -> Relative_10: Distance = 6.57 km, Mode = Bus, Time = 14.86 minutes, Cost = 13.15 units
+2024-11-23 04:30:39,294 - INFO - Relative_4 -> Relative_5: Distance = 3.66 km, Mode = Bus, Time = 10.49 minutes, Cost = 7.32 units
+2024-11-23 04:30:39,294 - INFO - Relative_4 -> Relative_6: Distance = 2.80 km, Mode = Bicycle, Time = 12.20 minutes, Cost = 0.00 units
+2024-11-23 04:30:39,295 - INFO - Relative_4 -> Relative_7: Distance = 0.55 km, Mode = Walking, Time = 6.61 minutes, Cost = 0.00 units
+2024-11-23 04:30:39,295 - INFO - Relative_4 -> Relative_8: Distance = 8.17 km, Mode = Bus, Time = 17.25 minutes, Cost = 16.33 units
+2024-11-23 04:30:39,295 - INFO - Relative_4 -> Relative_9: Distance = 1.99 km, Mode = Bicycle, Time = 8.97 minutes, Cost = 0.00 units
+2024-11-23 04:30:39,296 - INFO - Relative_4 -> Relative_10: Distance = 5.54 km, Mode = Bus, Time = 13.31 minutes, Cost = 11.07 units
+2024-11-23 04:30:39,296 - INFO - Relative_5 -> Relative_6: Distance = 4.83 km, Mode = Bus, Time = 12.25 minutes, Cost = 9.66 units
+2024-11-23 04:30:39,297 - INFO - Relative_5 -> Relative_7: Distance = 3.73 km, Mode = Bus, Time = 10.59 minutes, Cost = 7.45 units
+2024-11-23 04:30:39,297 - INFO - Relative_5 -> Relative_8: Distance = 5.35 km, Mode = Bus, Time = 13.03 minutes, Cost = 10.71 units
+2024-11-23 04:30:39,297 - INFO - Relative_5 -> Relative_9: Distance = 5.60 km, Mode = Bus, Time = 13.40 minutes, Cost = 11.20 units
+2024-11-23 04:30:39,298 - INFO - Relative_5 -> Relative_10: Distance = 9.15 km, Mode = Bus, Time = 18.73 minutes, Cost = 18.30 units
+2024-11-23 04:30:39,298 - INFO - Relative_6 -> Relative_7: Distance = 3.35 km, Mode = Bus, Time = 10.02 minutes, Cost = 6.69 units
+2024-11-23 04:30:39,298 - INFO - Relative_6 -> Relative_8: Distance = 7.44 km, Mode = Bus, Time = 16.16 minutes, Cost = 14.88 units
+2024-11-23 04:30:39,298 - INFO - Relative_6 -> Relative_9: Distance = 3.71 km, Mode = Bus, Time = 10.56 minutes, Cost = 7.41 units
+2024-11-23 04:30:39,299 - INFO - Relative_6 -> Relative_10: Distance = 5.40 km, Mode = Bus, Time = 13.10 minutes, Cost = 10.80 units
+2024-11-23 04:30:39,299 - INFO - Relative_7 -> Relative_8: Distance = 8.48 km, Mode = Bus, Time = 17.72 minutes, Cost = 16.96 units
+2024-11-23 04:30:39,299 - INFO - Relative_7 -> Relative_9: Distance = 1.89 km, Mode = Bicycle, Time = 8.56 minutes, Cost = 0.00 units
+2024-11-23 04:30:39,299 - INFO - Relative_7 -> Relative_10: Distance = 5.65 km, Mode = Bus, Time = 13.47 minutes, Cost = 11.30 units
+2024-11-23 04:30:39,299 - INFO - Relative_8 -> Relative_9: Distance = 10.10 km, Mode = Bus, Time = 20.16 minutes, Cost = 20.21 units
+2024-11-23 04:30:39,300 - INFO - Relative_8 -> Relative_10: Distance = 12.82 km, Mode = Bus, Time = 24.23 minutes, Cost = 25.63 units
+2024-11-23 04:30:39,300 - INFO - Relative_9 -> Relative_10: Distance = 3.88 km, Mode = Bus, Time = 10.82 minutes, Cost = 7.76 units
+2024-11-23 04:30:39,300 - INFO - apply_criteria_with_thresholds executed in 0.01 seconds
+2024-11-23 04:30:39,300 - INFO - Optimization type applied: mixed-cost
+2024-11-23 04:30:39,300 - INFO - Solving TSP...
+2024-11-23 04:30:39,301 - INFO - Executing solve_tsp with arguments (<tarjanplanner.tsp_solver.TSPSolver object at 0x0000012DDDF69BE0>, <networkx.classes.graph.Graph object at 0x0000012DDDF69A90>) and {}
+2024-11-23 04:30:39,305 - INFO - solve_tsp executed in 0.00 seconds
+2024-11-23 04:30:39,305 - INFO - TSP Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_5', 'Relative_3', 'Relative_9', 'Relative_10', 'Relative_9', 'Relative_3', 'Relative_5', 'Relative_3', 'Relative_4', 'Relative_6', 'Relative_4', 'Relative_3', 'Relative_7', 'Relative_1', 'Relative_2', 'Relative_1']
+2024-11-23 04:30:39,306 - INFO - Total Travel Length: 36.93
+2024-11-23 04:30:39,307 - INFO - Total Travel Time: 206.00 minutes
+2024-11-23 04:30:39,307 - INFO - Total Travel Cost: 36.93 currency units
+2024-11-23 04:30:57,923 - INFO - Starting TarjanPlanner...
+2024-11-23 04:31:00,885 - INFO - Executing __init__ with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x0000026235E69940>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-11-23 04:31:00,886 - INFO - __init__ executed in 0.00 seconds
+2024-11-23 04:31:00,887 - INFO - Building graph...
+2024-11-23 04:31:00,887 - INFO - Executing build_graph with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x0000026235E69940>,) and {}
+2024-11-23 04:31:00,901 - INFO - build_graph executed in 0.01 seconds
+2024-11-23 04:31:00,902 - INFO - Graph built successfully!
+2024-11-23 04:31:00,902 - INFO - Executing apply_criteria_with_thresholds with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x0000026235E69940>,) and {'optimize_by': 'time'}
+2024-11-23 04:31:00,902 - INFO - Relative_1 -> Relative_2: Distance = 1.67 km, Mode = Bicycle, Time = 7.68 minutes, Cost = 0.00 units
+2024-11-23 04:31:00,903 - INFO - Relative_1 -> Relative_3: Distance = 2.14 km, Mode = Bicycle, Time = 9.58 minutes, Cost = 0.00 units
+2024-11-23 04:31:00,903 - INFO - Relative_1 -> Relative_4: Distance = 2.92 km, Mode = Bicycle, Time = 12.68 minutes, Cost = 0.00 units
+2024-11-23 04:31:00,904 - INFO - Relative_1 -> Relative_5: Distance = 4.58 km, Mode = Bus, Time = 11.86 minutes, Cost = 9.15 units
+2024-11-23 04:31:00,904 - INFO - Relative_1 -> Relative_6: Distance = 5.72 km, Mode = Bus, Time = 13.58 minutes, Cost = 11.44 units
+2024-11-23 04:31:00,904 - INFO - Relative_1 -> Relative_7: Distance = 2.37 km, Mode = Bicycle, Time = 10.48 minutes, Cost = 0.00 units
+2024-11-23 04:31:00,905 - INFO - Relative_1 -> Relative_8: Distance = 9.88 km, Mode = Bus, Time = 19.82 minutes, Cost = 19.76 units
+2024-11-23 04:31:00,905 - INFO - Relative_1 -> Relative_9: Distance = 3.13 km, Mode = Bus, Time = 9.70 minutes, Cost = 6.27 units
+2024-11-23 04:31:00,905 - INFO - Relative_1 -> Relative_10: Distance = 6.87 km, Mode = Bus, Time = 15.30 minutes, Cost = 13.73 units
+2024-11-23 04:31:00,906 - INFO - Relative_2 -> Relative_3: Distance = 3.78 km, Mode = Bus, Time = 10.66 minutes, Cost = 7.55 units
+2024-11-23 04:31:00,906 - INFO - Relative_2 -> Relative_4: Distance = 4.36 km, Mode = Bus, Time = 11.53 minutes, Cost = 8.71 units
+2024-11-23 04:31:00,906 - INFO - Relative_2 -> Relative_5: Distance = 6.21 km, Mode = Bus, Time = 14.31 minutes, Cost = 12.41 units
+2024-11-23 04:31:00,907 - INFO - Relative_2 -> Relative_6: Distance = 7.08 km, Mode = Bus, Time = 15.62 minutes, Cost = 14.16 units
+2024-11-23 04:31:00,907 - INFO - Relative_2 -> Relative_7: Distance = 3.81 km, Mode = Bus, Time = 10.72 minutes, Cost = 7.62 units
+2024-11-23 04:31:00,907 - INFO - Relative_2 -> Relative_8: Distance = 11.53 km, Mode = Bus, Time = 22.30 minutes, Cost = 23.07 units
+2024-11-23 04:31:00,907 - INFO - Relative_2 -> Relative_9: Distance = 3.88 km, Mode = Bus, Time = 10.82 minutes, Cost = 7.76 units
+2024-11-23 04:31:00,908 - INFO - Relative_2 -> Relative_10: Distance = 7.08 km, Mode = Bus, Time = 15.61 minutes, Cost = 14.15 units
+2024-11-23 04:31:00,908 - INFO - Relative_3 -> Relative_4: Distance = 1.22 km, Mode = Bicycle, Time = 5.89 minutes, Cost = 0.00 units
+2024-11-23 04:31:00,909 - INFO - Relative_3 -> Relative_5: Distance = 2.96 km, Mode = Bicycle, Time = 12.84 minutes, Cost = 0.00 units
+2024-11-23 04:31:00,909 - INFO - Relative_3 -> Relative_6: Distance = 3.85 km, Mode = Bus, Time = 10.77 minutes, Cost = 7.69 units
+2024-11-23 04:31:00,909 - INFO - Relative_3 -> Relative_7: Distance = 0.93 km, Mode = Walking, Time = 11.14 minutes, Cost = 0.00 units
+2024-11-23 04:31:00,909 - INFO - Relative_3 -> Relative_8: Distance = 7.99 km, Mode = Bus, Time = 16.98 minutes, Cost = 15.98 units
+2024-11-23 04:31:00,910 - INFO - Relative_3 -> Relative_9: Distance = 2.77 km, Mode = Bicycle, Time = 12.10 minutes, Cost = 0.00 units
+2024-11-23 04:31:00,910 - INFO - Relative_3 -> Relative_10: Distance = 6.57 km, Mode = Bus, Time = 14.86 minutes, Cost = 13.15 units
+2024-11-23 04:31:00,910 - INFO - Relative_4 -> Relative_5: Distance = 3.66 km, Mode = Bus, Time = 10.49 minutes, Cost = 7.32 units
+2024-11-23 04:31:00,910 - INFO - Relative_4 -> Relative_6: Distance = 2.80 km, Mode = Bicycle, Time = 12.20 minutes, Cost = 0.00 units
+2024-11-23 04:31:00,910 - INFO - Relative_4 -> Relative_7: Distance = 0.55 km, Mode = Walking, Time = 6.61 minutes, Cost = 0.00 units
+2024-11-23 04:31:00,911 - INFO - Relative_4 -> Relative_8: Distance = 8.17 km, Mode = Bus, Time = 17.25 minutes, Cost = 16.33 units
+2024-11-23 04:31:00,911 - INFO - Relative_4 -> Relative_9: Distance = 1.99 km, Mode = Bicycle, Time = 8.97 minutes, Cost = 0.00 units
+2024-11-23 04:31:00,912 - INFO - Relative_4 -> Relative_10: Distance = 5.54 km, Mode = Bus, Time = 13.31 minutes, Cost = 11.07 units
+2024-11-23 04:31:00,912 - INFO - Relative_5 -> Relative_6: Distance = 4.83 km, Mode = Bus, Time = 12.25 minutes, Cost = 9.66 units
+2024-11-23 04:31:00,913 - INFO - Relative_5 -> Relative_7: Distance = 3.73 km, Mode = Bus, Time = 10.59 minutes, Cost = 7.45 units
+2024-11-23 04:31:00,913 - INFO - Relative_5 -> Relative_8: Distance = 5.35 km, Mode = Bus, Time = 13.03 minutes, Cost = 10.71 units
+2024-11-23 04:31:00,914 - INFO - Relative_5 -> Relative_9: Distance = 5.60 km, Mode = Bus, Time = 13.40 minutes, Cost = 11.20 units
+2024-11-23 04:31:00,914 - INFO - Relative_5 -> Relative_10: Distance = 9.15 km, Mode = Bus, Time = 18.73 minutes, Cost = 18.30 units
+2024-11-23 04:31:00,914 - INFO - Relative_6 -> Relative_7: Distance = 3.35 km, Mode = Bus, Time = 10.02 minutes, Cost = 6.69 units
+2024-11-23 04:31:00,915 - INFO - Relative_6 -> Relative_8: Distance = 7.44 km, Mode = Bus, Time = 16.16 minutes, Cost = 14.88 units
+2024-11-23 04:31:00,915 - INFO - Relative_6 -> Relative_9: Distance = 3.71 km, Mode = Bus, Time = 10.56 minutes, Cost = 7.41 units
+2024-11-23 04:31:00,915 - INFO - Relative_6 -> Relative_10: Distance = 5.40 km, Mode = Bus, Time = 13.10 minutes, Cost = 10.80 units
+2024-11-23 04:31:00,916 - INFO - Relative_7 -> Relative_8: Distance = 8.48 km, Mode = Bus, Time = 17.72 minutes, Cost = 16.96 units
+2024-11-23 04:31:00,916 - INFO - Relative_7 -> Relative_9: Distance = 1.89 km, Mode = Bicycle, Time = 8.56 minutes, Cost = 0.00 units
+2024-11-23 04:31:00,916 - INFO - Relative_7 -> Relative_10: Distance = 5.65 km, Mode = Bus, Time = 13.47 minutes, Cost = 11.30 units
+2024-11-23 04:31:00,916 - INFO - Relative_8 -> Relative_9: Distance = 10.10 km, Mode = Bus, Time = 20.16 minutes, Cost = 20.21 units
+2024-11-23 04:31:00,916 - INFO - Relative_8 -> Relative_10: Distance = 12.82 km, Mode = Bus, Time = 24.23 minutes, Cost = 25.63 units
+2024-11-23 04:31:00,917 - INFO - Relative_9 -> Relative_10: Distance = 3.88 km, Mode = Bus, Time = 10.82 minutes, Cost = 7.76 units
+2024-11-23 04:31:00,917 - INFO - apply_criteria_with_thresholds executed in 0.01 seconds
+2024-11-23 04:31:00,917 - INFO - Optimization type applied: mixed-time
+2024-11-23 04:31:00,917 - INFO - Solving TSP...
+2024-11-23 04:31:00,917 - INFO - Executing solve_tsp with arguments (<tarjanplanner.tsp_solver.TSPSolver object at 0x0000026235E69BE0>, <networkx.classes.graph.Graph object at 0x0000026235E69A90>) and {}
+2024-11-23 04:31:00,921 - INFO - solve_tsp executed in 0.00 seconds
+2024-11-23 04:31:00,922 - INFO - TSP Path: ['Relative_1', 'Relative_3', 'Relative_4', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 04:31:00,922 - INFO - Total Travel Length: 107.84
+2024-11-23 04:31:00,923 - INFO - Total Travel Time: 107.84 minutes
+2024-11-23 04:31:00,923 - INFO - Total Travel Cost: 61.51 currency units
+2024-11-23 04:31:14,070 - INFO - Starting TarjanPlanner...
+2024-11-23 04:31:17,288 - INFO - Executing __init__ with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000001E702C79940>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-11-23 04:31:17,290 - INFO - __init__ executed in 0.00 seconds
+2024-11-23 04:31:17,290 - INFO - Building graph...
+2024-11-23 04:31:17,290 - INFO - Executing build_graph with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000001E702C79940>,) and {}
+2024-11-23 04:31:17,305 - INFO - build_graph executed in 0.01 seconds
+2024-11-23 04:31:17,306 - INFO - Graph built successfully!
+2024-11-23 04:31:17,306 - INFO - Executing apply_criteria with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x000001E702C79940>, 'mixed') and {}
+2024-11-23 04:31:17,307 - INFO - Relative_1 -> Relative_2: Distance = 1.67 km, Mode = Bicycle, Time = 7.68 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,307 - INFO - Relative_1 -> Relative_3: Distance = 2.14 km, Mode = Bicycle, Time = 9.58 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,307 - INFO - Relative_1 -> Relative_4: Distance = 2.92 km, Mode = Bicycle, Time = 12.68 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,308 - INFO - Relative_1 -> Relative_5: Distance = 4.58 km, Mode = Bicycle, Time = 19.30 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,308 - INFO - Relative_1 -> Relative_6: Distance = 5.72 km, Mode = Bicycle, Time = 23.87 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,308 - INFO - Relative_1 -> Relative_7: Distance = 2.37 km, Mode = Bicycle, Time = 10.48 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,308 - INFO - Relative_1 -> Relative_8: Distance = 9.88 km, Mode = Bus, Time = 19.82 minutes, Cost = 19.76 units
+2024-11-23 04:31:17,309 - INFO - Relative_1 -> Relative_9: Distance = 3.13 km, Mode = Bicycle, Time = 13.54 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,309 - INFO - Relative_1 -> Relative_10: Distance = 6.87 km, Mode = Bicycle, Time = 28.46 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,309 - INFO - Relative_2 -> Relative_3: Distance = 3.78 km, Mode = Bicycle, Time = 16.10 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,310 - INFO - Relative_2 -> Relative_4: Distance = 4.36 km, Mode = Bicycle, Time = 18.42 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,310 - INFO - Relative_2 -> Relative_5: Distance = 6.21 km, Mode = Bicycle, Time = 25.82 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,310 - INFO - Relative_2 -> Relative_6: Distance = 7.08 km, Mode = Bicycle, Time = 29.33 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,310 - INFO - Relative_2 -> Relative_7: Distance = 3.81 km, Mode = Bicycle, Time = 16.25 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,310 - INFO - Relative_2 -> Relative_8: Distance = 11.53 km, Mode = Bus, Time = 22.30 minutes, Cost = 23.07 units
+2024-11-23 04:31:17,311 - INFO - Relative_2 -> Relative_9: Distance = 3.88 km, Mode = Bicycle, Time = 16.53 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,311 - INFO - Relative_2 -> Relative_10: Distance = 7.08 km, Mode = Bicycle, Time = 29.30 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,311 - INFO - Relative_3 -> Relative_4: Distance = 1.22 km, Mode = Bicycle, Time = 5.89 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,312 - INFO - Relative_3 -> Relative_5: Distance = 2.96 km, Mode = Bicycle, Time = 12.84 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,312 - INFO - Relative_3 -> Relative_6: Distance = 3.85 km, Mode = Bicycle, Time = 16.38 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,312 - INFO - Relative_3 -> Relative_7: Distance = 0.93 km, Mode = Bicycle, Time = 4.71 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,312 - INFO - Relative_3 -> Relative_8: Distance = 7.99 km, Mode = Bicycle, Time = 32.96 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,313 - INFO - Relative_3 -> Relative_9: Distance = 2.77 km, Mode = Bicycle, Time = 12.10 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,313 - INFO - Relative_3 -> Relative_10: Distance = 6.57 km, Mode = Bicycle, Time = 27.30 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,313 - INFO - Relative_4 -> Relative_5: Distance = 3.66 km, Mode = Bicycle, Time = 15.63 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,313 - INFO - Relative_4 -> Relative_6: Distance = 2.80 km, Mode = Bicycle, Time = 12.20 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,314 - INFO - Relative_4 -> Relative_7: Distance = 0.55 km, Mode = Bicycle, Time = 3.20 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,314 - INFO - Relative_4 -> Relative_8: Distance = 8.17 km, Mode = Bus, Time = 17.25 minutes, Cost = 16.33 units
+2024-11-23 04:31:17,314 - INFO - Relative_4 -> Relative_9: Distance = 1.99 km, Mode = Bicycle, Time = 8.97 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,314 - INFO - Relative_4 -> Relative_10: Distance = 5.54 km, Mode = Bicycle, Time = 23.15 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,314 - INFO - Relative_5 -> Relative_6: Distance = 4.83 km, Mode = Bicycle, Time = 20.32 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,315 - INFO - Relative_5 -> Relative_7: Distance = 3.73 km, Mode = Bicycle, Time = 15.91 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,315 - INFO - Relative_5 -> Relative_8: Distance = 5.35 km, Mode = Bicycle, Time = 22.41 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,315 - INFO - Relative_5 -> Relative_9: Distance = 5.60 km, Mode = Bicycle, Time = 23.40 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,315 - INFO - Relative_5 -> Relative_10: Distance = 9.15 km, Mode = Bus, Time = 18.73 minutes, Cost = 18.30 units
+2024-11-23 04:31:17,316 - INFO - Relative_6 -> Relative_7: Distance = 3.35 km, Mode = Bicycle, Time = 14.39 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,316 - INFO - Relative_6 -> Relative_8: Distance = 7.44 km, Mode = Bicycle, Time = 30.77 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,317 - INFO - Relative_6 -> Relative_9: Distance = 3.71 km, Mode = Bicycle, Time = 15.83 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,317 - INFO - Relative_6 -> Relative_10: Distance = 5.40 km, Mode = Bicycle, Time = 22.60 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,317 - INFO - Relative_7 -> Relative_8: Distance = 8.48 km, Mode = Bus, Time = 17.72 minutes, Cost = 16.96 units
+2024-11-23 04:31:17,317 - INFO - Relative_7 -> Relative_9: Distance = 1.89 km, Mode = Bicycle, Time = 8.56 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,317 - INFO - Relative_7 -> Relative_10: Distance = 5.65 km, Mode = Bicycle, Time = 23.59 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,318 - INFO - Relative_8 -> Relative_9: Distance = 10.10 km, Mode = Bus, Time = 20.16 minutes, Cost = 20.21 units
+2024-11-23 04:31:17,318 - INFO - Relative_8 -> Relative_10: Distance = 12.82 km, Mode = Bus, Time = 24.23 minutes, Cost = 25.63 units
+2024-11-23 04:31:17,318 - INFO - Relative_9 -> Relative_10: Distance = 3.88 km, Mode = Bicycle, Time = 16.52 minutes, Cost = 0.00 units
+2024-11-23 04:31:17,318 - INFO - apply_criteria executed in 0.01 seconds
+2024-11-23 04:31:17,319 - INFO - Optimization type applied: balanced
+2024-11-23 04:31:17,319 - INFO - Solving TSP...
+2024-11-23 04:31:17,319 - INFO - Executing solve_tsp with arguments (<tarjanplanner.tsp_solver.TSPSolver object at 0x000001E702C79BE0>, <networkx.classes.graph.Graph object at 0x000001E702C79A90>) and {}
+2024-11-23 04:31:17,323 - INFO - solve_tsp executed in 0.00 seconds
+2024-11-23 04:31:17,323 - INFO - TSP Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_4', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 04:31:17,324 - INFO - Total Travel Length: 153.06
+2024-11-23 04:31:17,325 - INFO - Total Travel Time: 153.06 minutes
+2024-11-23 04:31:17,326 - INFO - Total Travel Cost: 0.00 currency units
+2024-11-23 04:57:09,238 - INFO - Starting TarjanPlanner...
+2024-11-23 04:57:20,705 - INFO - Executing __init__ with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x00000138B9DC1E80>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-11-23 04:57:20,707 - INFO - __init__ executed in 0.00 seconds
+2024-11-23 04:57:20,707 - INFO - Building graph...
+2024-11-23 04:57:20,707 - INFO - Executing build_graph with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x00000138B9DC1E80>,) and {}
+2024-11-23 04:57:20,723 - INFO - build_graph executed in 0.01 seconds
+2024-11-23 04:57:20,723 - INFO - Graph built successfully!
+2024-11-23 04:57:20,724 - INFO - Executing apply_criteria with arguments (<tarjanplanner.graph_builder.GraphBuilder object at 0x00000138B9DC1E80>, 'mixed') and {}
+2024-11-23 04:57:20,724 - INFO - Relative_1 -> Relative_2: Distance = 1.67 km, Mode = Bicycle, Time = 7.68 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,725 - INFO - Relative_1 -> Relative_3: Distance = 2.14 km, Mode = Bicycle, Time = 9.58 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,725 - INFO - Relative_1 -> Relative_4: Distance = 2.92 km, Mode = Bicycle, Time = 12.68 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,725 - INFO - Relative_1 -> Relative_5: Distance = 4.58 km, Mode = Bicycle, Time = 19.30 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,726 - INFO - Relative_1 -> Relative_6: Distance = 5.72 km, Mode = Bicycle, Time = 23.87 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,726 - INFO - Relative_1 -> Relative_7: Distance = 2.37 km, Mode = Bicycle, Time = 10.48 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,726 - INFO - Relative_1 -> Relative_8: Distance = 9.88 km, Mode = Bus, Time = 19.82 minutes, Cost = 19.76 units
+2024-11-23 04:57:20,727 - INFO - Relative_1 -> Relative_9: Distance = 3.13 km, Mode = Bicycle, Time = 13.54 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,727 - INFO - Relative_1 -> Relative_10: Distance = 6.87 km, Mode = Bicycle, Time = 28.46 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,728 - INFO - Relative_2 -> Relative_3: Distance = 3.78 km, Mode = Bicycle, Time = 16.10 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,728 - INFO - Relative_2 -> Relative_4: Distance = 4.36 km, Mode = Bicycle, Time = 18.42 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,729 - INFO - Relative_2 -> Relative_5: Distance = 6.21 km, Mode = Bicycle, Time = 25.82 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,729 - INFO - Relative_2 -> Relative_6: Distance = 7.08 km, Mode = Bicycle, Time = 29.33 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,730 - INFO - Relative_2 -> Relative_7: Distance = 3.81 km, Mode = Bicycle, Time = 16.25 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,730 - INFO - Relative_2 -> Relative_8: Distance = 11.53 km, Mode = Bus, Time = 22.30 minutes, Cost = 23.07 units
+2024-11-23 04:57:20,730 - INFO - Relative_2 -> Relative_9: Distance = 3.88 km, Mode = Bicycle, Time = 16.53 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,730 - INFO - Relative_2 -> Relative_10: Distance = 7.08 km, Mode = Bicycle, Time = 29.30 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,731 - INFO - Relative_3 -> Relative_4: Distance = 1.22 km, Mode = Bicycle, Time = 5.89 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,731 - INFO - Relative_3 -> Relative_5: Distance = 2.96 km, Mode = Bicycle, Time = 12.84 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,731 - INFO - Relative_3 -> Relative_6: Distance = 3.85 km, Mode = Bicycle, Time = 16.38 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,731 - INFO - Relative_3 -> Relative_7: Distance = 0.93 km, Mode = Bicycle, Time = 4.71 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,731 - INFO - Relative_3 -> Relative_8: Distance = 7.99 km, Mode = Bicycle, Time = 32.96 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,732 - INFO - Relative_3 -> Relative_9: Distance = 2.77 km, Mode = Bicycle, Time = 12.10 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,732 - INFO - Relative_3 -> Relative_10: Distance = 6.57 km, Mode = Bicycle, Time = 27.30 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,732 - INFO - Relative_4 -> Relative_5: Distance = 3.66 km, Mode = Bicycle, Time = 15.63 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,732 - INFO - Relative_4 -> Relative_6: Distance = 2.80 km, Mode = Bicycle, Time = 12.20 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,732 - INFO - Relative_4 -> Relative_7: Distance = 0.55 km, Mode = Bicycle, Time = 3.20 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,733 - INFO - Relative_4 -> Relative_8: Distance = 8.17 km, Mode = Bus, Time = 17.25 minutes, Cost = 16.33 units
+2024-11-23 04:57:20,733 - INFO - Relative_4 -> Relative_9: Distance = 1.99 km, Mode = Bicycle, Time = 8.97 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,733 - INFO - Relative_4 -> Relative_10: Distance = 5.54 km, Mode = Bicycle, Time = 23.15 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,733 - INFO - Relative_5 -> Relative_6: Distance = 4.83 km, Mode = Bicycle, Time = 20.32 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,734 - INFO - Relative_5 -> Relative_7: Distance = 3.73 km, Mode = Bicycle, Time = 15.91 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,734 - INFO - Relative_5 -> Relative_8: Distance = 5.35 km, Mode = Bicycle, Time = 22.41 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,734 - INFO - Relative_5 -> Relative_9: Distance = 5.60 km, Mode = Bicycle, Time = 23.40 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,735 - INFO - Relative_5 -> Relative_10: Distance = 9.15 km, Mode = Bus, Time = 18.73 minutes, Cost = 18.30 units
+2024-11-23 04:57:20,735 - INFO - Relative_6 -> Relative_7: Distance = 3.35 km, Mode = Bicycle, Time = 14.39 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,735 - INFO - Relative_6 -> Relative_8: Distance = 7.44 km, Mode = Bicycle, Time = 30.77 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,735 - INFO - Relative_6 -> Relative_9: Distance = 3.71 km, Mode = Bicycle, Time = 15.83 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,736 - INFO - Relative_6 -> Relative_10: Distance = 5.40 km, Mode = Bicycle, Time = 22.60 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,736 - INFO - Relative_7 -> Relative_8: Distance = 8.48 km, Mode = Bus, Time = 17.72 minutes, Cost = 16.96 units
+2024-11-23 04:57:20,736 - INFO - Relative_7 -> Relative_9: Distance = 1.89 km, Mode = Bicycle, Time = 8.56 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,736 - INFO - Relative_7 -> Relative_10: Distance = 5.65 km, Mode = Bicycle, Time = 23.59 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,737 - INFO - Relative_8 -> Relative_9: Distance = 10.10 km, Mode = Bus, Time = 20.16 minutes, Cost = 20.21 units
+2024-11-23 04:57:20,737 - INFO - Relative_8 -> Relative_10: Distance = 12.82 km, Mode = Bus, Time = 24.23 minutes, Cost = 25.63 units
+2024-11-23 04:57:20,737 - INFO - Relative_9 -> Relative_10: Distance = 3.88 km, Mode = Bicycle, Time = 16.52 minutes, Cost = 0.00 units
+2024-11-23 04:57:20,737 - INFO - apply_criteria executed in 0.01 seconds
+2024-11-23 04:57:20,738 - INFO - Optimization type applied: balanced
+2024-11-23 04:57:20,738 - INFO - Solving TSP...
+2024-11-23 04:57:20,738 - INFO - Executing solve_tsp with arguments (<tarjanplanner.tsp_solver.TSPSolver object at 0x00000138B9DC2120>, <networkx.classes.graph.Graph object at 0x00000138B9DC1FD0>) and {}
+2024-11-23 04:57:20,741 - INFO - solve_tsp executed in 0.00 seconds
+2024-11-23 04:57:20,742 - INFO - TSP Path: ['Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_4', 'Relative_7', 'Relative_9', 'Relative_10', 'Relative_2', 'Relative_1']
+2024-11-23 04:57:20,742 - INFO - Total Travel Length: 153.06
+2024-11-23 04:57:20,743 - INFO - Total Travel Time: 153.06 minutes
+2024-11-23 04:57:20,743 - INFO - Total Travel Cost: 0.00 currency units
