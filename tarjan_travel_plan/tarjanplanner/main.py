@@ -83,14 +83,16 @@ def main():
         logging.info("Graph built successfully!")
 
         # Step 5: Apply optimization logic
+        # Apply optimization logic
         if optimization_type == "single":
-            builder.apply_criteria("time", transport_mode=transport_mode)
+            builder.apply_criteria("time", transport_mode=transport_mode)  # Correct argument name
         elif optimization_type == "mixed-time":
             builder.apply_criteria_with_thresholds(optimize_by="time")
         elif optimization_type == "mixed-cost":
             builder.apply_criteria_with_thresholds(optimize_by="cost")
         elif optimization_type == "balanced":
             builder.apply_criteria("mixed")
+
 
         logging.info(f"Optimization type applied: {optimization_type}")
 

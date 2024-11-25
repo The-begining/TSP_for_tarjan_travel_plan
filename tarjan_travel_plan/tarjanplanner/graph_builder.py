@@ -66,9 +66,10 @@ class GraphBuilder:
                 f"Time = {time_minutes:.2f} minutes, Cost = {cost_units:.2f} units"
             )
 
-    def apply_criteria(self, criteria="distance"):
+    def apply_criteria(self, criteria="distance", transport_mode=None):
         """
         Apply weights to edges based on specific criteria (distance, time, cost, or mixed).
+        If a specific transport_mode is provided, calculate weights only for that mode.
         """
         if criteria not in ["distance", "time", "cost", "mixed"]:
             raise ValueError("Invalid criteria! Use 'distance', 'time', 'cost', or 'mixed'.")
@@ -76,7 +77,22 @@ class GraphBuilder:
         for u, v, data in self.graph.edges(data=True):
             distance_km = data["distance"]
 
-            if criteria == "distance":
+            if transport_mode:  # If a single transport mode is specified
+                details = self.transport_modes[transport_mode]
+                speed_kmh = details["speed_kmh"]
+                cost_per_km = details["cost_per_km"]
+                transfer_time_min = details["transfer_time_min"]
+
+                # Calculate time and cost for the specified mode
+                time = (distance_km / speed_kmh) * 60 + transfer_time_min
+                cost = distance_km * cost_per_km
+
+                data["mode"] = transport_mode
+                data["time"] = time
+                data["cost"] = cost
+                data["weight"] = time if criteria == "time" else cost
+
+            elif criteria == "distance":
                 data["weight"] = distance_km
 
             elif criteria == "time":
@@ -119,6 +135,6 @@ class GraphBuilder:
 
             # Log the applied criteria
             logging.info(
-                f"{u} -> {v}: Distance = {distance_km:.2f} km, Mode = {data['mode']}, "
+                f"{u} -> {v}: Distance = {distance_km:.2f} km, Mode = {data.get('mode', 'N/A')}, "
                 f"Time = {data.get('time', 0):.2f} minutes, Cost = {data.get('cost', 0):.2f} units"
             )
