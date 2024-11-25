@@ -24,7 +24,7 @@ from tarjanplanner.utils import add_logging_to_methods
 
 @add_logging_to_methods
 class TSPSolver:
-    def solve_tsp(self, graph, method="approximation"):
+    def solve_tsp(self, graph, method="greedy"):
         """
         Solves the Traveling Salesman Problem on the provided graph.
         
@@ -55,6 +55,7 @@ class TSPSolver:
         Returns:
             tuple: (tsp_path, tsp_length)
         """
+        print("approximation")
         tsp_path = tsp(graph, cycle=True)  # Returns an approximate solution
         tsp_length = sum(graph[u][v]["weight"] for u, v in zip(tsp_path, tsp_path[1:]))
 
@@ -71,6 +72,7 @@ class TSPSolver:
             tuple: (tsp_path, tsp_length)
         """
         # Start at an arbitrary node (e.g., the first node in the graph)
+        print("nearest neighbour")
         start_node = list(graph.nodes)[0]
         path = [start_node]
         current_node = start_node

@@ -66,7 +66,7 @@ class GraphBuilder:
                 f"Time = {time_minutes:.2f} minutes, Cost = {cost_units:.2f} units"
             )
 
-    def apply_criteria(self, criteria="distance", transport_mode=None):
+    def apply_criteria(self, criteria="distance", transport_mode=None, w_time=0.5, w_cost=0.5):
         """
         Apply weights to edges based on specific criteria (distance, time, cost, or mixed).
         If a specific transport_mode is provided, calculate weights only for that mode.
@@ -120,18 +120,30 @@ class GraphBuilder:
                 data["cost"] = best_cost
 
             elif criteria == "mixed":
-                # Combine time and cost for balanced optimization
+                # Precompute max time and cost for normalization
                 best_combined = float("inf")
+                max_time = max((distance_km / details["speed_kmh"]) * 60 + details["transfer_time_min"]
+                            for mode, details in self.transport_modes.items())
+                max_cost = max(distance_km * details["cost_per_km"]
+                            for mode, details in self.transport_modes.items())
+
                 for mode, details in self.transport_modes.items():
                     cost = distance_km * details["cost_per_km"]
                     time = (distance_km / details["speed_kmh"]) * 60 + details["transfer_time_min"]
-                    combined_weight = cost + time  # Balance cost and time equally
+
+                    # Normalize time and cost
+                    normalized_time = time / max_time
+                    normalized_cost = cost / max_cost
+
+                    # Weighted combination
+                    combined_weight = w_time * normalized_time + w_cost * normalized_cost
                     if combined_weight < best_combined:
                         best_combined = combined_weight
                         data["mode"] = mode
                         data["cost"] = cost
                         data["time"] = time
                 data["weight"] = best_combined
+
 
             # Log the applied criteria
             logging.info(

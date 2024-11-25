@@ -90,8 +90,11 @@ def main():
             builder.apply_criteria_with_thresholds(optimize_by="time")
         elif optimization_type == "mixed-cost":
             builder.apply_criteria_with_thresholds(optimize_by="cost")
-        elif optimization_type == "balanced":
-            builder.apply_criteria("mixed")
+        if optimization_type == "balanced":
+            w_time = 0.7
+            w_cost = 0.3
+            builder.apply_criteria("mixed", w_time=w_time, w_cost=w_cost)
+
 
 
         logging.info(f"Optimization type applied: {optimization_type}")
