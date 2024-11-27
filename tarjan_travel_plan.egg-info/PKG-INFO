@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tarjan_travel_plan
+Version: 1.0.0
+Summary: TSP Solver for Tarjan's travel planning problem
+Author: Shubham Singh
+Author-email: shsin5910@oslomet.no
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: networkx
+Requires-Dist: geopy
+Requires-Dist: matplotlib
+Requires-Dist: pytest

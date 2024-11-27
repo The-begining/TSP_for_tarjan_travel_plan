@@ -1,0 +1,2 @@
+[console_scripts]
+tarjan-planner = tarjan_travel_plan.main:main

@@ -1,5 +1,5 @@
 from tarjanplanner.decorators import log_execution
-
+import networkx as nx
 def add_logging_to_methods(cls):
     """
     Adds logging to all methods of a class dynamically.
@@ -8,3 +8,4 @@ def add_logging_to_methods(cls):
         if callable(attr_value):  # Only modify callable methods
             setattr(cls, attr_name, log_execution(attr_value))
     return cls
+

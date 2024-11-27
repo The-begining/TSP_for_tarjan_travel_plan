@@ -2,6 +2,7 @@ import logging
 import re
 from tarjanplanner.graph_builder import GraphBuilder
 from tarjanplanner.tsp_solver import TSPSolver
+#from tarjanplanner.tsp_solver import validate_graph
 from tarjanplanner.visualizer import Visualizer
 from tarjanplanner.decorators import log_execution, validate_input
 from tarjanplanner.errors import InvalidInputError, FileNotFoundError, NetworkError
@@ -27,13 +28,14 @@ def validate_input_regex(input_value, pattern, error_message):
     return input_value
 
 
+
 def main():
     try:
         # Initial message
         print("Starting TarjanPlanner...")
         logging.info("Starting TarjanPlanner...")
 
-        # Step 1: Get optimization type
+        # Get optimization type
         optimization_type = input(
             "Choose optimization type ('single', 'mixed-time', 'mixed-cost', 'balanced'): "
         ).strip().lower()
@@ -43,7 +45,7 @@ def main():
             "Invalid optimization type! Must be one of: single, mixed-time, mixed-cost, balanced.",
         )
 
-        # Step 2: If 'single', ask for transport mode
+        #If 'single', ask for transport mode
         if optimization_type == "single":
             transport_mode = input(
                 "Select transport mode (Bus, Train, Bicycle, Walking): "
@@ -55,7 +57,7 @@ def main():
             )
             logging.info(f"Selected transport mode: {transport_mode}")
 
-        # Step 3: Define data
+        #Define data
         relatives = {
             "Relative_1": {"lat": 37.4979, "lon": 127.0276},
             "Relative_2": {"lat": 37.4833, "lon": 127.0322},
@@ -76,33 +78,41 @@ def main():
             "Walking": {"speed_kmh": 5, "cost_per_km": 0, "transfer_time_min": 0},
         }
 
-        # Step 4: Build the graph
+        # Build the graph
         builder = GraphBuilder(relatives, transport_modes)
         logging.info("Building graph...")
         graph = builder.build_graph()
-        logging.info("Graph built successfully!")
+        logging.info("Graph built and validated successfully!")
 
-        # Step 5: Apply optimization logic
         # Apply optimization logic
         if optimization_type == "single":
-            builder.apply_criteria("time", transport_mode=transport_mode)  # Correct argument name
+            builder.apply_criteria("time", transport_mode=transport_mode)
         elif optimization_type == "mixed-time":
             builder.apply_criteria_with_thresholds(optimize_by="time")
         elif optimization_type == "mixed-cost":
             builder.apply_criteria_with_thresholds(optimize_by="cost")
-        if optimization_type == "balanced":
+        elif optimization_type == "balanced":
             w_time = 0.7
             w_cost = 0.3
             builder.apply_criteria("mixed", w_time=w_time, w_cost=w_cost)
 
-
-
         logging.info(f"Optimization type applied: {optimization_type}")
 
-        # Step 6: Solve the TSP
+        # Select the TSP algorithm
+        tsp_algorithm = input(
+            "Choose TSP solving method ('approximation', 'greedy'): "
+        ).strip().lower()
+        tsp_algorithm = validate_input_regex(
+            tsp_algorithm,
+            r"^(approximation|greedy)$",
+            "Invalid TSP solving method! Must be one of: approximation, greedy.",
+        )
+        logging.info(f"Selected TSP algorithm: {tsp_algorithm}")
+
+        # Step 7: Solve the TSP
         solver = TSPSolver()
         logging.info("Solving TSP...")
-        tsp_path, tsp_length = solver.solve_tsp(graph)
+        tsp_path, tsp_length = solver.solve_tsp(graph, method=tsp_algorithm)
         logging.info(f"TSP Path: {tsp_path}")
         logging.info(f"Total Travel Length: {tsp_length:.2f}")
 
@@ -124,7 +134,7 @@ def main():
         logging.info(f"Total Travel Time: {total_time:.2f} minutes")
         logging.info(f"Total Travel Cost: {total_cost:.2f} currency units")
 
-        # Step 8: Visualize the graph
+        # Visualize the graph
         if optimization_type == "single":
             graph_title = f"TSP Path (Single Mode - {transport_mode})"
         elif optimization_type in ["mixed-time", "mixed-cost"]:
