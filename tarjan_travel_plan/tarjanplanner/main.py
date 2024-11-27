@@ -1,5 +1,7 @@
 import logging
 import re
+from fileorganizer.file_manager import FileManager
+from fileorganizer.file_classifier import FileClassifier
 from tarjanplanner.graph_builder import GraphBuilder
 from tarjanplanner.tsp_solver import TSPSolver
 #from tarjanplanner.tsp_solver import validate_graph
@@ -31,6 +33,10 @@ def validate_input_regex(input_value, pattern, error_message):
 
 def main():
     try:
+        # Initialize FileManager for output handling
+        file_manager = FileManager(base_dir="outputs")
+        file_manager.setup_logging()
+        
         # Initial message
         print("Starting TarjanPlanner...")
         logging.info("Starting TarjanPlanner...")
@@ -142,6 +148,17 @@ def main():
         else:
             graph_title = "TSP Path (Balanced - Time and Cost)"
         Visualizer.plot_graph(graph, tsp_path, title=graph_title)
+        
+        file_manager.save_graph(graph, tsp_path, filename="tsp_path.png")
+
+        # Organize files
+        classifier = FileClassifier(base_dir="outputs")
+        dest_dirs = {
+            ".log": file_manager.log_dir,
+            ".png": file_manager.graph_dir,
+            ".txt": "outputs/documents",
+        }
+        classifier.classify_files(dest_dirs)
 
     except InvalidInputError as e:
         logging.error(e)
