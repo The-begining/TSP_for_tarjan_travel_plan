@@ -1,5 +1,6 @@
 import logging
 import re
+import os
 from fileorganizer.file_manager import FileManager
 from fileorganizer.file_classifier import FileClassifier
 from tarjanplanner.graph_builder import GraphBuilder
@@ -9,16 +10,24 @@ from tarjanplanner.visualizer import Visualizer
 from tarjanplanner.decorators import log_execution, validate_input
 from tarjanplanner.errors import InvalidInputError, FileNotFoundError, NetworkError
 
-# Configure logging to both file and console
+# Set the base directory to the current directory of the script
+#base_dir = os.path.abspath(os.path.dirname(__file__))
+
+# Define the log directory relative to the base directory
+#log_dir = os.path.join(base_dir, "outputs", "logs")
+log_dir = "outputs\logs"
+os.makedirs(log_dir, exist_ok=True)
+
+# Configure logging to both file and console, with an additional log file handler
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.FileHandler("tarjan_travel.log"),  # Logs to file
+        #logging.FileHandler("tarjan_travel.log"),  # Logs to tarjan_travel.log in the current working directory
+        logging.FileHandler(os.path.join(log_dir, "application.log")),  # Logs to outputs/logs/application.log
         logging.StreamHandler(),  # Logs to console
     ],
 )
-
 
 def validate_input_regex(input_value, pattern, error_message):
     """
@@ -149,7 +158,17 @@ def main():
             graph_title = "TSP Path (Balanced - Time and Cost)"
         Visualizer.plot_graph(graph, tsp_path, title=graph_title)
         
-        file_manager.save_graph(graph, tsp_path, filename="tsp_path.png")
+        
+        def sanitize_filename(title):
+            return re.sub(r'[<>:"/\\|?*]', '_', title)
+        
+        sanitized_title = sanitize_filename(graph_title)
+        filename = f"{sanitized_title}.png"
+        
+        file_manager.save_graph(graph, tsp_path, filename=filename)
+        
+        
+        
 
         # Organize files
         classifier = FileClassifier(base_dir="outputs")

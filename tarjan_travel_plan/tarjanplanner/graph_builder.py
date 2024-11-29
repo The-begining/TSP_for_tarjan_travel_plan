@@ -37,11 +37,11 @@ class GraphBuilder:
             distance_km = data["distance"]
 
             # Determine transport mode based on distance thresholds
-            if distance_km < 1:
+            if distance_km < 0.5:
                 mode = "Walking"
-            elif 1 <= distance_km <= 3:
+            elif 0.5 <= distance_km <= 2:
                 mode = "Bicycle"
-            elif 3 < distance_km <= 20:
+            elif 2 < distance_km <= 10:
                 mode = "Bus"
             else:
                 mode = "Train"
