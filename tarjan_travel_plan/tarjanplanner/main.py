@@ -10,24 +10,6 @@ from tarjanplanner.visualizer import Visualizer
 from tarjanplanner.decorators import log_execution, validate_input
 from tarjanplanner.errors import InvalidInputError, FileNotFoundError, NetworkError
 
-# Set the base directory to the current directory of the script
-#base_dir = os.path.abspath(os.path.dirname(__file__))
-
-# Define the log directory relative to the base directory
-#log_dir = os.path.join(base_dir, "outputs", "logs")
-log_dir = "outputs\logs"
-os.makedirs(log_dir, exist_ok=True)
-
-# Configure logging to both file and console, with an additional log file handler
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[
-        #logging.FileHandler("tarjan_travel.log"),  # Logs to tarjan_travel.log in the current working directory
-        logging.FileHandler(os.path.join(log_dir, "application.log")),  # Logs to outputs/logs/application.log
-        logging.StreamHandler(),  # Logs to console
-    ],
-)
 
 def validate_input_regex(input_value, pattern, error_message):
     """
