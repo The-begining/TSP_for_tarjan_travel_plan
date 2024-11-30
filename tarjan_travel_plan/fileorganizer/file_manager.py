@@ -5,15 +5,11 @@ import logging
 
 class FileManager:
     def __init__(self, base_dir="outputs"):
-        """
-        Initialize the FileManager with a base directory.
-        All files (logs, graphs, etc.) will be stored under this directory.
-        """
         self.base_dir = base_dir
         self.log_dir = os.path.join(self.base_dir, "logs")
         self.graph_dir = os.path.join(self.base_dir, "graphs")
 
-        # Create directories if they don't exist
+        # Ensure directories exist
         os.makedirs(self.log_dir, exist_ok=True)
         os.makedirs(self.graph_dir, exist_ok=True)
 
@@ -26,8 +22,8 @@ class FileManager:
             level=logging.INFO,
             format="%(asctime)s - %(levelname)s - %(message)s",
             handlers=[
-                logging.FileHandler(log_path),
-                logging.StreamHandler(),
+                logging.FileHandler(log_path, mode="a"),  # Append logs to the file
+                logging.StreamHandler(),  # Also log to console
             ],
         )
         logging.info(f"Logging initialized. Logs will be saved to {log_path}")

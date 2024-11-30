@@ -20,6 +20,12 @@ def validate_input_regex(input_value, pattern, error_message):
         raise ValueError(error_message)
     return input_value
 
+def filter_nodes(graph, tsp_path):
+    """
+    Filter out nodes that are not part of the TSP path.
+    """
+    tsp_nodes = set(tsp_path)
+    return graph.subgraph(tsp_nodes).copy()
 
 
 def main():
@@ -97,7 +103,7 @@ def main():
 
         # Select the TSP algorithm
         tsp_algorithm = input(
-            "Choose TSP solving method ('approximation', 'greedy'): "
+            "Choose TSP solving method ('approximation', 'greedy','evolutionary'): "
         ).strip().lower()
         tsp_algorithm = validate_input_regex(
             tsp_algorithm,
@@ -106,13 +112,19 @@ def main():
         )
         logging.info(f"Selected TSP algorithm: {tsp_algorithm}")
 
-        # Step 7: Solve the TSP
+        # Solve the TSP
         solver = TSPSolver()
         logging.info("Solving TSP...")
         tsp_path, tsp_length = solver.solve_tsp(graph, method=tsp_algorithm)
         logging.info(f"TSP Path: {tsp_path}")
         logging.info(f"Total Travel Length: {tsp_length:.2f}")
 
+        # Filter the graph to include only nodes in the TSP path
+        filtered_graph = filter_nodes(graph, tsp_path)
+
+        # Save the transport mode on the nodes
+        builder.save_mode_on_nodes()
+        
         # Calculate total time and cost for the path
         total_time = 0
         total_cost = 0
@@ -131,6 +143,8 @@ def main():
         logging.info(f"Total Travel Time: {total_time:.2f} minutes")
         logging.info(f"Total Travel Cost: {total_cost:.2f} currency units")
 
+        def sanitize_filename(title):
+            return re.sub(r'[<>:"/\\|?*]', '_', title)
         # Visualize the graph
         if optimization_type == "single":
             graph_title = f"TSP Path (Single Mode - {transport_mode})"
@@ -138,19 +152,16 @@ def main():
             graph_title = f"TSP Path Optimized by {'Time' if optimization_type == 'mixed-time' else 'Cost'}"
         else:
             graph_title = "TSP Path (Balanced - Time and Cost)"
+        
+        graph_title = f"{graph_title} - Algorithm: {tsp_algorithm}"
         Visualizer.plot_graph(graph, tsp_path, title=graph_title)
         
-        
-        def sanitize_filename(title):
-            return re.sub(r'[<>:"/\\|?*]', '_', title)
         
         sanitized_title = sanitize_filename(graph_title)
         filename = f"{sanitized_title}.png"
         
         file_manager.save_graph(graph, tsp_path, filename=filename)
-        
-        
-        
+                
 
         # Organize files
         classifier = FileClassifier(base_dir="outputs")

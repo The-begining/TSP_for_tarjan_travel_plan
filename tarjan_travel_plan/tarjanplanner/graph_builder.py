@@ -150,3 +150,13 @@ class GraphBuilder:
                 f"{u} -> {v}: Distance = {distance_km:.2f} km, Mode = {data.get('mode', 'N/A')}, "
                 f"Time = {data.get('time', 0):.2f} minutes, Cost = {data.get('cost', 0):.2f} units"
             )
+
+    def save_mode_on_nodes(self):
+        """
+        Save the most common mode of transport at each node based on connected edges.
+        """
+        for node in self.graph.nodes:
+            connected_edges = self.graph[node]
+            if connected_edges:
+                modes = [edge_data.get("mode") for _, edge_data in connected_edges.items()]
+                self.graph.nodes[node]["mode"] = max(set(modes), key=modes.count)
