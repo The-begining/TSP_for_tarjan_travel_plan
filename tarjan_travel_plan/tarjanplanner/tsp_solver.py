@@ -19,7 +19,7 @@
 
 import networkx as nx
 from networkx.algorithms.approximation import traveling_salesman_problem as tsp
-from tarjanplanner.utils import add_logging_to_methods
+from tarjan_travel_plan.tarjanplanner.utils import add_logging_to_methods
 import logging
 
 def validate_tsp_path(graph, tsp_path):
@@ -229,7 +229,9 @@ class TSPSolver:
 
         best = tools.selBest(pop, 1)[0]
         tsp_path = [list(graph.nodes)[i] for i in best]
+        #tsp_path.append(tsp_path[0])
+
         tsp_path = repair_individual(tsp_path, len(graph.nodes))  # Ensure it's valid
         tsp_length = evaluate(best)[0]
-
+        tsp_path.append(tsp_path[0])
         return tsp_path, tsp_length

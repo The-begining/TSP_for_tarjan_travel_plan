@@ -12,10 +12,12 @@ setup(
         "geopy",
         "matplotlib",
         "pytest",
+
     ],
     entry_points={
         "console_scripts": [
-            "tarjan-planner=tarjanplanner.main:main",  # Updated path to main()
+            "tarjan-planner=tarjan_travel_plan.tarjanplanner.main:main", 
+            "tarjan-planner-gui=tarjan_travel_plan.gui_interface:open_gui"# Updated path to main()
         ],
     },
     classifiers=[

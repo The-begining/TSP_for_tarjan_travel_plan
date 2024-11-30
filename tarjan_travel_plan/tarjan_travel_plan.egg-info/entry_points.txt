@@ -1,2 +1,3 @@
 [console_scripts]
 tarjan-planner = tarjanplanner.main:main
+tarjan-planner-gui = tarjan_travel_plan.gui_interface:open_gui

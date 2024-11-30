@@ -1,7 +1,7 @@
 import logging  # Add this at the top of the file
 import networkx as nx
 from geopy.distance import geodesic
-from tarjanplanner.utils import add_logging_to_methods
+from tarjan_travel_plan.tarjanplanner.utils import add_logging_to_methods
 
 @add_logging_to_methods
 class GraphBuilder:

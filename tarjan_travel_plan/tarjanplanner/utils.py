@@ -1,4 +1,4 @@
-from tarjanplanner.decorators import log_execution
+from tarjan_travel_plan.tarjanplanner.decorators import log_execution
 import networkx as nx
 def add_logging_to_methods(cls):
     """

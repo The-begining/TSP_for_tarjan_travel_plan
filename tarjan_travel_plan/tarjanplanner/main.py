@@ -1,14 +1,14 @@
 import logging
 import re
 import os
-from fileorganizer.file_manager import FileManager
-from fileorganizer.file_classifier import FileClassifier
-from tarjanplanner.graph_builder import GraphBuilder
-from tarjanplanner.tsp_solver import TSPSolver
+from tarjan_travel_plan.fileorganizer.file_manager import FileManager
+from tarjan_travel_plan.fileorganizer.file_classifier import FileClassifier
+from tarjan_travel_plan.tarjanplanner.graph_builder import GraphBuilder
+from tarjan_travel_plan.tarjanplanner.tsp_solver import TSPSolver
 #from tarjanplanner.tsp_solver import validate_graph
-from tarjanplanner.visualizer import Visualizer
-from tarjanplanner.decorators import log_execution, validate_input
-from tarjanplanner.errors import InvalidInputError, FileNotFoundError, NetworkError
+from tarjan_travel_plan.tarjanplanner.visualizer import Visualizer
+from tarjan_travel_plan.tarjanplanner.decorators import log_execution, validate_input
+from tarjan_travel_plan.tarjanplanner.errors import InvalidInputError, FileNotFoundError, NetworkError
 
 
 def validate_input_regex(input_value, pattern, error_message):
@@ -107,7 +107,7 @@ def main():
         ).strip().lower()
         tsp_algorithm = validate_input_regex(
             tsp_algorithm,
-            r"^(approximation|greedy)$",
+            r"^(approximation|greedy|evolutionary)$",
             "Invalid TSP solving method! Must be one of: approximation, greedy.",
         )
         logging.info(f"Selected TSP algorithm: {tsp_algorithm}")

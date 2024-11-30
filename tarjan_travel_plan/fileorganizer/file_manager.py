@@ -4,8 +4,18 @@ import logging
 
 
 class FileManager:
-    def __init__(self, base_dir="outputs"):
+    def __init__(self, base_dir=None):
+        """
+        Initialize the FileManager.
+
+        Args:
+        - base_dir (str): The base directory for outputs. If None, defaults to 'outputs' in the project root.
+        """
+        # Dynamically set the base directory
+        if base_dir is None:
+            base_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "outputs")
         self.base_dir = base_dir
+
         self.log_dir = os.path.join(self.base_dir, "logs")
         self.graph_dir = os.path.join(self.base_dir, "graphs")
 

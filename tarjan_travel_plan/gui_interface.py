@@ -3,17 +3,17 @@ import re
 from tkinter import filedialog, messagebox
 import logging
 import os
-from fileorganizer.file_manager import FileManager
-from fileorganizer.file_classifier import FileClassifier
-from tarjanplanner.graph_builder import GraphBuilder
-from tarjanplanner.tsp_solver import TSPSolver
+from tarjan_travel_plan.fileorganizer.file_manager import FileManager
+from tarjan_travel_plan.fileorganizer.file_classifier import FileClassifier
+from tarjan_travel_plan.tarjanplanner.graph_builder import GraphBuilder
+from tarjan_travel_plan.tarjanplanner.tsp_solver import TSPSolver
 #from tarjanplanner.tsp_solver import validate_graph
-from tarjanplanner.visualizer import Visualizer
-from tarjanplanner.decorators import log_execution, validate_input
-from tarjanplanner.errors import InvalidInputError, FileNotFoundError, NetworkError
+from tarjan_travel_plan.tarjanplanner.visualizer import Visualizer
+from tarjan_travel_plan.tarjanplanner.decorators import log_execution, validate_input
+from tarjan_travel_plan.tarjanplanner.errors import InvalidInputError, FileNotFoundError, NetworkError
 
 # Initialize logger
-logging.basicConfig(level=logging.INFO)
+#logging.basicConfig(level=logging.INFO)
 def calculate_cost_and_time(graph, tsp_path):
     total_cost = 0
     total_time = 0
@@ -48,6 +48,7 @@ def run_planner(optimization_type, transport_mode, tsp_algorithm):
         file_manager = FileManager(base_dir="outputs")
         file_manager.setup_logging()
 
+        logging.info("Tarjan Planner started.")
         # Define data
         relatives = {
             "Relative_1": {"lat": 37.4979, "lon": 127.0276},
@@ -107,7 +108,7 @@ def run_planner(optimization_type, transport_mode, tsp_algorithm):
         file_manager.save_graph(graph, tsp_path, filename=filename)
 
         # Organize files
-        classifier = FileClassifier(base_dir="outputs")
+        classifier = FileClassifier(base_dir=file_manager.base_dir)
         dest_dirs = {
             ".log": file_manager.log_dir,
             ".png": file_manager.graph_dir,
