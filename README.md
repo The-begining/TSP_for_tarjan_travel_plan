@@ -79,42 +79,45 @@ The GUI allows you to:
 ---------------------------
 ## File Structure
 TSP_FOR_TARJAN_TRAVEL_PLAN/
+├──tarjan_travel_plan/                  # Project documentation
+│  ├── tarjanplanner/                # Core application logic
+│  │     ├── __init__.py
+│  │     ├── main.py                   # CLI entry point
+│  │     ├── graph_builder.py          # Graph construction and edge weighting
+│  │     ├── tsp_solver.py             # TSP solver logic
+│  │     ├── visualizer.py             # Graph visualization
+│  │     ├── decorators.py             # Utilities for decorators
+│  │     ├── errors.py                 # Custom error handling
+│  ├── fileorganizer/                # File management utilities
+│  │     ├── __init__.py
+│  │     ├── file_manager.py           # File and logging manager
+│  │     ├── file_classifier.py        # File classification logic
+│  ├── outputs/                      # Output directory for logs and visualizations  
+│  ├── tests/                        # Unit tests
+│  │     ├── __init__.py
+│  │     ├── test_graph_builder.py
+│  │     ├── test_tsp_solver.py
+│  │     ├── test_input_validation.py
+│  ├── tarjan_travel_plan.log 
+├──gui_interface.py       # Logging file for CLI/GUI execution
 ├── setup.py                      # Installation configuration
 ├── requirements.txt              # Project dependencies
-├── README.md                     # Project documentation
-├── tarjanplanner/                # Core application logic
-│   ├── __init__.py
-│   ├── main.py                   # CLI entry point
-│   ├── graph_builder.py          # Graph construction and edge weighting
-│   ├── tsp_solver.py             # TSP solver logic
-│   ├── visualizer.py             # Graph visualization
-│   ├── decorators.py             # Utilities for decorators
-│   ├── errors.py                 # Custom error handling
-├── fileorganizer/                # File management utilities
-│   ├── __init__.py
-│   ├── file_manager.py           # File and logging manager
-│   ├── file_classifier.py        # File classification logic
-├── outputs/                      # Output directory for logs and visualizations
-├── tests/                        # Unit tests
-│   ├── __init__.py
-│   ├── test_graph_builder.py
-│   ├── test_tsp_solver.py
-│   ├── test_input_validation.py
-├── tarjan_travel_plan.log        # Logging file for CLI/GUI execution
-
+├── README.md
 ------------------------
 ## Testing
 pytest tests/
 
 #### Example Output:
-======================================================== test session starts ========================================================
-platform win32 -- Python 3.10.0, pytest-8.3.3
-collected 4 items
+============================================================================== test session starts =========================================================
+platform win32 -- Python 3.13.0, pytest-8.3.3, pluggy-1.5.0
+plugins: anyio-4.6.2.post1
+collected 6 items
 
-tests/test_graph_builder.py ..                                                                                                 [ 50%]
-tests/test_tsp_solver.py ..                                                                                                   [100%]
-
-========================================================= 4 passed in 0.52s =========================================================
+tests\test_file_classifier.py                                                                                                                    [ 16%]
+tests\test_graph_builder.py                                                                                                                      [ 50%] 
+tests\test_input_validation.py                                                                                                                   [ 83%] 
+tests\test_tsp_solver.py                                                                                                                         [100%]    
+====================================================================== 6 passed in 1.09s ================================================================ 
 ### Key Concepts
 #### Transport Modes
   -Walking: For distances under 1 km.
