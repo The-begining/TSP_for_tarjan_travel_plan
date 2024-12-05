@@ -1,5 +1,5 @@
 import pytest
-from main import validate_input_regex
+from tarjan_travel_plan.tarjanplanner.main import validate_input_regex
 
 def test_validate_input_regex_valid():
     valid_input = "single"

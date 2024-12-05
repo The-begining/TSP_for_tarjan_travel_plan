@@ -1,6 +1,6 @@
 import pytest
 import networkx as nx
-from tarjanplanner.tsp_solver import TSPSolver
+from tarjan_travel_plan.tarjanplanner.tsp_solver import TSPSolver
 
 def test_tsp_solver():
     graph = nx.Graph()

@@ -1283,3 +1283,1028 @@
 2024-11-30 21:11:28,549 - INFO - Logging initialized. Logs will be saved to outputs\logs\application.log
 2024-11-30 21:11:28,550 - INFO - Starting TarjanPlanner...
 2024-11-30 21:13:03,133 - ERROR - Invalid optimization type! Must be one of: single, mixed-time, mixed-cost, balanced.
+2024-12-05 02:22:36,237 - INFO - Logging initialized. Logs will be saved to outputs\logs\application.log
+2024-12-05 02:22:36,242 - INFO - Starting TarjanPlanner...
+2024-12-05 02:22:42,052 - INFO - Executing __init__ with arguments (<tarjan_travel_plan.tarjanplanner.graph_builder.GraphBuilder object at 0x00000207824623C0>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-12-05 02:22:42,053 - INFO - __init__ executed in 0.00 seconds
+2024-12-05 02:22:42,053 - INFO - Building graph...
+2024-12-05 02:22:42,054 - INFO - Executing build_graph with arguments (<tarjan_travel_plan.tarjanplanner.graph_builder.GraphBuilder object at 0x00000207824623C0>,) and {}
+2024-12-05 02:22:42,069 - INFO - build_graph executed in 0.01 seconds
+2024-12-05 02:22:42,070 - INFO - Graph built and validated successfully!
+2024-12-05 02:22:42,070 - INFO - Executing apply_criteria_with_thresholds with arguments (<tarjan_travel_plan.tarjanplanner.graph_builder.GraphBuilder object at 0x00000207824623C0>,) and {'optimize_by': 'time'}
+2024-12-05 02:22:42,071 - INFO - Relative_1 -> Relative_2: Distance = 1.67 km, Mode = Bicycle, Time = 7.68 minutes, Cost = 0.00 units
+2024-12-05 02:22:42,072 - INFO - Relative_1 -> Relative_3: Distance = 2.14 km, Mode = Bus, Time = 8.22 minutes, Cost = 4.29 units
+2024-12-05 02:22:42,072 - INFO - Relative_1 -> Relative_4: Distance = 2.92 km, Mode = Bus, Time = 9.38 minutes, Cost = 5.84 units
+2024-12-05 02:22:42,072 - INFO - Relative_1 -> Relative_5: Distance = 4.58 km, Mode = Bus, Time = 11.86 minutes, Cost = 9.15 units
+2024-12-05 02:22:42,073 - INFO - Relative_1 -> Relative_6: Distance = 5.72 km, Mode = Bus, Time = 13.58 minutes, Cost = 11.44 units
+2024-12-05 02:22:42,073 - INFO - Relative_1 -> Relative_7: Distance = 2.37 km, Mode = Bus, Time = 8.56 minutes, Cost = 4.74 units
+2024-12-05 02:22:42,074 - INFO - Relative_1 -> Relative_8: Distance = 9.88 km, Mode = Bus, Time = 19.82 minutes, Cost = 19.76 units
+2024-12-05 02:22:42,074 - INFO - Relative_1 -> Relative_9: Distance = 3.13 km, Mode = Bus, Time = 9.70 minutes, Cost = 6.27 units
+2024-12-05 02:22:42,074 - INFO - Relative_1 -> Relative_10: Distance = 6.87 km, Mode = Bus, Time = 15.30 minutes, Cost = 13.73 units
+2024-12-05 02:22:42,075 - INFO - Relative_2 -> Relative_3: Distance = 3.78 km, Mode = Bus, Time = 10.66 minutes, Cost = 7.55 units
+2024-12-05 02:22:42,075 - INFO - Relative_2 -> Relative_4: Distance = 4.36 km, Mode = Bus, Time = 11.53 minutes, Cost = 8.71 units
+2024-12-05 02:22:42,076 - INFO - Relative_2 -> Relative_5: Distance = 6.21 km, Mode = Bus, Time = 14.31 minutes, Cost = 12.41 units
+2024-12-05 02:22:42,076 - INFO - Relative_2 -> Relative_6: Distance = 7.08 km, Mode = Bus, Time = 15.62 minutes, Cost = 14.16 units
+2024-12-05 02:22:42,077 - INFO - Relative_2 -> Relative_7: Distance = 3.81 km, Mode = Bus, Time = 10.72 minutes, Cost = 7.62 units
+2024-12-05 02:22:42,077 - INFO - Relative_2 -> Relative_8: Distance = 11.53 km, Mode = Train, Time = 10.65 minutes, Cost = 57.67 units
+2024-12-05 02:22:42,077 - INFO - Relative_2 -> Relative_9: Distance = 3.88 km, Mode = Bus, Time = 10.82 minutes, Cost = 7.76 units
+2024-12-05 02:22:42,078 - INFO - Relative_2 -> Relative_10: Distance = 7.08 km, Mode = Bus, Time = 15.61 minutes, Cost = 14.15 units
+2024-12-05 02:22:42,078 - INFO - Relative_3 -> Relative_4: Distance = 1.22 km, Mode = Bicycle, Time = 5.89 minutes, Cost = 0.00 units
+2024-12-05 02:22:42,078 - INFO - Relative_3 -> Relative_5: Distance = 2.96 km, Mode = Bus, Time = 9.44 minutes, Cost = 5.92 units
+2024-12-05 02:22:42,078 - INFO - Relative_3 -> Relative_6: Distance = 3.85 km, Mode = Bus, Time = 10.77 minutes, Cost = 7.69 units
+2024-12-05 02:22:42,079 - INFO - Relative_3 -> Relative_7: Distance = 0.93 km, Mode = Bicycle, Time = 4.71 minutes, Cost = 0.00 units
+2024-12-05 02:22:42,079 - INFO - Relative_3 -> Relative_8: Distance = 7.99 km, Mode = Bus, Time = 16.98 minutes, Cost = 15.98 units
+2024-12-05 02:22:42,079 - INFO - Relative_3 -> Relative_9: Distance = 2.77 km, Mode = Bus, Time = 9.16 minutes, Cost = 5.55 units
+2024-12-05 02:22:42,080 - INFO - Relative_3 -> Relative_10: Distance = 6.57 km, Mode = Bus, Time = 14.86 minutes, Cost = 13.15 units
+2024-12-05 02:22:42,080 - INFO - Relative_4 -> Relative_5: Distance = 3.66 km, Mode = Bus, Time = 10.49 minutes, Cost = 7.32 units
+2024-12-05 02:22:42,080 - INFO - Relative_4 -> Relative_6: Distance = 2.80 km, Mode = Bus, Time = 9.20 minutes, Cost = 5.60 units
+2024-12-05 02:22:42,081 - INFO - Relative_4 -> Relative_7: Distance = 0.55 km, Mode = Bicycle, Time = 3.20 minutes, Cost = 0.00 units
+2024-12-05 02:22:42,081 - INFO - Relative_4 -> Relative_8: Distance = 8.17 km, Mode = Bus, Time = 17.25 minutes, Cost = 16.33 units
+2024-12-05 02:22:42,081 - INFO - Relative_4 -> Relative_9: Distance = 1.99 km, Mode = Bicycle, Time = 8.97 minutes, Cost = 0.00 units
+2024-12-05 02:22:42,082 - INFO - Relative_4 -> Relative_10: Distance = 5.54 km, Mode = Bus, Time = 13.31 minutes, Cost = 11.07 units
+2024-12-05 02:22:42,082 - INFO - Relative_5 -> Relative_6: Distance = 4.83 km, Mode = Bus, Time = 12.25 minutes, Cost = 9.66 units
+2024-12-05 02:22:42,082 - INFO - Relative_5 -> Relative_7: Distance = 3.73 km, Mode = Bus, Time = 10.59 minutes, Cost = 7.45 units
+2024-12-05 02:22:42,082 - INFO - Relative_5 -> Relative_8: Distance = 5.35 km, Mode = Bus, Time = 13.03 minutes, Cost = 10.71 units
+2024-12-05 02:22:42,083 - INFO - Relative_5 -> Relative_9: Distance = 5.60 km, Mode = Bus, Time = 13.40 minutes, Cost = 11.20 units
+2024-12-05 02:22:42,083 - INFO - Relative_5 -> Relative_10: Distance = 9.15 km, Mode = Bus, Time = 18.73 minutes, Cost = 18.30 units
+2024-12-05 02:22:42,083 - INFO - Relative_6 -> Relative_7: Distance = 3.35 km, Mode = Bus, Time = 10.02 minutes, Cost = 6.69 units
+2024-12-05 02:22:42,083 - INFO - Relative_6 -> Relative_8: Distance = 7.44 km, Mode = Bus, Time = 16.16 minutes, Cost = 14.88 units
+2024-12-05 02:22:42,083 - INFO - Relative_6 -> Relative_9: Distance = 3.71 km, Mode = Bus, Time = 10.56 minutes, Cost = 7.41 units
+2024-12-05 02:22:42,084 - INFO - Relative_6 -> Relative_10: Distance = 5.40 km, Mode = Bus, Time = 13.10 minutes, Cost = 10.80 units
+2024-12-05 02:22:42,084 - INFO - Relative_7 -> Relative_8: Distance = 8.48 km, Mode = Bus, Time = 17.72 minutes, Cost = 16.96 units
+2024-12-05 02:22:42,084 - INFO - Relative_7 -> Relative_9: Distance = 1.89 km, Mode = Bicycle, Time = 8.56 minutes, Cost = 0.00 units
+2024-12-05 02:22:42,084 - INFO - Relative_7 -> Relative_10: Distance = 5.65 km, Mode = Bus, Time = 13.47 minutes, Cost = 11.30 units
+2024-12-05 02:22:42,084 - INFO - Relative_8 -> Relative_9: Distance = 10.10 km, Mode = Train, Time = 9.58 minutes, Cost = 50.52 units
+2024-12-05 02:22:42,085 - INFO - Relative_8 -> Relative_10: Distance = 12.82 km, Mode = Train, Time = 11.61 minutes, Cost = 64.09 units
+2024-12-05 02:22:42,085 - INFO - Relative_9 -> Relative_10: Distance = 3.88 km, Mode = Bus, Time = 10.82 minutes, Cost = 7.76 units
+2024-12-05 02:22:42,085 - INFO - apply_criteria_with_thresholds executed in 0.01 seconds
+2024-12-05 02:22:42,086 - INFO - Optimization type applied: mixed-time
+2024-12-05 02:22:48,973 - INFO - Selected TSP algorithm: greedy
+2024-12-05 02:22:48,974 - INFO - Solving TSP...
+2024-12-05 02:22:48,974 - INFO - Executing solve_tsp with arguments (<tarjan_travel_plan.tarjanplanner.tsp_solver.TSPSolver object at 0x0000020782462660>, <networkx.classes.graph.Graph object at 0x0000020782462510>) and {'method': 'greedy'}
+2024-12-05 02:22:48,975 - INFO - Executing _solve_tsp_nearest_neighbor with arguments (<tarjan_travel_plan.tarjanplanner.tsp_solver.TSPSolver object at 0x0000020782462660>, <networkx.classes.graph.Graph object at 0x0000020782462510>) and {}
+2024-12-05 02:22:48,975 - INFO - _solve_tsp_nearest_neighbor executed in 0.00 seconds
+2024-12-05 02:22:48,975 - INFO - solve_tsp executed in 0.00 seconds
+2024-12-05 02:22:48,976 - INFO - TSP Path: ['Relative_1', 'Relative_2', 'Relative_8', 'Relative_9', 'Relative_7', 'Relative_4', 'Relative_3', 'Relative_5', 'Relative_6', 'Relative_10', 'Relative_1']
+2024-12-05 02:22:48,976 - INFO - Total Travel Length: 95.64
+2024-12-05 02:22:48,977 - INFO - Executing save_mode_on_nodes with arguments (<tarjan_travel_plan.tarjanplanner.graph_builder.GraphBuilder object at 0x00000207824623C0>,) and {}
+2024-12-05 02:22:48,978 - INFO - save_mode_on_nodes executed in 0.00 seconds
+2024-12-05 02:22:48,979 - INFO - Total Travel Time: 95.64 minutes
+2024-12-05 02:22:48,979 - INFO - Total Travel Cost: 148.31 currency units
+2024-12-05 02:22:57,453 - INFO - Graph saved to outputs\graphs\TSP Path Optimized by Time - Algorithm_ greedy.png
+2024-12-05 02:22:57,454 - INFO - Starting file classification in outputs
+2024-12-05 02:28:30,365 - INFO - Logging initialized. Logs will be saved to outputs\logs\application.log
+2024-12-05 02:28:30,366 - INFO - Tarjan Planner started.
+2024-12-05 02:28:30,366 - INFO - Executing __init__ with arguments (<tarjan_travel_plan.tarjanplanner.graph_builder.GraphBuilder object at 0x00000202F785ECF0>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-12-05 02:28:30,368 - INFO - __init__ executed in 0.00 seconds
+2024-12-05 02:28:30,368 - INFO - Executing build_graph with arguments (<tarjan_travel_plan.tarjanplanner.graph_builder.GraphBuilder object at 0x00000202F785ECF0>,) and {}
+2024-12-05 02:28:30,380 - INFO - build_graph executed in 0.01 seconds
+2024-12-05 02:28:30,380 - INFO - Executing apply_criteria with arguments (<tarjan_travel_plan.tarjanplanner.graph_builder.GraphBuilder object at 0x00000202F785ECF0>, 'time') and {'transport_mode': 'Bus'}
+2024-12-05 02:28:30,382 - INFO - Relative_1 -> Relative_2: Distance = 1.67 km, Mode = Bus, Time = 7.51 minutes, Cost = 3.34 units
+2024-12-05 02:28:30,383 - INFO - Relative_1 -> Relative_3: Distance = 2.14 km, Mode = Bus, Time = 8.22 minutes, Cost = 4.29 units
+2024-12-05 02:28:30,384 - INFO - Relative_1 -> Relative_4: Distance = 2.92 km, Mode = Bus, Time = 9.38 minutes, Cost = 5.84 units
+2024-12-05 02:28:30,384 - INFO - Relative_1 -> Relative_5: Distance = 4.58 km, Mode = Bus, Time = 11.86 minutes, Cost = 9.15 units
+2024-12-05 02:28:30,385 - INFO - Relative_1 -> Relative_6: Distance = 5.72 km, Mode = Bus, Time = 13.58 minutes, Cost = 11.44 units
+2024-12-05 02:28:30,385 - INFO - Relative_1 -> Relative_7: Distance = 2.37 km, Mode = Bus, Time = 8.56 minutes, Cost = 4.74 units
+2024-12-05 02:28:30,385 - INFO - Relative_1 -> Relative_8: Distance = 9.88 km, Mode = Bus, Time = 19.82 minutes, Cost = 19.76 units
+2024-12-05 02:28:30,386 - INFO - Relative_1 -> Relative_9: Distance = 3.13 km, Mode = Bus, Time = 9.70 minutes, Cost = 6.27 units
+2024-12-05 02:28:30,386 - INFO - Relative_1 -> Relative_10: Distance = 6.87 km, Mode = Bus, Time = 15.30 minutes, Cost = 13.73 units
+2024-12-05 02:28:30,386 - INFO - Relative_2 -> Relative_3: Distance = 3.78 km, Mode = Bus, Time = 10.66 minutes, Cost = 7.55 units
+2024-12-05 02:28:30,387 - INFO - Relative_2 -> Relative_4: Distance = 4.36 km, Mode = Bus, Time = 11.53 minutes, Cost = 8.71 units
+2024-12-05 02:28:30,387 - INFO - Relative_2 -> Relative_5: Distance = 6.21 km, Mode = Bus, Time = 14.31 minutes, Cost = 12.41 units
+2024-12-05 02:28:30,387 - INFO - Relative_2 -> Relative_6: Distance = 7.08 km, Mode = Bus, Time = 15.62 minutes, Cost = 14.16 units
+2024-12-05 02:28:30,388 - INFO - Relative_2 -> Relative_7: Distance = 3.81 km, Mode = Bus, Time = 10.72 minutes, Cost = 7.62 units
+2024-12-05 02:28:30,388 - INFO - Relative_2 -> Relative_8: Distance = 11.53 km, Mode = Bus, Time = 22.30 minutes, Cost = 23.07 units
+2024-12-05 02:28:30,388 - INFO - Relative_2 -> Relative_9: Distance = 3.88 km, Mode = Bus, Time = 10.82 minutes, Cost = 7.76 units
+2024-12-05 02:28:30,388 - INFO - Relative_2 -> Relative_10: Distance = 7.08 km, Mode = Bus, Time = 15.61 minutes, Cost = 14.15 units
+2024-12-05 02:28:30,389 - INFO - Relative_3 -> Relative_4: Distance = 1.22 km, Mode = Bus, Time = 6.83 minutes, Cost = 2.44 units
+2024-12-05 02:28:30,389 - INFO - Relative_3 -> Relative_5: Distance = 2.96 km, Mode = Bus, Time = 9.44 minutes, Cost = 5.92 units
+2024-12-05 02:28:30,389 - INFO - Relative_3 -> Relative_6: Distance = 3.85 km, Mode = Bus, Time = 10.77 minutes, Cost = 7.69 units
+2024-12-05 02:28:30,390 - INFO - Relative_3 -> Relative_7: Distance = 0.93 km, Mode = Bus, Time = 6.39 minutes, Cost = 1.86 units
+2024-12-05 02:28:30,390 - INFO - Relative_3 -> Relative_8: Distance = 7.99 km, Mode = Bus, Time = 16.98 minutes, Cost = 15.98 units
+2024-12-05 02:28:30,391 - INFO - Relative_3 -> Relative_9: Distance = 2.77 km, Mode = Bus, Time = 9.16 minutes, Cost = 5.55 units
+2024-12-05 02:28:30,391 - INFO - Relative_3 -> Relative_10: Distance = 6.57 km, Mode = Bus, Time = 14.86 minutes, Cost = 13.15 units
+2024-12-05 02:28:30,391 - INFO - Relative_4 -> Relative_5: Distance = 3.66 km, Mode = Bus, Time = 10.49 minutes, Cost = 7.32 units
+2024-12-05 02:28:30,391 - INFO - Relative_4 -> Relative_6: Distance = 2.80 km, Mode = Bus, Time = 9.20 minutes, Cost = 5.60 units
+2024-12-05 02:28:30,392 - INFO - Relative_4 -> Relative_7: Distance = 0.55 km, Mode = Bus, Time = 5.83 minutes, Cost = 1.10 units
+2024-12-05 02:28:30,392 - INFO - Relative_4 -> Relative_8: Distance = 8.17 km, Mode = Bus, Time = 17.25 minutes, Cost = 16.33 units
+2024-12-05 02:28:30,393 - INFO - Relative_4 -> Relative_9: Distance = 1.99 km, Mode = Bus, Time = 7.99 minutes, Cost = 3.98 units
+2024-12-05 02:28:30,393 - INFO - Relative_4 -> Relative_10: Distance = 5.54 km, Mode = Bus, Time = 13.31 minutes, Cost = 11.07 units
+2024-12-05 02:28:30,393 - INFO - Relative_5 -> Relative_6: Distance = 4.83 km, Mode = Bus, Time = 12.25 minutes, Cost = 9.66 units
+2024-12-05 02:28:30,394 - INFO - Relative_5 -> Relative_7: Distance = 3.73 km, Mode = Bus, Time = 10.59 minutes, Cost = 7.45 units
+2024-12-05 02:28:30,394 - INFO - Relative_5 -> Relative_8: Distance = 5.35 km, Mode = Bus, Time = 13.03 minutes, Cost = 10.71 units
+2024-12-05 02:28:30,395 - INFO - Relative_5 -> Relative_9: Distance = 5.60 km, Mode = Bus, Time = 13.40 minutes, Cost = 11.20 units
+2024-12-05 02:28:30,395 - INFO - Relative_5 -> Relative_10: Distance = 9.15 km, Mode = Bus, Time = 18.73 minutes, Cost = 18.30 units
+2024-12-05 02:28:30,395 - INFO - Relative_6 -> Relative_7: Distance = 3.35 km, Mode = Bus, Time = 10.02 minutes, Cost = 6.69 units
+2024-12-05 02:28:30,395 - INFO - Relative_6 -> Relative_8: Distance = 7.44 km, Mode = Bus, Time = 16.16 minutes, Cost = 14.88 units
+2024-12-05 02:28:30,395 - INFO - Relative_6 -> Relative_9: Distance = 3.71 km, Mode = Bus, Time = 10.56 minutes, Cost = 7.41 units
+2024-12-05 02:28:30,396 - INFO - Relative_6 -> Relative_10: Distance = 5.40 km, Mode = Bus, Time = 13.10 minutes, Cost = 10.80 units
+2024-12-05 02:28:30,396 - INFO - Relative_7 -> Relative_8: Distance = 8.48 km, Mode = Bus, Time = 17.72 minutes, Cost = 16.96 units
+2024-12-05 02:28:30,396 - INFO - Relative_7 -> Relative_9: Distance = 1.89 km, Mode = Bus, Time = 7.83 minutes, Cost = 3.78 units
+2024-12-05 02:28:30,396 - INFO - Relative_7 -> Relative_10: Distance = 5.65 km, Mode = Bus, Time = 13.47 minutes, Cost = 11.30 units
+2024-12-05 02:28:30,397 - INFO - Relative_8 -> Relative_9: Distance = 10.10 km, Mode = Bus, Time = 20.16 minutes, Cost = 20.21 units
+2024-12-05 02:28:30,397 - INFO - Relative_8 -> Relative_10: Distance = 12.82 km, Mode = Bus, Time = 24.23 minutes, Cost = 25.63 units
+2024-12-05 02:28:30,397 - INFO - Relative_9 -> Relative_10: Distance = 3.88 km, Mode = Bus, Time = 10.82 minutes, Cost = 7.76 units
+2024-12-05 02:28:30,397 - INFO - apply_criteria executed in 0.02 seconds
+2024-12-05 02:28:30,398 - INFO - Executing solve_tsp with arguments (<tarjan_travel_plan.tarjanplanner.tsp_solver.TSPSolver object at 0x00000202F785EF90>, <networkx.classes.graph.Graph object at 0x00000202F785EE40>) and {'method': 'approximation'}
+2024-12-05 02:28:30,398 - INFO - Executing _solve_tsp_approximation with arguments (<tarjan_travel_plan.tarjanplanner.tsp_solver.TSPSolver object at 0x00000202F785EF90>, <networkx.classes.graph.Graph object at 0x00000202F785EE40>) and {}
+2024-12-05 02:28:30,404 - INFO - _solve_tsp_approximation executed in 0.01 seconds
+2024-12-05 02:28:30,404 - INFO - solve_tsp executed in 0.01 seconds
+2024-12-05 02:28:34,316 - INFO - Graph saved to outputs\graphs\TSP Path (Single Mode - Bus) - Algorithm_ approximation.png
+2024-12-05 02:28:34,317 - INFO - Starting file organization...
+2024-12-05 02:28:34,317 - INFO - Starting file classification in outputs
+2024-12-05 02:28:34,317 - INFO - File organization complete.
+2024-12-05 02:30:06,896 - INFO - Logging initialized. Logs will be saved to outputs\logs\application.log
+2024-12-05 02:30:06,897 - INFO - Starting TarjanPlanner...
+2024-12-05 02:30:16,507 - INFO - Selected transport mode: Walking
+2024-12-05 02:30:16,507 - INFO - Executing __init__ with arguments (<tarjan_travel_plan.tarjanplanner.graph_builder.GraphBuilder object at 0x0000017056C923C0>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-12-05 02:30:16,508 - INFO - __init__ executed in 0.00 seconds
+2024-12-05 02:30:16,509 - INFO - Building graph...
+2024-12-05 02:30:16,509 - INFO - Executing build_graph with arguments (<tarjan_travel_plan.tarjanplanner.graph_builder.GraphBuilder object at 0x0000017056C923C0>,) and {}
+2024-12-05 02:30:16,525 - INFO - build_graph executed in 0.02 seconds
+2024-12-05 02:30:16,526 - INFO - Graph built and validated successfully!
+2024-12-05 02:30:16,526 - INFO - Executing apply_criteria with arguments (<tarjan_travel_plan.tarjanplanner.graph_builder.GraphBuilder object at 0x0000017056C923C0>, 'time') and {'transport_mode': 'Walking'}
+2024-12-05 02:30:16,526 - INFO - Relative_1 -> Relative_2: Distance = 1.67 km, Mode = Walking, Time = 20.05 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,527 - INFO - Relative_1 -> Relative_3: Distance = 2.14 km, Mode = Walking, Time = 25.73 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,527 - INFO - Relative_1 -> Relative_4: Distance = 2.92 km, Mode = Walking, Time = 35.03 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,527 - INFO - Relative_1 -> Relative_5: Distance = 4.58 km, Mode = Walking, Time = 54.91 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,527 - INFO - Relative_1 -> Relative_6: Distance = 5.72 km, Mode = Walking, Time = 68.61 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,528 - INFO - Relative_1 -> Relative_7: Distance = 2.37 km, Mode = Walking, Time = 28.45 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,528 - INFO - Relative_1 -> Relative_8: Distance = 9.88 km, Mode = Walking, Time = 118.56 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,528 - INFO - Relative_1 -> Relative_9: Distance = 3.13 km, Mode = Walking, Time = 37.61 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,528 - INFO - Relative_1 -> Relative_10: Distance = 6.87 km, Mode = Walking, Time = 82.38 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,529 - INFO - Relative_2 -> Relative_3: Distance = 3.78 km, Mode = Walking, Time = 45.31 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,529 - INFO - Relative_2 -> Relative_4: Distance = 4.36 km, Mode = Walking, Time = 52.27 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,529 - INFO - Relative_2 -> Relative_5: Distance = 6.21 km, Mode = Walking, Time = 74.47 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,529 - INFO - Relative_2 -> Relative_6: Distance = 7.08 km, Mode = Walking, Time = 84.98 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,530 - INFO - Relative_2 -> Relative_7: Distance = 3.81 km, Mode = Walking, Time = 45.74 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,530 - INFO - Relative_2 -> Relative_8: Distance = 11.53 km, Mode = Walking, Time = 138.41 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,530 - INFO - Relative_2 -> Relative_9: Distance = 3.88 km, Mode = Walking, Time = 46.58 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,530 - INFO - Relative_2 -> Relative_10: Distance = 7.08 km, Mode = Walking, Time = 84.90 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,531 - INFO - Relative_3 -> Relative_4: Distance = 1.22 km, Mode = Walking, Time = 14.66 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,531 - INFO - Relative_3 -> Relative_5: Distance = 2.96 km, Mode = Walking, Time = 35.51 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,531 - INFO - Relative_3 -> Relative_6: Distance = 3.85 km, Mode = Walking, Time = 46.14 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,532 - INFO - Relative_3 -> Relative_7: Distance = 0.93 km, Mode = Walking, Time = 11.14 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,533 - INFO - Relative_3 -> Relative_8: Distance = 7.99 km, Mode = Walking, Time = 95.88 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,533 - INFO - Relative_3 -> Relative_9: Distance = 2.77 km, Mode = Walking, Time = 33.29 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,534 - INFO - Relative_3 -> Relative_10: Distance = 6.57 km, Mode = Walking, Time = 78.89 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,534 - INFO - Relative_4 -> Relative_5: Distance = 3.66 km, Mode = Walking, Time = 43.90 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,534 - INFO - Relative_4 -> Relative_6: Distance = 2.80 km, Mode = Walking, Time = 33.61 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,535 - INFO - Relative_4 -> Relative_7: Distance = 0.55 km, Mode = Walking, Time = 6.61 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,535 - INFO - Relative_4 -> Relative_8: Distance = 8.17 km, Mode = Walking, Time = 97.99 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,535 - INFO - Relative_4 -> Relative_9: Distance = 1.99 km, Mode = Walking, Time = 23.90 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,535 - INFO - Relative_4 -> Relative_10: Distance = 5.54 km, Mode = Walking, Time = 66.45 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,535 - INFO - Relative_5 -> Relative_6: Distance = 4.83 km, Mode = Walking, Time = 57.96 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,536 - INFO - Relative_5 -> Relative_7: Distance = 3.73 km, Mode = Walking, Time = 44.72 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,536 - INFO - Relative_5 -> Relative_8: Distance = 5.35 km, Mode = Walking, Time = 64.23 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,536 - INFO - Relative_5 -> Relative_9: Distance = 5.60 km, Mode = Walking, Time = 67.21 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,536 - INFO - Relative_5 -> Relative_10: Distance = 9.15 km, Mode = Walking, Time = 109.81 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,536 - INFO - Relative_6 -> Relative_7: Distance = 3.35 km, Mode = Walking, Time = 40.16 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,537 - INFO - Relative_6 -> Relative_8: Distance = 7.44 km, Mode = Walking, Time = 89.30 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,537 - INFO - Relative_6 -> Relative_9: Distance = 3.71 km, Mode = Walking, Time = 44.49 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,537 - INFO - Relative_6 -> Relative_10: Distance = 5.40 km, Mode = Walking, Time = 64.81 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,537 - INFO - Relative_7 -> Relative_8: Distance = 8.48 km, Mode = Walking, Time = 101.79 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,538 - INFO - Relative_7 -> Relative_9: Distance = 1.89 km, Mode = Walking, Time = 22.67 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,538 - INFO - Relative_7 -> Relative_10: Distance = 5.65 km, Mode = Walking, Time = 67.78 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,538 - INFO - Relative_8 -> Relative_9: Distance = 10.10 km, Mode = Walking, Time = 121.26 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,538 - INFO - Relative_8 -> Relative_10: Distance = 12.82 km, Mode = Walking, Time = 153.81 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,538 - INFO - Relative_9 -> Relative_10: Distance = 3.88 km, Mode = Walking, Time = 46.57 minutes, Cost = 0.00 units
+2024-12-05 02:30:16,538 - INFO - apply_criteria executed in 0.01 seconds
+2024-12-05 02:30:16,538 - INFO - Optimization type applied: single
+2024-12-05 02:30:24,124 - INFO - Selected TSP algorithm: evolutionary
+2024-12-05 02:30:24,124 - INFO - Solving TSP...
+2024-12-05 02:30:24,125 - INFO - Executing solve_tsp with arguments (<tarjan_travel_plan.tarjanplanner.tsp_solver.TSPSolver object at 0x0000017056C92660>, <networkx.classes.graph.Graph object at 0x0000017056C92510>) and {'method': 'evolutionary'}
+2024-12-05 02:30:24,125 - INFO - Executing solve_tsp_evolutionary with arguments (<tarjan_travel_plan.tarjanplanner.tsp_solver.TSPSolver object at 0x0000017056C92660>, <networkx.classes.graph.Graph object at 0x0000017056C92510>) and {}
+2024-12-05 02:30:24,217 - INFO - Original individual: [5, 4, 8, 2, 1, 6, 0, 3, 0, 9]
+2024-12-05 02:30:24,218 - INFO - Duplicates: [0], Missing nodes: [7]
+2024-12-05 02:30:24,219 - INFO - Repaired individual: [5, 4, 8, 2, 1, 6, 7, 3, 0, 9]
+2024-12-05 02:30:24,219 - INFO - Original individual: [1, 8, 9, 5, 4, 7, 2, 3, 7, 6]
+2024-12-05 02:30:24,220 - INFO - Duplicates: [7], Missing nodes: [0]
+2024-12-05 02:30:24,220 - INFO - Repaired individual: [1, 8, 9, 5, 4, 0, 2, 3, 7, 6]
+2024-12-05 02:30:24,220 - INFO - Original individual: [1, 3, 1, 7, 9, 6, 8, 9, 3, 4]
+2024-12-05 02:30:24,220 - INFO - Duplicates: [1, 3, 9], Missing nodes: [0, 2, 5]
+2024-12-05 02:30:24,221 - INFO - Repaired individual: [5, 2, 1, 7, 0, 6, 8, 9, 3, 4]
+2024-12-05 02:30:24,221 - INFO - Original individual: [5, 4, 6, 5, 7, 2, 0, 0, 8, 2]
+2024-12-05 02:30:24,221 - INFO - Duplicates: [5, 2, 0], Missing nodes: [1, 3, 9]
+2024-12-05 02:30:24,222 - INFO - Repaired individual: [9, 4, 6, 5, 7, 3, 1, 0, 8, 2]
+2024-12-05 02:30:24,222 - INFO - Original individual: [7, 4, 8, 0, 6, 2, 9, 6, 8, 3]
+2024-12-05 02:30:24,222 - INFO - Duplicates: [8, 6], Missing nodes: [1, 5]
+2024-12-05 02:30:24,223 - INFO - Repaired individual: [7, 4, 5, 0, 1, 2, 9, 6, 8, 3]
+2024-12-05 02:30:24,223 - INFO - Original individual: [4, 1, 5, 7, 3, 0, 1, 5, 9, 2]
+2024-12-05 02:30:24,223 - INFO - Duplicates: [1, 5], Missing nodes: [8, 6]
+2024-12-05 02:30:24,224 - INFO - Repaired individual: [4, 6, 8, 7, 3, 0, 1, 5, 9, 2]
+2024-12-05 02:30:24,224 - INFO - Original individual: [0, 1, 4, 1, 2, 6, 0, 3, 9, 3]
+2024-12-05 02:30:24,225 - INFO - Duplicates: [0, 1, 3], Missing nodes: [8, 5, 7]
+2024-12-05 02:30:24,225 - INFO - Repaired individual: [7, 5, 4, 1, 2, 6, 0, 8, 9, 3]
+2024-12-05 02:30:24,225 - INFO - Original individual: [5, 4, 8, 2, 7, 5, 6, 8, 7, 9]
+2024-12-05 02:30:24,225 - INFO - Duplicates: [5, 8, 7], Missing nodes: [0, 1, 3]
+2024-12-05 02:30:24,226 - INFO - Repaired individual: [3, 4, 1, 2, 0, 5, 6, 8, 7, 9]
+2024-12-05 02:30:24,226 - INFO - Original individual: [5, 5, 8, 0, 1, 7, 3, 9, 4, 2]
+2024-12-05 02:30:24,226 - INFO - Duplicates: [5], Missing nodes: [6]
+2024-12-05 02:30:24,226 - INFO - Repaired individual: [6, 5, 8, 0, 1, 7, 3, 9, 4, 2]
+2024-12-05 02:30:24,227 - INFO - Original individual: [3, 6, 4, 6, 7, 2, 1, 0, 8, 9]
+2024-12-05 02:30:24,227 - INFO - Duplicates: [6], Missing nodes: [5]
+2024-12-05 02:30:24,228 - INFO - Repaired individual: [3, 5, 4, 6, 7, 2, 1, 0, 8, 9]
+2024-12-05 02:30:24,228 - INFO - Original individual: [8, 5, 6, 4, 9, 3, 7, 4, 8, 3]
+2024-12-05 02:30:24,229 - INFO - Duplicates: [8, 4, 3], Missing nodes: [0, 1, 2]
+2024-12-05 02:30:24,229 - INFO - Repaired individual: [2, 5, 6, 1, 9, 0, 7, 4, 8, 3]
+2024-12-05 02:30:24,229 - INFO - Original individual: [2, 1, 5, 0, 6, 7, 2, 0, 1, 9]
+2024-12-05 02:30:24,230 - INFO - Duplicates: [2, 1, 0], Missing nodes: [8, 3, 4]
+2024-12-05 02:30:24,230 - INFO - Repaired individual: [4, 3, 5, 8, 6, 7, 2, 0, 1, 9]
+2024-12-05 02:30:24,230 - INFO - Original individual: [0, 2, 4, 3, 7, 2, 9, 3, 4, 1]
+2024-12-05 02:30:24,230 - INFO - Duplicates: [2, 4, 3], Missing nodes: [8, 5, 6]
+2024-12-05 02:30:24,230 - INFO - Repaired individual: [0, 6, 5, 8, 7, 2, 9, 3, 4, 1]
+2024-12-05 02:30:24,231 - INFO - Original individual: [6, 5, 8, 7, 1, 5, 6, 8, 9, 0]
+2024-12-05 02:30:24,231 - INFO - Duplicates: [6, 5, 8], Missing nodes: [2, 3, 4]
+2024-12-05 02:30:24,231 - INFO - Repaired individual: [4, 3, 2, 7, 1, 5, 6, 8, 9, 0]
+2024-12-05 02:30:24,231 - INFO - Original individual: [4, 0, 6, 8, 2, 9, 5, 6, 7, 3]
+2024-12-05 02:30:24,231 - INFO - Duplicates: [6], Missing nodes: [1]
+2024-12-05 02:30:24,231 - INFO - Repaired individual: [4, 0, 1, 8, 2, 9, 5, 6, 7, 3]
+2024-12-05 02:30:24,231 - INFO - Original individual: [9, 8, 3, 7, 2, 1, 0, 1, 5, 4]
+2024-12-05 02:30:24,232 - INFO - Duplicates: [1], Missing nodes: [6]
+2024-12-05 02:30:24,232 - INFO - Repaired individual: [9, 8, 3, 7, 2, 6, 0, 1, 5, 4]
+2024-12-05 02:30:24,232 - INFO - Original individual: [5, 4, 1, 7, 9, 7, 2, 0, 1, 2]
+2024-12-05 02:30:24,232 - INFO - Duplicates: [1, 7, 2], Missing nodes: [8, 3, 6]
+2024-12-05 02:30:24,232 - INFO - Repaired individual: [5, 4, 6, 3, 9, 7, 8, 0, 1, 2]
+2024-12-05 02:30:24,232 - INFO - Original individual: [8, 5, 6, 4, 9, 6, 3, 0, 8, 3]
+2024-12-05 02:30:24,232 - INFO - Duplicates: [8, 6, 3], Missing nodes: [1, 2, 7]
+2024-12-05 02:30:24,233 - INFO - Repaired individual: [7, 5, 2, 4, 9, 6, 1, 0, 8, 3]
+2024-12-05 02:30:24,233 - INFO - Original individual: [9, 8, 7, 1, 6, 4, 9, 8, 0, 4]
+2024-12-05 02:30:24,233 - INFO - Duplicates: [9, 8, 4], Missing nodes: [2, 3, 5]
+2024-12-05 02:30:24,233 - INFO - Repaired individual: [5, 3, 7, 1, 6, 2, 9, 8, 0, 4]
+2024-12-05 02:30:24,233 - INFO - Original individual: [2, 5, 3, 7, 2, 1, 0, 6, 5, 3]
+2024-12-05 02:30:24,233 - INFO - Duplicates: [2, 5, 3], Missing nodes: [8, 9, 4]
+2024-12-05 02:30:24,233 - INFO - Repaired individual: [4, 9, 8, 7, 2, 1, 0, 6, 5, 3]
+2024-12-05 02:30:24,233 - INFO - Original individual: [9, 5, 6, 1, 9, 2, 3, 6, 3, 8]
+2024-12-05 02:30:24,234 - INFO - Duplicates: [9, 6, 3], Missing nodes: [0, 4, 7]
+2024-12-05 02:30:24,234 - INFO - Repaired individual: [7, 5, 4, 1, 9, 2, 0, 6, 3, 8]
+2024-12-05 02:30:24,234 - INFO - Original individual: [0, 1, 5, 0, 8, 7, 4, 2, 4, 7]
+2024-12-05 02:30:24,235 - INFO - Duplicates: [0, 7, 4], Missing nodes: [9, 3, 6]
+2024-12-05 02:30:24,235 - INFO - Repaired individual: [6, 1, 5, 0, 8, 3, 9, 2, 4, 7]
+2024-12-05 02:30:24,235 - INFO - Original individual: [5, 4, 8, 1, 9, 4, 9, 8, 7, 6]
+2024-12-05 02:30:24,235 - INFO - Duplicates: [4, 8, 9], Missing nodes: [0, 2, 3]
+2024-12-05 02:30:24,236 - INFO - Repaired individual: [5, 3, 2, 1, 0, 4, 9, 8, 7, 6]
+2024-12-05 02:30:24,236 - INFO - Original individual: [2, 5, 7, 2, 1, 6, 0, 3, 0, 3]
+2024-12-05 02:30:24,236 - INFO - Duplicates: [2, 0, 3], Missing nodes: [8, 9, 4]
+2024-12-05 02:30:24,236 - INFO - Repaired individual: [4, 5, 7, 2, 1, 6, 9, 8, 0, 3]
+2024-12-05 02:30:24,236 - INFO - Original individual: [9, 5, 6, 0, 1, 7, 0, 2, 3, 8]
+2024-12-05 02:30:24,237 - INFO - Duplicates: [0], Missing nodes: [4]
+2024-12-05 02:30:24,237 - INFO - Repaired individual: [9, 5, 6, 4, 1, 7, 0, 2, 3, 8]
+2024-12-05 02:30:24,237 - INFO - Original individual: [5, 4, 8, 2, 1, 6, 4, 3, 7, 9]
+2024-12-05 02:30:24,237 - INFO - Duplicates: [4], Missing nodes: [0]
+2024-12-05 02:30:24,237 - INFO - Repaired individual: [5, 0, 8, 2, 1, 6, 4, 3, 7, 9]
+2024-12-05 02:30:24,237 - INFO - Original individual: [5, 0, 5, 9, 6, 7, 3, 1, 4, 7]
+2024-12-05 02:30:24,238 - INFO - Duplicates: [5, 7], Missing nodes: [8, 2]
+2024-12-05 02:30:24,238 - INFO - Repaired individual: [2, 0, 5, 9, 6, 8, 3, 1, 4, 7]
+2024-12-05 02:30:24,238 - INFO - Original individual: [8, 0, 8, 2, 6, 1, 3, 4, 9, 2]
+2024-12-05 02:30:24,238 - INFO - Duplicates: [8, 2], Missing nodes: [5, 7]
+2024-12-05 02:30:24,239 - INFO - Repaired individual: [7, 0, 8, 5, 6, 1, 3, 4, 9, 2]
+2024-12-05 02:30:24,240 - INFO - Original individual: [5, 9, 1, 7, 4, 6, 3, 2, 3, 8]
+2024-12-05 02:30:24,241 - INFO - Duplicates: [3], Missing nodes: [0]
+2024-12-05 02:30:24,241 - INFO - Repaired individual: [5, 9, 1, 7, 4, 6, 0, 2, 3, 8]
+2024-12-05 02:30:24,241 - INFO - Original individual: [2, 5, 6, 4, 1, 8, 7, 0, 0, 9]
+2024-12-05 02:30:24,242 - INFO - Duplicates: [0], Missing nodes: [3]
+2024-12-05 02:30:24,242 - INFO - Repaired individual: [2, 5, 6, 4, 1, 8, 7, 3, 0, 9]
+2024-12-05 02:30:24,242 - INFO - Original individual: [9, 3, 2, 7, 5, 8, 3, 1, 8, 1]
+2024-12-05 02:30:24,242 - INFO - Duplicates: [3, 8, 1], Missing nodes: [0, 4, 6]
+2024-12-05 02:30:24,243 - INFO - Repaired individual: [9, 6, 2, 7, 5, 4, 3, 0, 8, 1]
+2024-12-05 02:30:24,243 - INFO - Original individual: [2, 0, 5, 9, 6, 0, 4, 6, 4, 7]
+2024-12-05 02:30:24,247 - INFO - Duplicates: [0, 6, 4], Missing nodes: [8, 1, 3]
+2024-12-05 02:30:24,248 - INFO - Repaired individual: [2, 3, 5, 9, 1, 0, 8, 6, 4, 7]
+2024-12-05 02:30:24,248 - INFO - Original individual: [7, 5, 4, 1, 0, 6, 0, 8, 9, 3]
+2024-12-05 02:30:24,249 - INFO - Duplicates: [0], Missing nodes: [2]
+2024-12-05 02:30:24,249 - INFO - Repaired individual: [7, 5, 4, 1, 2, 6, 0, 8, 9, 3]
+2024-12-05 02:30:24,250 - INFO - Original individual: [5, 1, 6, 8, 2, 4, 7, 2, 3, 9]
+2024-12-05 02:30:24,250 - INFO - Duplicates: [2], Missing nodes: [0]
+2024-12-05 02:30:24,250 - INFO - Repaired individual: [5, 1, 6, 8, 0, 4, 7, 2, 3, 9]
+2024-12-05 02:30:24,250 - INFO - Original individual: [1, 9, 7, 3, 4, 5, 2, 4, 6, 0]
+2024-12-05 02:30:24,251 - INFO - Duplicates: [4], Missing nodes: [8]
+2024-12-05 02:30:24,251 - INFO - Repaired individual: [1, 9, 7, 3, 8, 5, 2, 4, 6, 0]
+2024-12-05 02:30:24,251 - INFO - Original individual: [0, 8, 5, 7, 3, 8, 6, 2, 9, 1]
+2024-12-05 02:30:24,251 - INFO - Duplicates: [8], Missing nodes: [4]
+2024-12-05 02:30:24,252 - INFO - Repaired individual: [0, 4, 5, 7, 3, 8, 6, 2, 9, 1]
+2024-12-05 02:30:24,252 - INFO - Original individual: [1, 9, 5, 7, 8, 0, 1, 2, 6, 0]
+2024-12-05 02:30:24,252 - INFO - Duplicates: [1, 0], Missing nodes: [3, 4]
+2024-12-05 02:30:24,252 - INFO - Repaired individual: [4, 9, 5, 7, 8, 3, 1, 2, 6, 0]
+2024-12-05 02:30:24,252 - INFO - Original individual: [9, 4, 3, 5, 3, 8, 2, 4, 6, 7]
+2024-12-05 02:30:24,253 - INFO - Duplicates: [4, 3], Missing nodes: [0, 1]
+2024-12-05 02:30:24,253 - INFO - Repaired individual: [9, 1, 0, 5, 3, 8, 2, 4, 6, 7]
+2024-12-05 02:30:24,253 - INFO - Original individual: [1, 9, 5, 6, 7, 2, 1, 4, 6, 0]
+2024-12-05 02:30:24,253 - INFO - Duplicates: [1, 6], Missing nodes: [8, 3]
+2024-12-05 02:30:24,254 - INFO - Repaired individual: [3, 9, 5, 8, 7, 2, 1, 4, 6, 0]
+2024-12-05 02:30:24,254 - INFO - Original individual: [3, 5, 4, 7, 3, 8, 2, 0, 8, 9]
+2024-12-05 02:30:24,254 - INFO - Duplicates: [3, 8], Missing nodes: [1, 6]
+2024-12-05 02:30:24,255 - INFO - Repaired individual: [6, 5, 4, 7, 3, 1, 2, 0, 8, 9]
+2024-12-05 02:30:24,255 - INFO - Original individual: [0, 0, 4, 3, 7, 5, 9, 8, 2, 3]
+2024-12-05 02:30:24,255 - INFO - Duplicates: [0, 3], Missing nodes: [1, 6]
+2024-12-05 02:30:24,255 - INFO - Repaired individual: [6, 0, 4, 1, 7, 5, 9, 8, 2, 3]
+2024-12-05 02:30:24,256 - INFO - Original individual: [4, 5, 7, 2, 1, 6, 6, 8, 9, 1]
+2024-12-05 02:30:24,256 - INFO - Duplicates: [1, 6], Missing nodes: [0, 3]
+2024-12-05 02:30:24,256 - INFO - Repaired individual: [4, 5, 7, 2, 3, 0, 6, 8, 9, 1]
+2024-12-05 02:30:24,256 - INFO - Original individual: [2, 4, 6, 3, 9, 7, 8, 0, 1, 2]
+2024-12-05 02:30:24,256 - INFO - Duplicates: [2], Missing nodes: [5]
+2024-12-05 02:30:24,257 - INFO - Repaired individual: [5, 4, 6, 3, 9, 7, 8, 0, 1, 2]
+2024-12-05 02:30:24,257 - INFO - Original individual: [5, 0, 5, 9, 6, 8, 3, 1, 4, 7]
+2024-12-05 02:30:24,257 - INFO - Duplicates: [5], Missing nodes: [2]
+2024-12-05 02:30:24,258 - INFO - Repaired individual: [2, 0, 5, 9, 6, 8, 3, 1, 4, 7]
+2024-12-05 02:30:24,258 - INFO - Original individual: [7, 4, 4, 3, 7, 6, 5, 8, 9, 1]
+2024-12-05 02:30:24,258 - INFO - Duplicates: [7, 4], Missing nodes: [0, 2]
+2024-12-05 02:30:24,258 - INFO - Repaired individual: [2, 0, 4, 3, 7, 6, 5, 8, 9, 1]
+2024-12-05 02:30:24,258 - INFO - Original individual: [0, 2, 8, 0, 6, 2, 1, 5, 9, 3]
+2024-12-05 02:30:24,259 - INFO - Duplicates: [0, 2], Missing nodes: [4, 7]
+2024-12-05 02:30:24,259 - INFO - Repaired individual: [7, 4, 8, 0, 6, 2, 1, 5, 9, 3]
+2024-12-05 02:30:24,259 - INFO - Original individual: [5, 9, 7, 1, 6, 6, 3, 0, 8, 2]
+2024-12-05 02:30:24,259 - INFO - Duplicates: [6], Missing nodes: [4]
+2024-12-05 02:30:24,259 - INFO - Repaired individual: [5, 9, 7, 1, 4, 6, 3, 0, 8, 2]
+2024-12-05 02:30:24,259 - INFO - Original individual: [5, 3, 8, 4, 0, 2, 9, 7, 1, 4]
+2024-12-05 02:30:24,259 - INFO - Duplicates: [4], Missing nodes: [6]
+2024-12-05 02:30:24,260 - INFO - Repaired individual: [5, 3, 8, 6, 0, 2, 9, 7, 1, 4]
+2024-12-05 02:30:24,260 - INFO - Original individual: [3, 5, 4, 7, 6, 2, 1, 8, 4, 9]
+2024-12-05 02:30:24,260 - INFO - Duplicates: [4], Missing nodes: [0]
+2024-12-05 02:30:24,260 - INFO - Repaired individual: [3, 5, 0, 7, 6, 2, 1, 8, 4, 9]
+2024-12-05 02:30:24,261 - INFO - Original individual: [3, 2, 7, 8, 9, 1, 0, 0, 6, 5]
+2024-12-05 02:30:24,261 - INFO - Duplicates: [0], Missing nodes: [4]
+2024-12-05 02:30:24,261 - INFO - Repaired individual: [3, 2, 7, 8, 9, 1, 4, 0, 6, 5]
+2024-12-05 02:30:24,261 - INFO - Original individual: [0, 2, 4, 3, 7, 5, 6, 8, 9, 3]
+2024-12-05 02:30:24,262 - INFO - Duplicates: [3], Missing nodes: [1]
+2024-12-05 02:30:24,262 - INFO - Repaired individual: [0, 2, 4, 1, 7, 5, 6, 8, 9, 3]
+2024-12-05 02:30:24,262 - INFO - Original individual: [7, 5, 2, 4, 9, 6, 1, 0, 8, 1]
+2024-12-05 02:30:24,262 - INFO - Duplicates: [1], Missing nodes: [3]
+2024-12-05 02:30:24,262 - INFO - Repaired individual: [7, 5, 2, 4, 9, 6, 3, 0, 8, 1]
+2024-12-05 02:30:24,263 - INFO - Original individual: [7, 2, 7, 0, 6, 2, 1, 5, 9, 3]
+2024-12-05 02:30:24,263 - INFO - Duplicates: [7, 2], Missing nodes: [8, 4]
+2024-12-05 02:30:24,263 - INFO - Repaired individual: [4, 8, 7, 0, 6, 2, 1, 5, 9, 3]
+2024-12-05 02:30:24,264 - INFO - Original individual: [3, 4, 8, 8, 9, 1, 0, 4, 6, 5]
+2024-12-05 02:30:24,264 - INFO - Duplicates: [4, 8], Missing nodes: [2, 7]
+2024-12-05 02:30:24,264 - INFO - Repaired individual: [3, 7, 2, 8, 9, 1, 0, 4, 6, 5]
+2024-12-05 02:30:24,264 - INFO - Original individual: [0, 6, 5, 8, 7, 6, 9, 3, 4, 1]
+2024-12-05 02:30:24,265 - INFO - Duplicates: [6], Missing nodes: [2]
+2024-12-05 02:30:24,265 - INFO - Repaired individual: [0, 2, 5, 8, 7, 6, 9, 3, 4, 1]
+2024-12-05 02:30:24,265 - INFO - Original individual: [9, 8, 2, 7, 3, 5, 0, 1, 2, 4]
+2024-12-05 02:30:24,265 - INFO - Duplicates: [2], Missing nodes: [6]
+2024-12-05 02:30:24,265 - INFO - Repaired individual: [9, 8, 6, 7, 3, 5, 0, 1, 2, 4]
+2024-12-05 02:30:24,265 - INFO - Original individual: [7, 4, 5, 1, 9, 2, 9, 6, 8, 3]
+2024-12-05 02:30:24,265 - INFO - Duplicates: [9], Missing nodes: [0]
+2024-12-05 02:30:24,266 - INFO - Repaired individual: [7, 4, 5, 1, 0, 2, 9, 6, 8, 3]
+2024-12-05 02:30:24,266 - INFO - Original individual: [7, 5, 4, 0, 1, 2, 0, 6, 3, 8]
+2024-12-05 02:30:24,266 - INFO - Duplicates: [0], Missing nodes: [9]
+2024-12-05 02:30:24,266 - INFO - Repaired individual: [7, 5, 4, 9, 1, 2, 0, 6, 3, 8]
+2024-12-05 02:30:24,266 - INFO - Original individual: [5, 8, 3, 7, 2, 6, 0, 1, 8, 2]
+2024-12-05 02:30:24,266 - INFO - Duplicates: [8, 2], Missing nodes: [9, 4]
+2024-12-05 02:30:24,266 - INFO - Repaired individual: [5, 4, 3, 7, 9, 6, 0, 1, 8, 2]
+2024-12-05 02:30:24,267 - INFO - Original individual: [9, 9, 1, 7, 4, 6, 3, 0, 5, 4]
+2024-12-05 02:30:24,267 - INFO - Duplicates: [9, 4], Missing nodes: [8, 2]
+2024-12-05 02:30:24,267 - INFO - Repaired individual: [2, 9, 1, 7, 8, 6, 3, 0, 5, 4]
+2024-12-05 02:30:24,267 - INFO - Original individual: [5, 9, 1, 0, 1, 2, 9, 6, 8, 2]
+2024-12-05 02:30:24,267 - INFO - Duplicates: [9, 1, 2], Missing nodes: [3, 4, 7]
+2024-12-05 02:30:24,268 - INFO - Repaired individual: [5, 7, 4, 0, 1, 3, 9, 6, 8, 2]
+2024-12-05 02:30:24,268 - INFO - Original individual: [7, 4, 5, 7, 4, 6, 3, 0, 8, 3]
+2024-12-05 02:30:24,268 - INFO - Duplicates: [7, 4, 3], Missing nodes: [1, 2, 9]
+2024-12-05 02:30:24,268 - INFO - Repaired individual: [9, 2, 5, 7, 4, 6, 1, 0, 8, 3]
+2024-12-05 02:30:24,269 - INFO - Original individual: [4, 5, 9, 0, 1, 7, 3, 0, 8, 3]
+2024-12-05 02:30:24,270 - INFO - Duplicates: [0, 3], Missing nodes: [2, 6]
+2024-12-05 02:30:24,270 - INFO - Repaired individual: [4, 5, 9, 6, 1, 7, 2, 0, 8, 3]
+2024-12-05 02:30:24,270 - INFO - Original individual: [9, 2, 5, 7, 4, 6, 1, 6, 8, 2]
+2024-12-05 02:30:24,271 - INFO - Duplicates: [2, 6], Missing nodes: [0, 3]
+2024-12-05 02:30:24,271 - INFO - Repaired individual: [9, 3, 5, 7, 4, 0, 1, 6, 8, 2]
+2024-12-05 02:30:24,271 - INFO - Original individual: [0, 2, 4, 1, 7, 5, 9, 8, 2, 3]
+2024-12-05 02:30:24,271 - INFO - Duplicates: [2], Missing nodes: [6]
+2024-12-05 02:30:24,271 - INFO - Repaired individual: [0, 6, 4, 1, 7, 5, 9, 8, 2, 3]
+2024-12-05 02:30:24,271 - INFO - Original individual: [6, 0, 4, 1, 7, 5, 6, 8, 9, 3]
+2024-12-05 02:30:24,272 - INFO - Duplicates: [6], Missing nodes: [2]
+2024-12-05 02:30:24,272 - INFO - Repaired individual: [2, 0, 4, 1, 7, 5, 6, 8, 9, 3]
+2024-12-05 02:30:24,272 - INFO - Original individual: [0, 4, 5, 7, 3, 2, 6, 2, 9, 1]
+2024-12-05 02:30:24,272 - INFO - Duplicates: [2], Missing nodes: [8]
+2024-12-05 02:30:24,272 - INFO - Repaired individual: [0, 4, 5, 7, 3, 8, 6, 2, 9, 1]
+2024-12-05 02:30:24,272 - INFO - Original individual: [7, 4, 5, 0, 1, 8, 9, 6, 8, 3]
+2024-12-05 02:30:24,272 - INFO - Duplicates: [8], Missing nodes: [2]
+2024-12-05 02:30:24,272 - INFO - Repaired individual: [7, 4, 5, 0, 1, 2, 9, 6, 8, 3]
+2024-12-05 02:30:24,273 - INFO - Original individual: [6, 4, 5, 1, 0, 2, 9, 6, 8, 3]
+2024-12-05 02:30:24,273 - INFO - Duplicates: [6], Missing nodes: [7]
+2024-12-05 02:30:24,273 - INFO - Repaired individual: [7, 4, 5, 1, 0, 2, 9, 6, 8, 3]
+2024-12-05 02:30:24,273 - INFO - Original individual: [7, 5, 4, 7, 3, 1, 2, 0, 8, 9]
+2024-12-05 02:30:24,273 - INFO - Duplicates: [7], Missing nodes: [6]
+2024-12-05 02:30:24,273 - INFO - Repaired individual: [6, 5, 4, 7, 3, 1, 2, 0, 8, 9]
+2024-12-05 02:30:24,274 - INFO - Original individual: [0, 5, 6, 1, 0, 4, 7, 2, 9, 3]
+2024-12-05 02:30:24,274 - INFO - Duplicates: [0], Missing nodes: [8]
+2024-12-05 02:30:24,274 - INFO - Repaired individual: [8, 5, 6, 1, 0, 4, 7, 2, 9, 3]
+2024-12-05 02:30:24,274 - INFO - Original individual: [9, 2, 4, 1, 7, 5, 6, 8, 3, 8]
+2024-12-05 02:30:24,275 - INFO - Duplicates: [8], Missing nodes: [0]
+2024-12-05 02:30:24,275 - INFO - Repaired individual: [9, 2, 4, 1, 7, 5, 6, 0, 3, 8]
+2024-12-05 02:30:24,275 - INFO - Original individual: [9, 4, 5, 1, 1, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,275 - INFO - Duplicates: [4, 1], Missing nodes: [0, 6]
+2024-12-05 02:30:24,276 - INFO - Repaired individual: [9, 6, 5, 0, 1, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,276 - INFO - Original individual: [7, 5, 6, 0, 0, 2, 9, 6, 8, 3]
+2024-12-05 02:30:24,276 - INFO - Duplicates: [6, 0], Missing nodes: [1, 4]
+2024-12-05 02:30:24,277 - INFO - Repaired individual: [7, 5, 4, 1, 0, 2, 9, 6, 8, 3]
+2024-12-05 02:30:24,277 - INFO - Original individual: [7, 4, 8, 1, 0, 4, 1, 5, 9, 3]
+2024-12-05 02:30:24,278 - INFO - Duplicates: [4, 1], Missing nodes: [2, 6]
+2024-12-05 02:30:24,278 - INFO - Repaired individual: [7, 6, 8, 2, 0, 4, 1, 5, 9, 3]
+2024-12-05 02:30:24,278 - INFO - Original individual: [9, 5, 6, 0, 6, 2, 7, 2, 3, 8]
+2024-12-05 02:30:24,278 - INFO - Duplicates: [6, 2], Missing nodes: [1, 4]
+2024-12-05 02:30:24,279 - INFO - Repaired individual: [9, 5, 4, 0, 6, 1, 7, 2, 3, 8]
+2024-12-05 02:30:24,280 - INFO - Original individual: [2, 3, 5, 9, 1, 4, 7, 2, 4, 7]
+2024-12-05 02:30:24,280 - INFO - Duplicates: [2, 4, 7], Missing nodes: [0, 8, 6]
+2024-12-05 02:30:24,281 - INFO - Repaired individual: [6, 3, 5, 9, 1, 8, 0, 2, 4, 7]
+2024-12-05 02:30:24,281 - INFO - Original individual: [9, 5, 6, 1, 0, 0, 8, 6, 3, 8]
+2024-12-05 02:30:24,281 - INFO - Duplicates: [6, 0, 8], Missing nodes: [2, 4, 7]
+2024-12-05 02:30:24,281 - INFO - Repaired individual: [9, 5, 7, 1, 4, 0, 2, 6, 3, 8]
+2024-12-05 02:30:24,282 - INFO - Original individual: [9, 2, 5, 7, 4, 6, 1, 2, 3, 8]
+2024-12-05 02:30:24,282 - INFO - Duplicates: [2], Missing nodes: [0]
+2024-12-05 02:30:24,282 - INFO - Repaired individual: [9, 0, 5, 7, 4, 6, 1, 2, 3, 8]
+2024-12-05 02:30:24,282 - INFO - Original individual: [9, 5, 6, 1, 0, 4, 7, 0, 8, 3]
+2024-12-05 02:30:24,282 - INFO - Duplicates: [0], Missing nodes: [2]
+2024-12-05 02:30:24,282 - INFO - Repaired individual: [9, 5, 6, 1, 2, 4, 7, 0, 8, 3]
+2024-12-05 02:30:24,282 - INFO - Original individual: [9, 5, 6, 0, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,282 - INFO - Duplicates: [0], Missing nodes: [1]
+2024-12-05 02:30:24,283 - INFO - Repaired individual: [9, 5, 6, 1, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,283 - INFO - Original individual: [9, 5, 6, 1, 1, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,284 - INFO - Duplicates: [1], Missing nodes: [0]
+2024-12-05 02:30:24,284 - INFO - Repaired individual: [9, 5, 6, 0, 1, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,284 - INFO - Original individual: [9, 3, 5, 7, 4, 0, 8, 6, 8, 2]
+2024-12-05 02:30:24,285 - INFO - Duplicates: [8], Missing nodes: [1]
+2024-12-05 02:30:24,285 - INFO - Repaired individual: [9, 3, 5, 7, 4, 0, 1, 6, 8, 2]
+2024-12-05 02:30:24,285 - INFO - Original individual: [2, 3, 5, 9, 1, 0, 1, 6, 4, 7]
+2024-12-05 02:30:24,286 - INFO - Duplicates: [1], Missing nodes: [8]
+2024-12-05 02:30:24,286 - INFO - Repaired individual: [2, 3, 5, 9, 8, 0, 1, 6, 4, 7]
+2024-12-05 02:30:24,286 - INFO - Original individual: [9, 5, 6, 0, 1, 4, 8, 2, 3, 8]
+2024-12-05 02:30:24,286 - INFO - Duplicates: [8], Missing nodes: [7]
+2024-12-05 02:30:24,286 - INFO - Repaired individual: [9, 5, 6, 0, 1, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,287 - INFO - Original individual: [2, 3, 5, 9, 1, 0, 7, 6, 4, 7]
+2024-12-05 02:30:24,287 - INFO - Duplicates: [7], Missing nodes: [8]
+2024-12-05 02:30:24,287 - INFO - Repaired individual: [2, 3, 5, 9, 1, 0, 8, 6, 4, 7]
+2024-12-05 02:30:24,287 - INFO - Original individual: [9, 3, 6, 1, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,287 - INFO - Duplicates: [3], Missing nodes: [5]
+2024-12-05 02:30:24,287 - INFO - Repaired individual: [9, 5, 6, 1, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,288 - INFO - Original individual: [2, 5, 5, 9, 1, 0, 8, 6, 4, 7]
+2024-12-05 02:30:24,288 - INFO - Duplicates: [5], Missing nodes: [3]
+2024-12-05 02:30:24,288 - INFO - Repaired individual: [2, 3, 5, 9, 1, 0, 8, 6, 4, 7]
+2024-12-05 02:30:24,288 - INFO - Original individual: [9, 6, 6, 1, 0, 4, 3, 0, 8, 1]
+2024-12-05 02:30:24,289 - INFO - Duplicates: [6, 1, 0], Missing nodes: [2, 5, 7]
+2024-12-05 02:30:24,289 - INFO - Repaired individual: [9, 7, 6, 5, 2, 4, 3, 0, 8, 1]
+2024-12-05 02:30:24,289 - INFO - Original individual: [9, 5, 2, 7, 5, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,289 - INFO - Duplicates: [5, 2, 7], Missing nodes: [0, 1, 6]
+2024-12-05 02:30:24,289 - INFO - Repaired individual: [9, 6, 1, 0, 5, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,290 - INFO - Original individual: [0, 5, 6, 7, 3, 8, 6, 2, 9, 1]
+2024-12-05 02:30:24,290 - INFO - Duplicates: [6], Missing nodes: [4]
+2024-12-05 02:30:24,290 - INFO - Repaired individual: [0, 5, 4, 7, 3, 8, 6, 2, 9, 1]
+2024-12-05 02:30:24,290 - INFO - Original individual: [9, 4, 5, 0, 1, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,290 - INFO - Duplicates: [4], Missing nodes: [6]
+2024-12-05 02:30:24,291 - INFO - Repaired individual: [9, 6, 5, 0, 1, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,292 - INFO - Original individual: [2, 3, 5, 9, 1, 8, 2, 4, 4, 7]
+2024-12-05 02:30:24,292 - INFO - Duplicates: [2, 4], Missing nodes: [0, 6]
+2024-12-05 02:30:24,292 - INFO - Repaired individual: [6, 3, 5, 9, 1, 8, 2, 0, 4, 7]
+2024-12-05 02:30:24,293 - INFO - Original individual: [6, 9, 5, 7, 3, 0, 8, 6, 1, 0]
+2024-12-05 02:30:24,293 - INFO - Duplicates: [6, 0], Missing nodes: [2, 4]
+2024-12-05 02:30:24,293 - INFO - Repaired individual: [4, 9, 5, 7, 3, 2, 8, 6, 1, 0]
+2024-12-05 02:30:24,294 - INFO - Original individual: [1, 9, 5, 7, 1, 0, 8, 6, 4, 0]
+2024-12-05 02:30:24,294 - INFO - Duplicates: [1, 0], Missing nodes: [2, 3]
+2024-12-05 02:30:24,295 - INFO - Repaired individual: [3, 9, 5, 7, 1, 2, 8, 6, 4, 0]
+2024-12-05 02:30:24,295 - INFO - Original individual: [2, 3, 5, 9, 3, 8, 2, 4, 6, 7]
+2024-12-05 02:30:24,296 - INFO - Duplicates: [2, 3], Missing nodes: [0, 1]
+2024-12-05 02:30:24,296 - INFO - Repaired individual: [1, 0, 5, 9, 3, 8, 2, 4, 6, 7]
+2024-12-05 02:30:24,296 - INFO - Original individual: [9, 5, 6, 1, 0, 4, 7, 2, 9, 8]
+2024-12-05 02:30:24,296 - INFO - Duplicates: [9], Missing nodes: [3]
+2024-12-05 02:30:24,297 - INFO - Repaired individual: [3, 5, 6, 1, 0, 4, 7, 2, 9, 8]
+2024-12-05 02:30:24,297 - INFO - Original individual: [8, 5, 6, 0, 1, 4, 7, 2, 3, 3]
+2024-12-05 02:30:24,297 - INFO - Duplicates: [3], Missing nodes: [9]
+2024-12-05 02:30:24,297 - INFO - Repaired individual: [8, 5, 6, 0, 1, 4, 7, 2, 9, 3]
+2024-12-05 02:30:24,297 - INFO - Original individual: [9, 6, 5, 0, 1, 0, 8, 2, 3, 8]
+2024-12-05 02:30:24,298 - INFO - Duplicates: [0, 8], Missing nodes: [4, 7]
+2024-12-05 02:30:24,298 - INFO - Repaired individual: [9, 6, 5, 7, 1, 0, 4, 2, 3, 8]
+2024-12-05 02:30:24,298 - INFO - Original individual: [2, 7, 9, 6, 1, 4, 3, 5, 4, 7]
+2024-12-05 02:30:24,299 - INFO - Duplicates: [7, 4], Missing nodes: [0, 8]
+2024-12-05 02:30:24,299 - INFO - Repaired individual: [2, 8, 9, 6, 1, 0, 3, 5, 4, 7]
+2024-12-05 02:30:24,299 - INFO - Original individual: [9, 6, 5, 9, 5, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,299 - INFO - Duplicates: [9, 5], Missing nodes: [0, 1]
+2024-12-05 02:30:24,299 - INFO - Repaired individual: [1, 6, 0, 9, 5, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,299 - INFO - Original individual: [2, 3, 1, 0, 1, 0, 8, 6, 4, 7]
+2024-12-05 02:30:24,300 - INFO - Duplicates: [1, 0], Missing nodes: [9, 5]
+2024-12-05 02:30:24,300 - INFO - Repaired individual: [2, 3, 5, 9, 1, 0, 8, 6, 4, 7]
+2024-12-05 02:30:24,300 - INFO - Original individual: [2, 3, 5, 9, 1, 0, 1, 6, 4, 7]
+2024-12-05 02:30:24,300 - INFO - Duplicates: [1], Missing nodes: [8]
+2024-12-05 02:30:24,300 - INFO - Repaired individual: [2, 3, 5, 9, 8, 0, 1, 6, 4, 7]
+2024-12-05 02:30:24,301 - INFO - Original individual: [2, 3, 5, 9, 8, 0, 8, 6, 4, 7]
+2024-12-05 02:30:24,301 - INFO - Duplicates: [8], Missing nodes: [1]
+2024-12-05 02:30:24,301 - INFO - Repaired individual: [2, 3, 5, 9, 1, 0, 8, 6, 4, 7]
+2024-12-05 02:30:24,301 - INFO - Original individual: [9, 5, 6, 1, 0, 4, 7, 2, 4, 7]
+2024-12-05 02:30:24,302 - INFO - Duplicates: [4, 7], Missing nodes: [8, 3]
+2024-12-05 02:30:24,302 - INFO - Repaired individual: [9, 5, 6, 1, 0, 3, 8, 2, 4, 7]
+2024-12-05 02:30:24,302 - INFO - Original individual: [2, 3, 5, 9, 1, 0, 8, 6, 3, 8]
+2024-12-05 02:30:24,302 - INFO - Duplicates: [3, 8], Missing nodes: [4, 7]
+2024-12-05 02:30:24,303 - INFO - Repaired individual: [2, 7, 5, 9, 1, 0, 4, 6, 3, 8]
+2024-12-05 02:30:24,303 - INFO - Original individual: [2, 3, 7, 7, 5, 8, 0, 6, 4, 9]
+2024-12-05 02:30:24,303 - INFO - Duplicates: [7], Missing nodes: [1]
+2024-12-05 02:30:24,303 - INFO - Repaired individual: [2, 3, 1, 7, 5, 8, 0, 6, 4, 9]
+2024-12-05 02:30:24,303 - INFO - Original individual: [9, 5, 6, 0, 1, 4, 1, 2, 3, 8]
+2024-12-05 02:30:24,304 - INFO - Duplicates: [1], Missing nodes: [7]
+2024-12-05 02:30:24,304 - INFO - Repaired individual: [9, 5, 6, 0, 7, 4, 1, 2, 3, 8]
+2024-12-05 02:30:24,304 - INFO - Original individual: [9, 3, 5, 9, 1, 8, 7, 2, 3, 8]
+2024-12-05 02:30:24,304 - INFO - Duplicates: [9, 3, 8], Missing nodes: [0, 4, 6]
+2024-12-05 02:30:24,304 - INFO - Repaired individual: [6, 4, 5, 9, 1, 0, 7, 2, 3, 8]
+2024-12-05 02:30:24,305 - INFO - Original individual: [6, 5, 6, 1, 0, 4, 0, 2, 4, 7]
+2024-12-05 02:30:24,305 - INFO - Duplicates: [6, 0, 4], Missing nodes: [8, 9, 3]
+2024-12-05 02:30:24,305 - INFO - Repaired individual: [3, 5, 6, 1, 9, 8, 0, 2, 4, 7]
+2024-12-05 02:30:24,305 - INFO - Original individual: [9, 5, 6, 1, 0, 0, 8, 6, 4, 7]
+2024-12-05 02:30:24,305 - INFO - Duplicates: [6, 0], Missing nodes: [2, 3]
+2024-12-05 02:30:24,305 - INFO - Repaired individual: [9, 5, 3, 1, 2, 0, 8, 6, 4, 7]
+2024-12-05 02:30:24,305 - INFO - Original individual: [2, 3, 5, 9, 3, 4, 7, 2, 1, 8]
+2024-12-05 02:30:24,306 - INFO - Duplicates: [2, 3], Missing nodes: [0, 6]
+2024-12-05 02:30:24,306 - INFO - Repaired individual: [6, 0, 5, 9, 3, 4, 7, 2, 1, 8]
+2024-12-05 02:30:24,306 - INFO - Original individual: [9, 5, 5, 7, 4, 0, 1, 6, 8, 8]
+2024-12-05 02:30:24,306 - INFO - Duplicates: [5, 8], Missing nodes: [2, 3]
+2024-12-05 02:30:24,306 - INFO - Repaired individual: [9, 3, 5, 7, 4, 0, 1, 6, 2, 8]
+2024-12-05 02:30:24,306 - INFO - Original individual: [9, 3, 6, 1, 0, 4, 7, 2, 3, 2]
+2024-12-05 02:30:24,306 - INFO - Duplicates: [3, 2], Missing nodes: [8, 5]
+2024-12-05 02:30:24,306 - INFO - Repaired individual: [9, 5, 6, 1, 0, 4, 7, 8, 3, 2]
+2024-12-05 02:30:24,307 - INFO - Original individual: [2, 3, 5, 0, 1, 4, 7, 2, 4, 7]
+2024-12-05 02:30:24,307 - INFO - Duplicates: [2, 4, 7], Missing nodes: [8, 9, 6]
+2024-12-05 02:30:24,307 - INFO - Repaired individual: [6, 3, 5, 0, 1, 9, 8, 2, 4, 7]
+2024-12-05 02:30:24,307 - INFO - Original individual: [9, 6, 5, 9, 1, 0, 8, 6, 3, 8]
+2024-12-05 02:30:24,307 - INFO - Duplicates: [9, 6, 8], Missing nodes: [2, 4, 7]
+2024-12-05 02:30:24,307 - INFO - Repaired individual: [7, 4, 5, 9, 1, 0, 2, 6, 3, 8]
+2024-12-05 02:30:24,308 - INFO - Original individual: [2, 7, 5, 9, 1, 0, 8, 6, 3, 8]
+2024-12-05 02:30:24,309 - INFO - Duplicates: [8], Missing nodes: [4]
+2024-12-05 02:30:24,309 - INFO - Repaired individual: [2, 7, 5, 9, 1, 0, 4, 6, 3, 8]
+2024-12-05 02:30:24,310 - INFO - Original individual: [2, 3, 5, 9, 1, 0, 4, 6, 4, 7]
+2024-12-05 02:30:24,310 - INFO - Duplicates: [4], Missing nodes: [8]
+2024-12-05 02:30:24,310 - INFO - Repaired individual: [2, 3, 5, 9, 1, 0, 8, 6, 4, 7]
+2024-12-05 02:30:24,311 - INFO - Original individual: [9, 5, 5, 9, 8, 0, 1, 6, 4, 7]
+2024-12-05 02:30:24,311 - INFO - Duplicates: [9, 5], Missing nodes: [2, 3]
+2024-12-05 02:30:24,312 - INFO - Repaired individual: [3, 2, 5, 9, 8, 0, 1, 6, 4, 7]
+2024-12-05 02:30:24,312 - INFO - Original individual: [2, 3, 6, 1, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,312 - INFO - Duplicates: [2, 3], Missing nodes: [9, 5]
+2024-12-05 02:30:24,313 - INFO - Repaired individual: [5, 9, 6, 1, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,313 - INFO - Original individual: [9, 5, 5, 9, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,313 - INFO - Duplicates: [9, 5], Missing nodes: [1, 6]
+2024-12-05 02:30:24,313 - INFO - Repaired individual: [6, 1, 5, 9, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,313 - INFO - Original individual: [2, 3, 6, 1, 1, 0, 8, 6, 4, 7]
+2024-12-05 02:30:24,314 - INFO - Duplicates: [6, 1], Missing nodes: [9, 5]
+2024-12-05 02:30:24,314 - INFO - Repaired individual: [2, 3, 5, 9, 1, 0, 8, 6, 4, 7]
+2024-12-05 02:30:24,314 - INFO - Original individual: [2, 8, 9, 6, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,315 - INFO - Duplicates: [2, 8], Missing nodes: [1, 5]
+2024-12-05 02:30:24,315 - INFO - Repaired individual: [5, 1, 9, 6, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,315 - INFO - Original individual: [9, 5, 6, 1, 5, 0, 1, 3, 7, 4]
+2024-12-05 02:30:24,315 - INFO - Duplicates: [5, 1], Missing nodes: [8, 2]
+2024-12-05 02:30:24,316 - INFO - Repaired individual: [9, 2, 6, 8, 5, 0, 1, 3, 7, 4]
+2024-12-05 02:30:24,316 - INFO - Original individual: [9, 8, 6, 1, 0, 4, 5, 2, 9, 7]
+2024-12-05 02:30:24,316 - INFO - Duplicates: [9], Missing nodes: [3]
+2024-12-05 02:30:24,316 - INFO - Repaired individual: [3, 8, 6, 1, 0, 4, 5, 2, 9, 7]
+2024-12-05 02:30:24,316 - INFO - Original individual: [6, 3, 5, 0, 1, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,317 - INFO - Duplicates: [3], Missing nodes: [9]
+2024-12-05 02:30:24,317 - INFO - Repaired individual: [6, 9, 5, 0, 1, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,317 - INFO - Original individual: [3, 6, 2, 1, 0, 4, 7, 5, 3, 8]
+2024-12-05 02:30:24,317 - INFO - Duplicates: [3], Missing nodes: [9]
+2024-12-05 02:30:24,318 - INFO - Repaired individual: [9, 6, 2, 1, 0, 4, 7, 5, 3, 8]
+2024-12-05 02:30:24,318 - INFO - Original individual: [9, 5, 6, 1, 0, 4, 7, 2, 9, 8]
+2024-12-05 02:30:24,318 - INFO - Duplicates: [9], Missing nodes: [3]
+2024-12-05 02:30:24,318 - INFO - Repaired individual: [3, 5, 6, 1, 0, 4, 7, 2, 9, 8]
+2024-12-05 02:30:24,318 - INFO - Original individual: [3, 6, 2, 1, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,319 - INFO - Duplicates: [3, 2], Missing nodes: [9, 5]
+2024-12-05 02:30:24,319 - INFO - Repaired individual: [5, 6, 9, 1, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,319 - INFO - Original individual: [9, 5, 6, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,319 - INFO - Duplicates: [9, 5], Missing nodes: [2, 3]
+2024-12-05 02:30:24,319 - INFO - Repaired individual: [3, 2, 6, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,320 - INFO - Original individual: [9, 2, 5, 9, 8, 0, 1, 2, 3, 8]
+2024-12-05 02:30:24,321 - INFO - Duplicates: [9, 2, 8], Missing nodes: [4, 6, 7]
+2024-12-05 02:30:24,321 - INFO - Repaired individual: [7, 6, 5, 9, 4, 0, 1, 2, 3, 8]
+2024-12-05 02:30:24,321 - INFO - Original individual: [3, 5, 6, 1, 0, 4, 7, 6, 4, 7]
+2024-12-05 02:30:24,321 - INFO - Duplicates: [6, 4, 7], Missing nodes: [8, 9, 2]
+2024-12-05 02:30:24,321 - INFO - Repaired individual: [3, 5, 2, 1, 0, 9, 8, 6, 4, 7]
+2024-12-05 02:30:24,321 - INFO - Original individual: [9, 5, 6, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,322 - INFO - Duplicates: [9, 5], Missing nodes: [2, 3]
+2024-12-05 02:30:24,322 - INFO - Repaired individual: [3, 2, 6, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,322 - INFO - Original individual: [3, 6, 2, 1, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,322 - INFO - Duplicates: [3, 2], Missing nodes: [9, 5]
+2024-12-05 02:30:24,322 - INFO - Repaired individual: [5, 6, 9, 1, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,322 - INFO - Original individual: [3, 6, 2, 0, 1, 4, 7, 2, 9, 8]
+2024-12-05 02:30:24,323 - INFO - Duplicates: [2], Missing nodes: [5]
+2024-12-05 02:30:24,323 - INFO - Repaired individual: [3, 6, 5, 0, 1, 4, 7, 2, 9, 8]
+2024-12-05 02:30:24,323 - INFO - Original individual: [9, 5, 6, 1, 0, 4, 7, 5, 3, 8]
+2024-12-05 02:30:24,323 - INFO - Duplicates: [5], Missing nodes: [2]
+2024-12-05 02:30:24,323 - INFO - Repaired individual: [9, 2, 6, 1, 0, 4, 7, 5, 3, 8]
+2024-12-05 02:30:24,324 - INFO - Original individual: [9, 3, 5, 9, 8, 0, 1, 6, 3, 8]
+2024-12-05 02:30:24,324 - INFO - Duplicates: [9, 3, 8], Missing nodes: [2, 4, 7]
+2024-12-05 02:30:24,324 - INFO - Repaired individual: [7, 4, 5, 9, 2, 0, 1, 6, 3, 8]
+2024-12-05 02:30:24,324 - INFO - Original individual: [2, 5, 6, 1, 0, 4, 7, 2, 4, 7]
+2024-12-05 02:30:24,325 - INFO - Duplicates: [2, 4, 7], Missing nodes: [8, 9, 3]
+2024-12-05 02:30:24,325 - INFO - Repaired individual: [3, 5, 6, 1, 0, 9, 8, 2, 4, 7]
+2024-12-05 02:30:24,325 - INFO - Original individual: [3, 6, 2, 0, 2, 4, 7, 1, 3, 8]
+2024-12-05 02:30:24,325 - INFO - Duplicates: [3, 2], Missing nodes: [9, 5]
+2024-12-05 02:30:24,325 - INFO - Repaired individual: [5, 6, 9, 0, 2, 4, 7, 1, 3, 8]
+2024-12-05 02:30:24,326 - INFO - Original individual: [9, 5, 6, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,326 - INFO - Duplicates: [9, 5], Missing nodes: [2, 3]
+2024-12-05 02:30:24,326 - INFO - Repaired individual: [3, 2, 6, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,327 - INFO - Original individual: [7, 3, 6, 1, 0, 9, 4, 5, 5, 8]
+2024-12-05 02:30:24,327 - INFO - Duplicates: [5], Missing nodes: [2]
+2024-12-05 02:30:24,327 - INFO - Repaired individual: [7, 3, 6, 1, 0, 9, 4, 2, 5, 8]
+2024-12-05 02:30:24,327 - INFO - Original individual: [3, 6, 2, 1, 0, 4, 7, 2, 9, 8]
+2024-12-05 02:30:24,328 - INFO - Duplicates: [2], Missing nodes: [5]
+2024-12-05 02:30:24,328 - INFO - Repaired individual: [3, 6, 5, 1, 0, 4, 7, 2, 9, 8]
+2024-12-05 02:30:24,328 - INFO - Original individual: [9, 5, 6, 0, 1, 4, 7, 5, 3, 8]
+2024-12-05 02:30:24,328 - INFO - Duplicates: [5], Missing nodes: [2]
+2024-12-05 02:30:24,329 - INFO - Repaired individual: [9, 2, 6, 0, 1, 4, 7, 5, 3, 8]
+2024-12-05 02:30:24,329 - INFO - Original individual: [3, 6, 2, 1, 0, 4, 7, 2, 9, 8]
+2024-12-05 02:30:24,329 - INFO - Duplicates: [2], Missing nodes: [5]
+2024-12-05 02:30:24,330 - INFO - Repaired individual: [3, 6, 5, 1, 0, 4, 7, 2, 9, 8]
+2024-12-05 02:30:24,330 - INFO - Original individual: [2, 3, 5, 7, 0, 0, 1, 6, 9, 8]
+2024-12-05 02:30:24,330 - INFO - Duplicates: [0], Missing nodes: [4]
+2024-12-05 02:30:24,331 - INFO - Repaired individual: [2, 3, 5, 7, 4, 0, 1, 6, 9, 8]
+2024-12-05 02:30:24,331 - INFO - Original individual: [9, 5, 6, 1, 4, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,331 - INFO - Duplicates: [4], Missing nodes: [0]
+2024-12-05 02:30:24,331 - INFO - Repaired individual: [9, 5, 6, 1, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,331 - INFO - Original individual: [9, 5, 6, 9, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,331 - INFO - Duplicates: [9], Missing nodes: [1]
+2024-12-05 02:30:24,332 - INFO - Repaired individual: [1, 5, 6, 9, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,332 - INFO - Original individual: [2, 3, 5, 1, 1, 0, 8, 6, 4, 7]
+2024-12-05 02:30:24,332 - INFO - Duplicates: [1], Missing nodes: [9]
+2024-12-05 02:30:24,332 - INFO - Repaired individual: [2, 3, 5, 9, 1, 0, 8, 6, 4, 7]
+2024-12-05 02:30:24,332 - INFO - Original individual: [9, 5, 6, 9, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,332 - INFO - Duplicates: [9], Missing nodes: [1]
+2024-12-05 02:30:24,332 - INFO - Repaired individual: [1, 5, 6, 9, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,332 - INFO - Original individual: [2, 3, 5, 1, 8, 0, 1, 6, 4, 7]
+2024-12-05 02:30:24,333 - INFO - Duplicates: [1], Missing nodes: [9]
+2024-12-05 02:30:24,333 - INFO - Repaired individual: [2, 3, 5, 9, 8, 0, 1, 6, 4, 7]
+2024-12-05 02:30:24,334 - INFO - Original individual: [9, 2, 6, 0, 1, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,334 - INFO - Duplicates: [2], Missing nodes: [5]
+2024-12-05 02:30:24,334 - INFO - Repaired individual: [9, 5, 6, 0, 1, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,335 - INFO - Original individual: [3, 5, 6, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,335 - INFO - Duplicates: [5], Missing nodes: [2]
+2024-12-05 02:30:24,335 - INFO - Repaired individual: [3, 2, 6, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,335 - INFO - Original individual: [3, 6, 5, 9, 8, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,335 - INFO - Duplicates: [5, 9, 8], Missing nodes: [0, 1, 2]
+2024-12-05 02:30:24,336 - INFO - Repaired individual: [3, 6, 2, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,336 - INFO - Original individual: [2, 3, 2, 1, 0, 0, 1, 6, 4, 7]
+2024-12-05 02:30:24,336 - INFO - Duplicates: [2, 1, 0], Missing nodes: [8, 9, 5]
+2024-12-05 02:30:24,336 - INFO - Repaired individual: [5, 3, 2, 9, 8, 0, 1, 6, 4, 7]
+2024-12-05 02:30:24,337 - INFO - Original individual: [9, 5, 6, 0, 1, 0, 1, 6, 4, 8]
+2024-12-05 02:30:24,337 - INFO - Duplicates: [6, 0, 1], Missing nodes: [2, 3, 7]
+2024-12-05 02:30:24,337 - INFO - Repaired individual: [9, 5, 7, 3, 2, 0, 1, 6, 4, 8]
+2024-12-05 02:30:24,337 - INFO - Original individual: [3, 3, 5, 7, 8, 4, 7, 2, 2, 9]
+2024-12-05 02:30:24,338 - INFO - Duplicates: [3, 7, 2], Missing nodes: [0, 1, 6]
+2024-12-05 02:30:24,338 - INFO - Repaired individual: [6, 3, 5, 1, 8, 4, 7, 0, 2, 9]
+2024-12-05 02:30:24,338 - INFO - Original individual: [2, 3, 5, 9, 0, 4, 1, 6, 4, 7]
+2024-12-05 02:30:24,338 - INFO - Duplicates: [4], Missing nodes: [8]
+2024-12-05 02:30:24,338 - INFO - Repaired individual: [2, 3, 5, 9, 0, 8, 1, 6, 4, 7]
+2024-12-05 02:30:24,338 - INFO - Original individual: [3, 6, 2, 1, 8, 0, 7, 5, 9, 8]
+2024-12-05 02:30:24,339 - INFO - Duplicates: [8], Missing nodes: [4]
+2024-12-05 02:30:24,339 - INFO - Repaired individual: [3, 6, 2, 1, 4, 0, 7, 5, 9, 8]
+2024-12-05 02:30:24,339 - INFO - Original individual: [9, 5, 3, 1, 0, 4, 7, 2, 5, 8]
+2024-12-05 02:30:24,339 - INFO - Duplicates: [5], Missing nodes: [6]
+2024-12-05 02:30:24,340 - INFO - Repaired individual: [9, 6, 3, 1, 0, 4, 7, 2, 5, 8]
+2024-12-05 02:30:24,340 - INFO - Original individual: [3, 6, 6, 1, 0, 4, 7, 2, 9, 8]
+2024-12-05 02:30:24,340 - INFO - Duplicates: [6], Missing nodes: [5]
+2024-12-05 02:30:24,340 - INFO - Repaired individual: [3, 5, 6, 1, 0, 4, 7, 2, 9, 8]
+2024-12-05 02:30:24,341 - INFO - Original individual: [9, 2, 6, 1, 0, 4, 7, 5, 4, 8]
+2024-12-05 02:30:24,341 - INFO - Duplicates: [4], Missing nodes: [3]
+2024-12-05 02:30:24,341 - INFO - Repaired individual: [9, 2, 6, 1, 0, 3, 7, 5, 4, 8]
+2024-12-05 02:30:24,341 - INFO - Original individual: [2, 3, 5, 9, 8, 0, 1, 6, 3, 7]
+2024-12-05 02:30:24,341 - INFO - Duplicates: [3], Missing nodes: [4]
+2024-12-05 02:30:24,341 - INFO - Repaired individual: [2, 4, 5, 9, 8, 0, 1, 6, 3, 7]
+2024-12-05 02:30:24,341 - INFO - Original individual: [3, 2, 6, 1, 0, 4, 7, 5, 3, 8]
+2024-12-05 02:30:24,342 - INFO - Duplicates: [3], Missing nodes: [9]
+2024-12-05 02:30:24,342 - INFO - Repaired individual: [9, 2, 6, 1, 0, 4, 7, 5, 3, 8]
+2024-12-05 02:30:24,342 - INFO - Original individual: [9, 5, 6, 1, 0, 4, 7, 2, 9, 8]
+2024-12-05 02:30:24,342 - INFO - Duplicates: [9], Missing nodes: [3]
+2024-12-05 02:30:24,342 - INFO - Repaired individual: [3, 5, 6, 1, 0, 4, 7, 2, 9, 8]
+2024-12-05 02:30:24,343 - INFO - Original individual: [3, 5, 6, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,344 - INFO - Duplicates: [5], Missing nodes: [2]
+2024-12-05 02:30:24,344 - INFO - Repaired individual: [3, 2, 6, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,345 - INFO - Original individual: [2, 4, 2, 1, 0, 9, 6, 7, 3, 8]
+2024-12-05 02:30:24,345 - INFO - Duplicates: [2], Missing nodes: [5]
+2024-12-05 02:30:24,345 - INFO - Repaired individual: [5, 4, 2, 1, 0, 9, 6, 7, 3, 8]
+2024-12-05 02:30:24,346 - INFO - Original individual: [3, 6, 2, 1, 0, 4, 7, 5, 3, 8]
+2024-12-05 02:30:24,346 - INFO - Duplicates: [3], Missing nodes: [9]
+2024-12-05 02:30:24,346 - INFO - Repaired individual: [9, 6, 2, 1, 0, 4, 7, 5, 3, 8]
+2024-12-05 02:30:24,347 - INFO - Original individual: [9, 2, 6, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,347 - INFO - Duplicates: [9], Missing nodes: [3]
+2024-12-05 02:30:24,347 - INFO - Repaired individual: [3, 2, 6, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,347 - INFO - Original individual: [9, 5, 6, 1, 0, 4, 5, 7, 9, 8]
+2024-12-05 02:30:24,348 - INFO - Duplicates: [9, 5], Missing nodes: [2, 3]
+2024-12-05 02:30:24,348 - INFO - Repaired individual: [3, 2, 6, 1, 0, 4, 5, 7, 9, 8]
+2024-12-05 02:30:24,348 - INFO - Original individual: [3, 6, 2, 1, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,348 - INFO - Duplicates: [3, 2], Missing nodes: [9, 5]
+2024-12-05 02:30:24,348 - INFO - Repaired individual: [5, 6, 9, 1, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,349 - INFO - Original individual: [9, 5, 6, 1, 0, 4, 7, 2, 9, 8]
+2024-12-05 02:30:24,349 - INFO - Duplicates: [9], Missing nodes: [3]
+2024-12-05 02:30:24,349 - INFO - Repaired individual: [3, 5, 6, 1, 0, 4, 7, 2, 9, 8]
+2024-12-05 02:30:24,349 - INFO - Original individual: [3, 5, 6, 1, 0, 4, 8, 2, 3, 7]
+2024-12-05 02:30:24,349 - INFO - Duplicates: [3], Missing nodes: [9]
+2024-12-05 02:30:24,349 - INFO - Repaired individual: [9, 5, 6, 1, 0, 4, 8, 2, 3, 7]
+2024-12-05 02:30:24,350 - INFO - Original individual: [9, 0, 1, 2, 5, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,350 - INFO - Duplicates: [9, 5], Missing nodes: [3, 6]
+2024-12-05 02:30:24,350 - INFO - Repaired individual: [6, 0, 1, 2, 3, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,350 - INFO - Original individual: [3, 7, 6, 1, 0, 4, 6, 2, 3, 8]
+2024-12-05 02:30:24,350 - INFO - Duplicates: [3, 6], Missing nodes: [9, 5]
+2024-12-05 02:30:24,350 - INFO - Repaired individual: [5, 7, 9, 1, 0, 4, 6, 2, 3, 8]
+2024-12-05 02:30:24,351 - INFO - Original individual: [9, 5, 6, 0, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,351 - INFO - Duplicates: [0], Missing nodes: [1]
+2024-12-05 02:30:24,351 - INFO - Repaired individual: [9, 5, 6, 1, 0, 4, 7, 2, 3, 8]
+2024-12-05 02:30:24,351 - INFO - Original individual: [3, 5, 6, 1, 1, 4, 7, 2, 9, 8]
+2024-12-05 02:30:24,351 - INFO - Duplicates: [1], Missing nodes: [0]
+2024-12-05 02:30:24,351 - INFO - Repaired individual: [3, 5, 6, 0, 1, 4, 7, 2, 9, 8]
+2024-12-05 02:30:24,352 - INFO - Original individual: [9, 3, 5, 7, 4, 0, 1, 6, 3, 8]
+2024-12-05 02:30:24,352 - INFO - Duplicates: [3], Missing nodes: [2]
+2024-12-05 02:30:24,352 - INFO - Repaired individual: [9, 2, 5, 7, 4, 0, 1, 6, 3, 8]
+2024-12-05 02:30:24,352 - INFO - Original individual: [9, 5, 6, 1, 0, 4, 7, 2, 2, 8]
+2024-12-05 02:30:24,352 - INFO - Duplicates: [2], Missing nodes: [3]
+2024-12-05 02:30:24,352 - INFO - Repaired individual: [9, 5, 6, 1, 0, 4, 7, 3, 2, 8]
+2024-12-05 02:30:24,354 - INFO - Original individual: [3, 8, 6, 1, 0, 7, 4, 5, 9, 6]
+2024-12-05 02:30:24,354 - INFO - Duplicates: [6], Missing nodes: [2]
+2024-12-05 02:30:24,354 - INFO - Repaired individual: [3, 8, 2, 1, 0, 7, 4, 5, 9, 6]
+2024-12-05 02:30:24,354 - INFO - Original individual: [3, 2, 2, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,354 - INFO - Duplicates: [2], Missing nodes: [6]
+2024-12-05 02:30:24,355 - INFO - Repaired individual: [3, 6, 2, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,356 - INFO - Original individual: [3, 6, 6, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,356 - INFO - Duplicates: [6], Missing nodes: [2]
+2024-12-05 02:30:24,356 - INFO - Repaired individual: [3, 2, 6, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,356 - INFO - Original individual: [3, 2, 2, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,357 - INFO - Duplicates: [2], Missing nodes: [6]
+2024-12-05 02:30:24,357 - INFO - Repaired individual: [3, 6, 2, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,358 - INFO - Original individual: [5, 6, 2, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,359 - INFO - Duplicates: [5], Missing nodes: [3]
+2024-12-05 02:30:24,359 - INFO - Repaired individual: [3, 6, 2, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,359 - INFO - Original individual: [1, 6, 2, 3, 0, 4, 7, 9, 3, 8]
+2024-12-05 02:30:24,360 - INFO - Duplicates: [3], Missing nodes: [5]
+2024-12-05 02:30:24,360 - INFO - Repaired individual: [1, 6, 2, 5, 0, 4, 7, 9, 3, 8]
+2024-12-05 02:30:24,365 - INFO - Original individual: [1, 4, 7, 3, 1, 9, 2, 5, 6, 8]
+2024-12-05 02:30:24,365 - INFO - Duplicates: [1], Missing nodes: [0]
+2024-12-05 02:30:24,365 - INFO - Repaired individual: [0, 4, 7, 3, 1, 9, 2, 5, 6, 8]
+2024-12-05 02:30:24,365 - INFO - Original individual: [3, 6, 2, 0, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,366 - INFO - Duplicates: [0], Missing nodes: [1]
+2024-12-05 02:30:24,366 - INFO - Repaired individual: [3, 6, 2, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,373 - INFO - Original individual: [3, 1, 2, 0, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,373 - INFO - Duplicates: [0], Missing nodes: [6]
+2024-12-05 02:30:24,374 - INFO - Repaired individual: [3, 1, 2, 6, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,374 - INFO - Original individual: [3, 6, 2, 1, 6, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,375 - INFO - Duplicates: [6], Missing nodes: [0]
+2024-12-05 02:30:24,375 - INFO - Repaired individual: [3, 0, 2, 1, 6, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,376 - INFO - Original individual: [3, 6, 2, 0, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,377 - INFO - Duplicates: [0], Missing nodes: [1]
+2024-12-05 02:30:24,377 - INFO - Repaired individual: [3, 6, 2, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,377 - INFO - Original individual: [3, 6, 1, 8, 1, 4, 7, 5, 9, 2]
+2024-12-05 02:30:24,377 - INFO - Duplicates: [1], Missing nodes: [0]
+2024-12-05 02:30:24,378 - INFO - Repaired individual: [3, 6, 0, 8, 1, 4, 7, 5, 9, 2]
+2024-12-05 02:30:24,380 - INFO - Original individual: [3, 6, 2, 1, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,380 - INFO - Duplicates: [1], Missing nodes: [0]
+2024-12-05 02:30:24,380 - INFO - Repaired individual: [3, 6, 2, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,381 - INFO - Original individual: [3, 6, 2, 0, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,381 - INFO - Duplicates: [0], Missing nodes: [1]
+2024-12-05 02:30:24,381 - INFO - Repaired individual: [3, 6, 2, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,382 - INFO - Original individual: [3, 6, 2, 0, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,382 - INFO - Duplicates: [0], Missing nodes: [1]
+2024-12-05 02:30:24,382 - INFO - Repaired individual: [3, 6, 2, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,383 - INFO - Original individual: [3, 6, 2, 1, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,383 - INFO - Duplicates: [1], Missing nodes: [0]
+2024-12-05 02:30:24,383 - INFO - Repaired individual: [3, 6, 2, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,383 - INFO - Original individual: [3, 6, 2, 0, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,383 - INFO - Duplicates: [0], Missing nodes: [1]
+2024-12-05 02:30:24,384 - INFO - Repaired individual: [3, 6, 2, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,384 - INFO - Original individual: [3, 6, 2, 1, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,384 - INFO - Duplicates: [1], Missing nodes: [0]
+2024-12-05 02:30:24,384 - INFO - Repaired individual: [3, 6, 2, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,385 - INFO - Original individual: [3, 6, 2, 0, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,386 - INFO - Duplicates: [0], Missing nodes: [1]
+2024-12-05 02:30:24,386 - INFO - Repaired individual: [3, 6, 2, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,386 - INFO - Original individual: [3, 6, 2, 1, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,387 - INFO - Duplicates: [1], Missing nodes: [0]
+2024-12-05 02:30:24,387 - INFO - Repaired individual: [3, 6, 2, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,387 - INFO - Original individual: [3, 6, 2, 0, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,387 - INFO - Duplicates: [0], Missing nodes: [1]
+2024-12-05 02:30:24,388 - INFO - Repaired individual: [3, 6, 2, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,388 - INFO - Original individual: [3, 6, 2, 1, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,388 - INFO - Duplicates: [1], Missing nodes: [0]
+2024-12-05 02:30:24,388 - INFO - Repaired individual: [3, 6, 2, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,389 - INFO - Original individual: [3, 6, 2, 0, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,390 - INFO - Duplicates: [0], Missing nodes: [1]
+2024-12-05 02:30:24,390 - INFO - Repaired individual: [3, 6, 2, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,390 - INFO - Original individual: [3, 6, 2, 1, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,390 - INFO - Duplicates: [1], Missing nodes: [0]
+2024-12-05 02:30:24,390 - INFO - Repaired individual: [3, 6, 2, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,391 - INFO - Original individual: [3, 6, 2, 0, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,391 - INFO - Duplicates: [0], Missing nodes: [1]
+2024-12-05 02:30:24,391 - INFO - Repaired individual: [3, 6, 2, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,391 - INFO - Original individual: [3, 6, 2, 1, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,392 - INFO - Duplicates: [1], Missing nodes: [0]
+2024-12-05 02:30:24,392 - INFO - Repaired individual: [3, 6, 2, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,392 - INFO - Original individual: [3, 6, 2, 0, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,392 - INFO - Duplicates: [0], Missing nodes: [1]
+2024-12-05 02:30:24,393 - INFO - Repaired individual: [3, 6, 2, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,393 - INFO - Original individual: [3, 6, 2, 1, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,393 - INFO - Duplicates: [1], Missing nodes: [0]
+2024-12-05 02:30:24,394 - INFO - Repaired individual: [3, 6, 2, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,394 - INFO - Original individual: [3, 6, 2, 1, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,394 - INFO - Duplicates: [1], Missing nodes: [0]
+2024-12-05 02:30:24,394 - INFO - Repaired individual: [3, 6, 2, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,395 - INFO - Original individual: [3, 6, 2, 0, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,395 - INFO - Duplicates: [0], Missing nodes: [1]
+2024-12-05 02:30:24,395 - INFO - Repaired individual: [3, 6, 2, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,397 - INFO - Original individual: [3, 6, 2, 0, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,397 - INFO - Duplicates: [0], Missing nodes: [1]
+2024-12-05 02:30:24,398 - INFO - Repaired individual: [3, 6, 2, 1, 0, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,398 - INFO - Original individual: [3, 6, 2, 1, 1, 7, 4, 5, 9, 8]
+2024-12-05 02:30:24,399 - INFO - Duplicates: [1], Missing nodes: [0]
+2024-12-05 02:30:24,399 - INFO - Repaired individual: [3, 6, 2, 0, 1, 7, 4, 5, 9, 8]
+2024-12-05 02:30:24,405 - INFO - Original individual: [3, 6, 0, 2, 7, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,405 - INFO - Duplicates: [7], Missing nodes: [1]
+2024-12-05 02:30:24,405 - INFO - Repaired individual: [3, 6, 0, 2, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,406 - INFO - Original individual: [3, 6, 2, 0, 1, 4, 1, 5, 9, 8]
+2024-12-05 02:30:24,406 - INFO - Duplicates: [1], Missing nodes: [7]
+2024-12-05 02:30:24,407 - INFO - Repaired individual: [3, 6, 2, 0, 7, 4, 1, 5, 9, 8]
+2024-12-05 02:30:24,407 - INFO - Original individual: [9, 6, 0, 0, 1, 4, 7, 4, 3, 8]
+2024-12-05 02:30:24,407 - INFO - Duplicates: [0, 4], Missing nodes: [2, 5]
+2024-12-05 02:30:24,408 - INFO - Repaired individual: [9, 6, 5, 0, 1, 2, 7, 4, 3, 8]
+2024-12-05 02:30:24,408 - INFO - Original individual: [3, 6, 2, 2, 1, 5, 7, 5, 9, 8]
+2024-12-05 02:30:24,408 - INFO - Duplicates: [2, 5], Missing nodes: [0, 4]
+2024-12-05 02:30:24,409 - INFO - Repaired individual: [3, 6, 4, 2, 1, 0, 7, 5, 9, 8]
+2024-12-05 02:30:24,409 - INFO - Original individual: [6, 7, 2, 3, 1, 4, 0, 5, 9, 9]
+2024-12-05 02:30:24,409 - INFO - Duplicates: [9], Missing nodes: [8]
+2024-12-05 02:30:24,409 - INFO - Repaired individual: [6, 7, 2, 3, 1, 4, 0, 5, 8, 9]
+2024-12-05 02:30:24,409 - INFO - Original individual: [3, 6, 5, 0, 1, 4, 7, 2, 8, 8]
+2024-12-05 02:30:24,410 - INFO - Duplicates: [8], Missing nodes: [9]
+2024-12-05 02:30:24,410 - INFO - Repaired individual: [3, 6, 5, 0, 1, 4, 7, 2, 9, 8]
+2024-12-05 02:30:24,416 - INFO - Original individual: [3, 6, 2, 0, 1, 8, 6, 5, 9, 8]
+2024-12-05 02:30:24,416 - INFO - Duplicates: [6, 8], Missing nodes: [4, 7]
+2024-12-05 02:30:24,417 - INFO - Repaired individual: [3, 7, 2, 0, 1, 4, 6, 5, 9, 8]
+2024-12-05 02:30:24,417 - INFO - Original individual: [3, 9, 2, 0, 1, 4, 7, 5, 7, 4]
+2024-12-05 02:30:24,418 - INFO - Duplicates: [4, 7], Missing nodes: [8, 6]
+2024-12-05 02:30:24,418 - INFO - Repaired individual: [3, 9, 2, 0, 1, 6, 8, 5, 7, 4]
+2024-12-05 02:30:24,422 - INFO - Original individual: [0, 6, 2, 9, 7, 4, 7, 5, 3, 8]
+2024-12-05 02:30:24,422 - INFO - Duplicates: [7], Missing nodes: [1]
+2024-12-05 02:30:24,423 - INFO - Repaired individual: [0, 6, 2, 9, 1, 4, 7, 5, 3, 8]
+2024-12-05 02:30:24,423 - INFO - Original individual: [3, 6, 2, 0, 1, 4, 1, 5, 9, 8]
+2024-12-05 02:30:24,424 - INFO - Duplicates: [1], Missing nodes: [7]
+2024-12-05 02:30:24,424 - INFO - Repaired individual: [3, 6, 2, 0, 7, 4, 1, 5, 9, 8]
+2024-12-05 02:30:24,424 - INFO - Original individual: [3, 6, 1, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,424 - INFO - Duplicates: [1], Missing nodes: [2]
+2024-12-05 02:30:24,425 - INFO - Repaired individual: [3, 6, 2, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,425 - INFO - Original individual: [3, 6, 2, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,425 - INFO - Duplicates: [2], Missing nodes: [1]
+2024-12-05 02:30:24,426 - INFO - Repaired individual: [3, 6, 1, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,427 - INFO - Original individual: [3, 6, 1, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,427 - INFO - Duplicates: [1], Missing nodes: [2]
+2024-12-05 02:30:24,428 - INFO - Repaired individual: [3, 6, 2, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,428 - INFO - Original individual: [3, 6, 2, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,428 - INFO - Duplicates: [2], Missing nodes: [1]
+2024-12-05 02:30:24,429 - INFO - Repaired individual: [3, 6, 1, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,429 - INFO - Original individual: [3, 6, 2, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,430 - INFO - Duplicates: [2], Missing nodes: [1]
+2024-12-05 02:30:24,430 - INFO - Repaired individual: [3, 6, 1, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,430 - INFO - Original individual: [3, 6, 1, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,430 - INFO - Duplicates: [1], Missing nodes: [2]
+2024-12-05 02:30:24,430 - INFO - Repaired individual: [3, 6, 2, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,431 - INFO - Original individual: [3, 6, 1, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,431 - INFO - Duplicates: [1], Missing nodes: [2]
+2024-12-05 02:30:24,431 - INFO - Repaired individual: [3, 6, 2, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,431 - INFO - Original individual: [3, 9, 2, 6, 2, 4, 5, 7, 8, 0]
+2024-12-05 02:30:24,432 - INFO - Duplicates: [2], Missing nodes: [1]
+2024-12-05 02:30:24,432 - INFO - Repaired individual: [3, 9, 1, 6, 2, 4, 5, 7, 8, 0]
+2024-12-05 02:30:24,433 - INFO - Original individual: [3, 6, 1, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,433 - INFO - Duplicates: [1], Missing nodes: [2]
+2024-12-05 02:30:24,433 - INFO - Repaired individual: [3, 6, 2, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,434 - INFO - Original individual: [3, 6, 2, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,434 - INFO - Duplicates: [2], Missing nodes: [1]
+2024-12-05 02:30:24,435 - INFO - Repaired individual: [3, 6, 1, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,435 - INFO - Original individual: [3, 6, 1, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,435 - INFO - Duplicates: [1], Missing nodes: [2]
+2024-12-05 02:30:24,436 - INFO - Repaired individual: [3, 6, 2, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,436 - INFO - Original individual: [3, 6, 2, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,436 - INFO - Duplicates: [2], Missing nodes: [1]
+2024-12-05 02:30:24,436 - INFO - Repaired individual: [3, 6, 1, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,438 - INFO - Original individual: [3, 6, 1, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,438 - INFO - Duplicates: [1], Missing nodes: [2]
+2024-12-05 02:30:24,438 - INFO - Repaired individual: [3, 6, 2, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,438 - INFO - Original individual: [3, 6, 2, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,439 - INFO - Duplicates: [2], Missing nodes: [1]
+2024-12-05 02:30:24,439 - INFO - Repaired individual: [3, 6, 1, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,440 - INFO - Original individual: [3, 6, 2, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,441 - INFO - Duplicates: [2], Missing nodes: [1]
+2024-12-05 02:30:24,441 - INFO - Repaired individual: [3, 6, 1, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,441 - INFO - Original individual: [3, 6, 1, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,441 - INFO - Duplicates: [1], Missing nodes: [2]
+2024-12-05 02:30:24,442 - INFO - Repaired individual: [3, 6, 2, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,442 - INFO - Original individual: [3, 6, 1, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,443 - INFO - Duplicates: [1], Missing nodes: [2]
+2024-12-05 02:30:24,443 - INFO - Repaired individual: [3, 6, 2, 0, 1, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,444 - INFO - Original individual: [3, 6, 2, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,444 - INFO - Duplicates: [2], Missing nodes: [1]
+2024-12-05 02:30:24,444 - INFO - Repaired individual: [3, 6, 1, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,451 - INFO - Original individual: [3, 6, 1, 0, 2, 4, 9, 3, 9, 8]
+2024-12-05 02:30:24,452 - INFO - Duplicates: [3, 9], Missing nodes: [5, 7]
+2024-12-05 02:30:24,452 - INFO - Repaired individual: [7, 6, 1, 0, 2, 4, 5, 3, 9, 8]
+2024-12-05 02:30:24,453 - INFO - Original individual: [5, 6, 1, 0, 2, 8, 7, 5, 7, 4]
+2024-12-05 02:30:24,453 - INFO - Duplicates: [5, 7], Missing nodes: [9, 3]
+2024-12-05 02:30:24,453 - INFO - Repaired individual: [3, 6, 1, 0, 2, 8, 9, 5, 7, 4]
+2024-12-05 02:30:24,454 - INFO - Original individual: [3, 6, 1, 0, 2, 8, 9, 3, 9, 8]
+2024-12-05 02:30:24,454 - INFO - Duplicates: [3, 8, 9], Missing nodes: [4, 5, 7]
+2024-12-05 02:30:24,454 - INFO - Repaired individual: [7, 6, 1, 0, 2, 5, 4, 3, 9, 8]
+2024-12-05 02:30:24,454 - INFO - Original individual: [5, 6, 1, 0, 2, 4, 7, 5, 7, 4]
+2024-12-05 02:30:24,455 - INFO - Duplicates: [5, 4, 7], Missing nodes: [8, 9, 3]
+2024-12-05 02:30:24,455 - INFO - Repaired individual: [3, 6, 1, 0, 2, 9, 8, 5, 7, 4]
+2024-12-05 02:30:24,455 - INFO - Original individual: [3, 2, 1, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,455 - INFO - Duplicates: [2], Missing nodes: [6]
+2024-12-05 02:30:24,455 - INFO - Repaired individual: [3, 6, 1, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,456 - INFO - Original individual: [3, 6, 6, 4, 1, 0, 7, 5, 9, 8]
+2024-12-05 02:30:24,456 - INFO - Duplicates: [6], Missing nodes: [2]
+2024-12-05 02:30:24,456 - INFO - Repaired individual: [3, 2, 6, 4, 1, 0, 7, 5, 9, 8]
+2024-12-05 02:30:24,460 - INFO - Original individual: [3, 3, 8, 5, 2, 8, 7, 4, 9, 5]
+2024-12-05 02:30:24,461 - INFO - Duplicates: [3, 8, 5], Missing nodes: [0, 1, 6]
+2024-12-05 02:30:24,461 - INFO - Repaired individual: [6, 3, 1, 0, 2, 8, 7, 4, 9, 5]
+2024-12-05 02:30:24,462 - INFO - Original individual: [6, 6, 1, 0, 2, 4, 7, 0, 9, 1]
+2024-12-05 02:30:24,462 - INFO - Duplicates: [6, 1, 0], Missing nodes: [8, 3, 5]
+2024-12-05 02:30:24,463 - INFO - Repaired individual: [5, 6, 3, 8, 2, 4, 7, 0, 9, 1]
+2024-12-05 02:30:24,469 - INFO - Original individual: [3, 6, 1, 0, 2, 4, 7, 5, 9, 5]
+2024-12-05 02:30:24,470 - INFO - Duplicates: [5], Missing nodes: [8]
+2024-12-05 02:30:24,470 - INFO - Repaired individual: [3, 6, 1, 0, 2, 4, 7, 8, 9, 5]
+2024-12-05 02:30:24,470 - INFO - Original individual: [3, 6, 1, 0, 2, 4, 7, 8, 9, 8]
+2024-12-05 02:30:24,470 - INFO - Duplicates: [8], Missing nodes: [5]
+2024-12-05 02:30:24,471 - INFO - Repaired individual: [3, 6, 1, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,474 - INFO - Original individual: [3, 6, 1, 0, 2, 4, 5, 5, 9, 8]
+2024-12-05 02:30:24,475 - INFO - Duplicates: [5], Missing nodes: [7]
+2024-12-05 02:30:24,475 - INFO - Repaired individual: [3, 6, 1, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,476 - INFO - Original individual: [3, 6, 1, 0, 2, 4, 7, 7, 9, 8]
+2024-12-05 02:30:24,476 - INFO - Duplicates: [7], Missing nodes: [5]
+2024-12-05 02:30:24,477 - INFO - Repaired individual: [3, 6, 1, 0, 2, 4, 5, 7, 9, 8]
+2024-12-05 02:30:24,482 - INFO - Original individual: [3, 6, 1, 0, 2, 4, 7, 5, 9, 5]
+2024-12-05 02:30:24,483 - INFO - Duplicates: [5], Missing nodes: [8]
+2024-12-05 02:30:24,483 - INFO - Repaired individual: [3, 6, 1, 0, 2, 4, 7, 8, 9, 5]
+2024-12-05 02:30:24,484 - INFO - Original individual: [3, 6, 1, 0, 2, 4, 7, 8, 9, 8]
+2024-12-05 02:30:24,485 - INFO - Duplicates: [8], Missing nodes: [5]
+2024-12-05 02:30:24,485 - INFO - Repaired individual: [3, 6, 1, 0, 2, 4, 7, 5, 9, 8]
+2024-12-05 02:30:24,502 - INFO - Original individual: ['Relative_4', 'Relative_7', 'Relative_2', 'Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_10', 'Relative_9']
+2024-12-05 02:30:24,503 - INFO - Duplicates: [], Missing nodes: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-12-05 02:30:24,504 - INFO - Repaired individual: ['Relative_4', 'Relative_7', 'Relative_2', 'Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_10', 'Relative_9']
+2024-12-05 02:30:24,504 - INFO - solve_tsp_evolutionary executed in 0.38 seconds
+2024-12-05 02:30:24,505 - INFO - solve_tsp executed in 0.38 seconds
+2024-12-05 02:30:24,505 - INFO - TSP Path: ['Relative_4', 'Relative_7', 'Relative_2', 'Relative_1', 'Relative_3', 'Relative_5', 'Relative_8', 'Relative_6', 'Relative_10', 'Relative_9', 'Relative_4']
+2024-12-05 02:30:24,506 - INFO - Total Travel Length: 35.20
+2024-12-05 02:30:24,507 - INFO - Executing save_mode_on_nodes with arguments (<tarjan_travel_plan.tarjanplanner.graph_builder.GraphBuilder object at 0x0000017056C923C0>,) and {}
+2024-12-05 02:30:24,507 - INFO - save_mode_on_nodes executed in 0.00 seconds
+2024-12-05 02:30:24,508 - INFO - Total Travel Time: 422.46 minutes
+2024-12-05 02:30:24,509 - INFO - Total Travel Cost: 0.00 currency units
+2024-12-05 02:30:30,053 - INFO - Graph saved to outputs\graphs\TSP Path (Single Mode - Walking) - Algorithm_ evolutionary.png
+2024-12-05 02:30:30,054 - INFO - Starting file classification in outputs
+2024-12-05 02:32:17,929 - INFO - Logging initialized. Logs will be saved to outputs\logs\application.log
+2024-12-05 02:32:17,930 - INFO - Starting TarjanPlanner...
+2024-12-05 02:32:23,962 - ERROR - Invalid optimization type! Must be one of: single, mixed-time, mixed-cost, balanced.
+2024-12-05 02:32:37,097 - INFO - Logging initialized. Logs will be saved to outputs\logs\application.log
+2024-12-05 02:32:37,097 - INFO - Tarjan Planner started.
+2024-12-05 02:32:37,098 - INFO - Executing __init__ with arguments (<tarjan_travel_plan.tarjanplanner.graph_builder.GraphBuilder object at 0x000001CAC63EECF0>, {'Relative_1': {'lat': 37.4979, 'lon': 127.0276}, 'Relative_2': {'lat': 37.4833, 'lon': 127.0322}, 'Relative_3': {'lat': 37.5172, 'lon': 127.0286}, 'Relative_4': {'lat': 37.5219, 'lon': 127.0411}, 'Relative_5': {'lat': 37.534, 'lon': 127.0026}, 'Relative_6': {'lat': 37.5443, 'lon': 127.0557}, 'Relative_7': {'lat': 37.5172, 'lon': 127.0391}, 'Relative_8': {'lat': 37.58, 'lon': 126.9844}, 'Relative_9': {'lat': 37.511, 'lon': 127.059}, 'Relative_10': {'lat': 37.5133, 'lon': 127.1028}}, {'Bus': {'speed_kmh': 40, 'cost_per_km': 2, 'transfer_time_min': 5}, 'Train': {'speed_kmh': 80, 'cost_per_km': 5, 'transfer_time_min': 2}, 'Bicycle': {'speed_kmh': 15, 'cost_per_km': 0, 'transfer_time_min': 1}, 'Walking': {'speed_kmh': 5, 'cost_per_km': 0, 'transfer_time_min': 0}}) and {}
+2024-12-05 02:32:37,098 - INFO - __init__ executed in 0.00 seconds
+2024-12-05 02:32:37,099 - INFO - Executing build_graph with arguments (<tarjan_travel_plan.tarjanplanner.graph_builder.GraphBuilder object at 0x000001CAC63EECF0>,) and {}
+2024-12-05 02:32:37,108 - INFO - build_graph executed in 0.01 seconds
+2024-12-05 02:32:37,109 - INFO - Executing apply_criteria with arguments (<tarjan_travel_plan.tarjanplanner.graph_builder.GraphBuilder object at 0x000001CAC63EECF0>, 'time') and {'transport_mode': 'Bus'}
+2024-12-05 02:32:37,110 - INFO - Relative_1 -> Relative_2: Distance = 1.67 km, Mode = Bus, Time = 7.51 minutes, Cost = 3.34 units
+2024-12-05 02:32:37,110 - INFO - Relative_1 -> Relative_3: Distance = 2.14 km, Mode = Bus, Time = 8.22 minutes, Cost = 4.29 units
+2024-12-05 02:32:37,111 - INFO - Relative_1 -> Relative_4: Distance = 2.92 km, Mode = Bus, Time = 9.38 minutes, Cost = 5.84 units
+2024-12-05 02:32:37,111 - INFO - Relative_1 -> Relative_5: Distance = 4.58 km, Mode = Bus, Time = 11.86 minutes, Cost = 9.15 units
+2024-12-05 02:32:37,112 - INFO - Relative_1 -> Relative_6: Distance = 5.72 km, Mode = Bus, Time = 13.58 minutes, Cost = 11.44 units
+2024-12-05 02:32:37,112 - INFO - Relative_1 -> Relative_7: Distance = 2.37 km, Mode = Bus, Time = 8.56 minutes, Cost = 4.74 units
+2024-12-05 02:32:37,112 - INFO - Relative_1 -> Relative_8: Distance = 9.88 km, Mode = Bus, Time = 19.82 minutes, Cost = 19.76 units
+2024-12-05 02:32:37,112 - INFO - Relative_1 -> Relative_9: Distance = 3.13 km, Mode = Bus, Time = 9.70 minutes, Cost = 6.27 units
+2024-12-05 02:32:37,113 - INFO - Relative_1 -> Relative_10: Distance = 6.87 km, Mode = Bus, Time = 15.30 minutes, Cost = 13.73 units
+2024-12-05 02:32:37,113 - INFO - Relative_2 -> Relative_3: Distance = 3.78 km, Mode = Bus, Time = 10.66 minutes, Cost = 7.55 units
+2024-12-05 02:32:37,113 - INFO - Relative_2 -> Relative_4: Distance = 4.36 km, Mode = Bus, Time = 11.53 minutes, Cost = 8.71 units
+2024-12-05 02:32:37,114 - INFO - Relative_2 -> Relative_5: Distance = 6.21 km, Mode = Bus, Time = 14.31 minutes, Cost = 12.41 units
+2024-12-05 02:32:37,114 - INFO - Relative_2 -> Relative_6: Distance = 7.08 km, Mode = Bus, Time = 15.62 minutes, Cost = 14.16 units
+2024-12-05 02:32:37,114 - INFO - Relative_2 -> Relative_7: Distance = 3.81 km, Mode = Bus, Time = 10.72 minutes, Cost = 7.62 units
+2024-12-05 02:32:37,115 - INFO - Relative_2 -> Relative_8: Distance = 11.53 km, Mode = Bus, Time = 22.30 minutes, Cost = 23.07 units
+2024-12-05 02:32:37,115 - INFO - Relative_2 -> Relative_9: Distance = 3.88 km, Mode = Bus, Time = 10.82 minutes, Cost = 7.76 units
+2024-12-05 02:32:37,115 - INFO - Relative_2 -> Relative_10: Distance = 7.08 km, Mode = Bus, Time = 15.61 minutes, Cost = 14.15 units
+2024-12-05 02:32:37,115 - INFO - Relative_3 -> Relative_4: Distance = 1.22 km, Mode = Bus, Time = 6.83 minutes, Cost = 2.44 units
+2024-12-05 02:32:37,115 - INFO - Relative_3 -> Relative_5: Distance = 2.96 km, Mode = Bus, Time = 9.44 minutes, Cost = 5.92 units
+2024-12-05 02:32:37,116 - INFO - Relative_3 -> Relative_6: Distance = 3.85 km, Mode = Bus, Time = 10.77 minutes, Cost = 7.69 units
+2024-12-05 02:32:37,116 - INFO - Relative_3 -> Relative_7: Distance = 0.93 km, Mode = Bus, Time = 6.39 minutes, Cost = 1.86 units
+2024-12-05 02:32:37,116 - INFO - Relative_3 -> Relative_8: Distance = 7.99 km, Mode = Bus, Time = 16.98 minutes, Cost = 15.98 units
+2024-12-05 02:32:37,117 - INFO - Relative_3 -> Relative_9: Distance = 2.77 km, Mode = Bus, Time = 9.16 minutes, Cost = 5.55 units
+2024-12-05 02:32:37,117 - INFO - Relative_3 -> Relative_10: Distance = 6.57 km, Mode = Bus, Time = 14.86 minutes, Cost = 13.15 units
+2024-12-05 02:32:37,117 - INFO - Relative_4 -> Relative_5: Distance = 3.66 km, Mode = Bus, Time = 10.49 minutes, Cost = 7.32 units
+2024-12-05 02:32:37,117 - INFO - Relative_4 -> Relative_6: Distance = 2.80 km, Mode = Bus, Time = 9.20 minutes, Cost = 5.60 units
+2024-12-05 02:32:37,118 - INFO - Relative_4 -> Relative_7: Distance = 0.55 km, Mode = Bus, Time = 5.83 minutes, Cost = 1.10 units
+2024-12-05 02:32:37,118 - INFO - Relative_4 -> Relative_8: Distance = 8.17 km, Mode = Bus, Time = 17.25 minutes, Cost = 16.33 units
+2024-12-05 02:32:37,118 - INFO - Relative_4 -> Relative_9: Distance = 1.99 km, Mode = Bus, Time = 7.99 minutes, Cost = 3.98 units
+2024-12-05 02:32:37,118 - INFO - Relative_4 -> Relative_10: Distance = 5.54 km, Mode = Bus, Time = 13.31 minutes, Cost = 11.07 units
+2024-12-05 02:32:37,119 - INFO - Relative_5 -> Relative_6: Distance = 4.83 km, Mode = Bus, Time = 12.25 minutes, Cost = 9.66 units
+2024-12-05 02:32:37,119 - INFO - Relative_5 -> Relative_7: Distance = 3.73 km, Mode = Bus, Time = 10.59 minutes, Cost = 7.45 units
+2024-12-05 02:32:37,119 - INFO - Relative_5 -> Relative_8: Distance = 5.35 km, Mode = Bus, Time = 13.03 minutes, Cost = 10.71 units
+2024-12-05 02:32:37,120 - INFO - Relative_5 -> Relative_9: Distance = 5.60 km, Mode = Bus, Time = 13.40 minutes, Cost = 11.20 units
+2024-12-05 02:32:37,120 - INFO - Relative_5 -> Relative_10: Distance = 9.15 km, Mode = Bus, Time = 18.73 minutes, Cost = 18.30 units
+2024-12-05 02:32:37,120 - INFO - Relative_6 -> Relative_7: Distance = 3.35 km, Mode = Bus, Time = 10.02 minutes, Cost = 6.69 units
+2024-12-05 02:32:37,121 - INFO - Relative_6 -> Relative_8: Distance = 7.44 km, Mode = Bus, Time = 16.16 minutes, Cost = 14.88 units
+2024-12-05 02:32:37,121 - INFO - Relative_6 -> Relative_9: Distance = 3.71 km, Mode = Bus, Time = 10.56 minutes, Cost = 7.41 units
+2024-12-05 02:32:37,122 - INFO - Relative_6 -> Relative_10: Distance = 5.40 km, Mode = Bus, Time = 13.10 minutes, Cost = 10.80 units
+2024-12-05 02:32:37,122 - INFO - Relative_7 -> Relative_8: Distance = 8.48 km, Mode = Bus, Time = 17.72 minutes, Cost = 16.96 units
+2024-12-05 02:32:37,122 - INFO - Relative_7 -> Relative_9: Distance = 1.89 km, Mode = Bus, Time = 7.83 minutes, Cost = 3.78 units
+2024-12-05 02:32:37,123 - INFO - Relative_7 -> Relative_10: Distance = 5.65 km, Mode = Bus, Time = 13.47 minutes, Cost = 11.30 units
+2024-12-05 02:32:37,123 - INFO - Relative_8 -> Relative_9: Distance = 10.10 km, Mode = Bus, Time = 20.16 minutes, Cost = 20.21 units
+2024-12-05 02:32:37,123 - INFO - Relative_8 -> Relative_10: Distance = 12.82 km, Mode = Bus, Time = 24.23 minutes, Cost = 25.63 units
+2024-12-05 02:32:37,123 - INFO - Relative_9 -> Relative_10: Distance = 3.88 km, Mode = Bus, Time = 10.82 minutes, Cost = 7.76 units
+2024-12-05 02:32:37,123 - INFO - apply_criteria executed in 0.01 seconds
+2024-12-05 02:32:37,124 - INFO - Executing solve_tsp with arguments (<tarjan_travel_plan.tarjanplanner.tsp_solver.TSPSolver object at 0x000001CAC63EEF90>, <networkx.classes.graph.Graph object at 0x000001CAC63EEE40>) and {'method': 'approximation'}
+2024-12-05 02:32:37,124 - INFO - Executing _solve_tsp_approximation with arguments (<tarjan_travel_plan.tarjanplanner.tsp_solver.TSPSolver object at 0x000001CAC63EEF90>, <networkx.classes.graph.Graph object at 0x000001CAC63EEE40>) and {}
+2024-12-05 02:32:37,128 - INFO - _solve_tsp_approximation executed in 0.00 seconds
+2024-12-05 02:32:37,129 - INFO - solve_tsp executed in 0.00 seconds
+2024-12-05 02:32:40,195 - INFO - Graph saved to outputs\graphs\TSP Path (Single Mode - Bus) - Algorithm_ approximation.png
+2024-12-05 02:32:40,196 - INFO - Starting file organization...
+2024-12-05 02:32:40,196 - INFO - Starting file classification in outputs
+2024-12-05 02:32:40,197 - INFO - File organization complete.

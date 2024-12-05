@@ -14,6 +14,24 @@ from tarjan_travel_plan.tarjanplanner.errors import InvalidInputError, FileNotFo
 
 # Initialize logger
 #logging.basicConfig(level=logging.INFO)
+def organize_files(file_manager):
+    """
+    Organizes files in the outputs directory using FileClassifier.
+    """
+    logging.info("Starting file organization...")
+    classifier = FileClassifier(base_dir=file_manager.base_dir)
+
+    dest_dirs = {
+    r".*\.log$": file_manager.log_dir,          # Match `.log` files
+    r".*\.png$": file_manager.graph_dir,        # Match `.png` files
+    r".*\.txt$": file_manager.document_dir,     # Match `.txt` files
+    r".*\.csv$": file_manager.spreadsheet_dir,  # Match `.csv` files
+    r".*": os.path.join(file_manager.base_dir, "others"),  # Catch-all for unmatched files
+    }
+
+    classifier.classify_files(dest_dirs)
+    logging.info("File organization complete.")
+
 def calculate_cost_and_time(graph, tsp_path):
     total_cost = 0
     total_time = 0
@@ -82,7 +100,7 @@ def run_planner(optimization_type, transport_mode, tsp_algorithm):
         elif optimization_type == "mixed-cost":
             builder.apply_criteria_with_thresholds(optimize_by="cost")
         elif optimization_type == "balanced":
-            builder.apply_criteria("mixed", w_time=0.5, w_cost=0.5)
+            builder.apply_criteria("mixed", w_time=0.7, w_cost=0.3)
 
         # Solve the TSP
         solver = TSPSolver()
@@ -107,14 +125,9 @@ def run_planner(optimization_type, transport_mode, tsp_algorithm):
         file_manager = FileManager(base_dir="outputs")
         file_manager.save_graph(graph, tsp_path, filename=filename)
 
-        # Organize files
-        classifier = FileClassifier(base_dir=file_manager.base_dir)
-        dest_dirs = {
-            ".log": file_manager.log_dir,
-            ".png": file_manager.graph_dir,
-            ".txt": "outputs/documents",
-        }
-        classifier.classify_files(dest_dirs)
+        
+        organize_files(file_manager)
+
 
         # Return results
         return (f"TSP Path: {tsp_path}\n"

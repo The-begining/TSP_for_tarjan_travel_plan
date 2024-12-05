@@ -1,5 +1,5 @@
 import pytest
-from tarjanplanner.graph_builder import GraphBuilder
+from tarjan_travel_plan.tarjanplanner.graph_builder import GraphBuilder
 
 @pytest.fixture
 def sample_data():

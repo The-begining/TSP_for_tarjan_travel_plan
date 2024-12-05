@@ -1,6 +1,6 @@
 import os
 import pytest
-from fileorganizer.file_classifier import FileClassifier
+from tarjan_travel_plan.fileorganizer.file_classifier import FileClassifier
 
 
 def test_file_classifier(tmp_path):

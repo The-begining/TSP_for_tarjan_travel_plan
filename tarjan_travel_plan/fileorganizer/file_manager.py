@@ -16,12 +16,21 @@ class FileManager:
             base_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "outputs")
         self.base_dir = base_dir
 
+        # Define expected subdirectories
         self.log_dir = os.path.join(self.base_dir, "logs")
         self.graph_dir = os.path.join(self.base_dir, "graphs")
+        self.document_dir = os.path.join(self.base_dir, "documents")
+        self.spreadsheet_dir = os.path.join(self.base_dir, "spreadsheets")
+        self.others_dir = os.path.join(self.base_dir, "others")
 
-        # Ensure directories exist
+        # Create all directories if they don't exist
         os.makedirs(self.log_dir, exist_ok=True)
         os.makedirs(self.graph_dir, exist_ok=True)
+        os.makedirs(self.document_dir, exist_ok=True)
+        os.makedirs(self.spreadsheet_dir, exist_ok=True)
+        os.makedirs(self.others_dir, exist_ok=True)
+
+        logging.info(f"Directories initialized in {self.base_dir}")
 
     def setup_logging(self, log_filename="application.log"):
         """
