@@ -98,8 +98,9 @@ TSP_FOR_TARJAN_TRAVEL_PLAN/
 │  │     ├── test_graph_builder.py
 │  │     ├── test_tsp_solver.py
 │  │     ├── test_input_validation.py
-│  ├── tarjan_travel_plan.log 
-├──gui_interface.py       # Logging file for CLI/GUI execution
+│  ├── tarjan_travel_plan.log # Logging file for CLI/GUI execution
+|  ├──gui_interface.py
+   ├── __init__.py      
 ├── setup.py                      # Installation configuration
 ├── requirements.txt              # Project dependencies
 ├── README.md
